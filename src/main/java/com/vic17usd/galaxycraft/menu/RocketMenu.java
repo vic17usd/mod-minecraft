@@ -63,7 +63,7 @@ public final class RocketMenu extends AbstractContainerMenu {
         access.execute((level, pos) -> {
             if (!(level.getBlockEntity(pos) instanceof RocketBlockEntity rocket)) return;
             if (button == 0) rocket.nextDestination();
-            else if (!RocketTravel.launch(serverPlayer, rocket)) player.displayClientMessage(
+            else if (!rocket.beginLaunch(serverPlayer)) player.displayClientMessage(
                     Component.translatable("message.galaxycraft.travel_failed"), true);
         });
         return true;

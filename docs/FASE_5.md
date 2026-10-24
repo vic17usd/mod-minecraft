@@ -1,5 +1,8 @@
 # Fase 5 — Presentación y exploración
 
+Esta guía documenta 0.2.0. La [fase 5 ampliada](FASE_5_AVANZADA.md) describe la
+versión actual 0.3.0, que reemplaza los límites de equipo, cohete y estructuras.
+
 Minecraft **1.21 exacto**, NeoForge **21.0.167**, Java **21**. Versión del mod:
 **0.2.0**. Conserva los identificadores y los Data Components de las fases anteriores.
 

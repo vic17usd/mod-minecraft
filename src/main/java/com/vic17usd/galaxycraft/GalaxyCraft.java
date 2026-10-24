@@ -7,6 +7,9 @@ import com.vic17usd.galaxycraft.registry.ModRocketRegistries;
 import com.vic17usd.galaxycraft.registry.ModPlanetContent;
 import com.vic17usd.galaxycraft.registry.ModAlienEntities;
 import com.vic17usd.galaxycraft.registry.ModPresentation;
+import com.vic17usd.galaxycraft.registry.ModEquipment;
+import com.vic17usd.galaxycraft.registry.ModSites;
+import com.vic17usd.galaxycraft.equipment.EquipmentNetworking;
 import com.vic17usd.galaxycraft.solar.SolarEnvironment;
 import com.vic17usd.galaxycraft.config.SpaceConfig;
 import com.vic17usd.galaxycraft.survival.SpaceSurvival;
@@ -25,6 +28,7 @@ public final class GalaxyCraft {
     /** NeoForge inyecta el bus del mod al construir esta clase. */
     public GalaxyCraft(IEventBus modEventBus, ModContainer container) {
         ModPlanetContent.register();
+        ModSites.registerItems();
         // Los registros y la pestaña creativa pertenecen al bus del mod.
         ModDataComponents.COMPONENTS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
@@ -33,6 +37,11 @@ public final class GalaxyCraft {
         ModPresentation.TABS.register(modEventBus);
         ModPresentation.SOUNDS.register(modEventBus);
         ModPresentation.PARTICLES.register(modEventBus);
+        ModEquipment.ATTACHMENTS.register(modEventBus);
+        ModEquipment.MENUS.register(modEventBus);
+        ModSites.STRUCTURES.register(modEventBus);
+        ModSites.PIECES.register(modEventBus);
+        modEventBus.addListener(EquipmentNetworking::register);
         ModRocketRegistries.BLOCK_ENTITIES.register(modEventBus);
         ModRocketRegistries.MENUS.register(modEventBus);
         ModAlienEntities.ENTITIES.register(modEventBus);

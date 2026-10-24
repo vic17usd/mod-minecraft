@@ -12,6 +12,7 @@ import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import com.vic17usd.galaxycraft.registry.ModPresentation;
 import net.minecraft.sounds.SoundSource;
+import com.vic17usd.galaxycraft.equipment.SpaceEquipment;
 
 /** Toda la autoridad sobre respiración y daño permanece en el servidor. */
 public final class SpaceSurvival {
@@ -26,13 +27,8 @@ public final class SpaceSurvival {
         if (player.level().isClientSide() || !player.isAlive() || player.isCreative()
                 || player.isSpectator() || player.tickCount % 20 != 0 || !isAirless(player.level())) return;
 
-        if (player.getItemBySlot(EquipmentSlot.HEAD).is(ModItems.SPACE_HELMET.get())) {
-            // Usa un solo tanque por segundo. No inspecciona contenedores anidados.
-            for (ItemStack stack : player.getInventory().items) {
-                if (OxygenTankItem.consumeOxygen(stack)) return;
-            }
-            if (OxygenTankItem.consumeOxygen(player.getOffhandItem())) return;
-        }
+        // Primero los tanques del traje, después la mochila y mano secundaria por compatibilidad.
+        if (SpaceEquipment.hasHelmet(player) && SpaceEquipment.consume(player)) return;
 
         // La falta de casco también impide respirar aunque haya tanques llenos.
         player.hurt(player.damageSources().drown(), 2.0F);

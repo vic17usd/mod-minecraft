@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "T T",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:space_chestplate",
+    "count": 1
+  }
+}

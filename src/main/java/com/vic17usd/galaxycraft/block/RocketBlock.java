@@ -19,7 +19,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
-/** Cohete estacionario: el transporte entre dimensiones pertenece a una fase posterior. */
+/** Raíz del cohete multibloque. El BER representa el vehículo completo y las piezas reservan su volumen. */
 public final class RocketBlock extends BaseEntityBlock {
     private final int tier;
     public static final MapCodec<RocketBlock> CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
@@ -30,22 +30,28 @@ public final class RocketBlock extends BaseEntityBlock {
     public RocketBlock(Properties properties, int tier) { super(properties); this.tier = tier; }
     public int tier() { return tier; }
     @Override protected MapCodec<? extends BaseEntityBlock> codec() { return CODEC; }
-    @Override protected RenderShape getRenderShape(BlockState state) { return RenderShape.MODEL; }
+    @Override protected RenderShape getRenderShape(BlockState state) { return RenderShape.ENTITYBLOCK_ANIMATED; }
     @Override public BlockEntity newBlockEntity(BlockPos pos, BlockState state) { return new RocketBlockEntity(pos, state); }
 
     public static boolean hasClearance(Level level, BlockPos pos) {
-        return level.isInWorldBounds(pos.above(2)) && level.isEmptyBlock(pos.above())
-                && level.isEmptyBlock(pos.above(2));
+        return RocketParts.clear(level, pos);
     }
 
     @Override
     protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos,
             Player player, BlockHitResult hit) {
+        return interact(level, pos, player);
+    }
+    public InteractionResult interact(Level level, BlockPos pos, Player player) {
         if (player instanceof ServerPlayer serverPlayer && level.getBlockEntity(pos) instanceof RocketBlockEntity rocket) {
             // La posición viaja en el paquete de apertura; el menú valida distancia y bloque.
             serverPlayer.openMenu(rocket, pos);
         }
         return InteractionResult.sidedSuccess(level.isClientSide());
+    }
+    @Override protected void onPlace(BlockState state, Level level, BlockPos pos, BlockState previous, boolean moving) {
+        super.onPlace(state, level, pos, previous, moving);
+        if (!state.is(previous.getBlock())) RocketParts.install(level, pos);
     }
 
     @Override
@@ -55,11 +61,13 @@ public final class RocketBlock extends BaseEntityBlock {
 
     @Override
     protected void onRemove(BlockState state, Level level, BlockPos pos, BlockState replacement, boolean moving) {
-        if (!state.is(replacement.getBlock()) && !level.isClientSide()
-                && level.getBlockEntity(pos) instanceof RocketBlockEntity rocket) {
+        if (!state.is(replacement.getBlock()) && !level.isClientSide()) {
+            RocketParts.remove(level, pos);
+            if (level.getBlockEntity(pos) instanceof RocketBlockEntity rocket) {
             // Devuelve los objetos una sola vez. El fluido se pierde al desmontar el prototipo.
             for (int slot = 0; slot < rocket.inventory.getSlots(); slot++) {
                 Containers.dropItemStack(level, pos.getX(), pos.getY(), pos.getZ(), rocket.inventory.getStackInSlot(slot));
+            }
             }
         }
         super.onRemove(state, level, pos, replacement, moving);

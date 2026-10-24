@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RPR",
+    "TST",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "galaxycraft:proteus_crystal"
+    },
+    "P": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "S": {
+      "item": "galaxycraft:proteus_vault_schematic"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:navigation_core",
+    "count": 1
+  }
+}

@@ -1,7 +1,4 @@
 {
-  "replace": false,
-  "values": [
-    "galaxycraft:moon",
-    "galaxycraft:mars"
-  ]
+  "replace": true,
+  "values": []
 }

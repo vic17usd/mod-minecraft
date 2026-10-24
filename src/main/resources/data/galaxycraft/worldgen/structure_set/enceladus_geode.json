@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:enceladus_geode",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 29,
+    "separation": 10,
+    "salt": 931271
+  }
+}

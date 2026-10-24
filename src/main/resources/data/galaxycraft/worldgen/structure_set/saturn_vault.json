@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:saturn_vault",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 11,
+    "salt": 929348
+  }
+}

@@ -36,9 +36,11 @@ public final class SolarEnvironment {
                 || player.tickCount % 50 != 0) return;
         var body = SolarSystem.body(player.level());
         if (body == null) return;
-        // El casco de oxígeno no protege del calor ni de la radiación; son peligros independientes.
-        if (body.heat() > 0 && player.tickCount % 100 == 0) player.hurt(player.damageSources().hotFloor(), body.heat());
-        if (body.radiation() > 0 && player.tickCount % 100 == 50) player.hurt(player.damageSources().magic(), body.radiation());
+        // Un traje completo alimentado reduce los peligros un 75 %, sin sumar armadura vanilla.
+        float protection = com.vic17usd.galaxycraft.equipment.SpaceEquipment.fullSuit(player)
+                && com.vic17usd.galaxycraft.equipment.SpaceEquipment.hasOxygen(player) ? .25F : 1F;
+        if (body.heat() > 0 && player.tickCount % 100 == 0) player.hurt(player.damageSources().hotFloor(), body.heat() * protection);
+        if (body.radiation() > 0 && player.tickCount % 100 == 50) player.hurt(player.damageSources().magic(), body.radiation() * protection);
     }
     private SolarEnvironment() {}
 }

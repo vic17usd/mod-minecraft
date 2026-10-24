@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:titania_geode",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 29,
+    "separation": 10,
+    "salt": 940244
+  }
+}

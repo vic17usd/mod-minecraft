@@ -1,0 +1,10 @@
+{
+  "type": "galaxycraft:planetary_site",
+  "biomes": "#galaxycraft:has_structure/proteus_sanctuary",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "template": "galaxycraft:expedition/proteus_sanctuary",
+  "underground": false,
+  "burial_depth": 0
+}

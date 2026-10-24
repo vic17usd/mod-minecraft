@@ -3,6 +3,7 @@ package com.vic17usd.galaxycraft.registry;
 import com.vic17usd.galaxycraft.GalaxyCraft;
 import com.vic17usd.galaxycraft.block.LaunchPadBlock;
 import com.vic17usd.galaxycraft.block.RocketBlock;
+import com.vic17usd.galaxycraft.block.RocketPartBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,6 +15,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public final class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(GalaxyCraft.MOD_ID);
+    public static final DeferredBlock<RocketPartBlock> ROCKET_PART = BLOCKS.register("rocket_part",
+            () -> new RocketPartBlock(BlockBehaviour.Properties.of().strength(4).sound(SoundType.METAL).noOcclusion()));
 
     public static final DeferredBlock<LaunchPadBlock> LAUNCH_PAD = BLOCKS.register("launch_pad",
             () -> new LaunchPadBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL)

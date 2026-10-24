@@ -24,13 +24,32 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Fluids;
 import net.neoforged.neoforge.fluids.capability.templates.FluidTank;
 import net.neoforged.neoforge.items.ItemStackHandler;
+import com.vic17usd.galaxycraft.block.RocketParts;
+import com.vic17usd.galaxycraft.rocket.RocketTravel;
+import com.vic17usd.galaxycraft.registry.ModPresentation;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
+import java.util.UUID;
 
 /** Máquina persistente: dos ranuras y depósito de lava accesible mediante capabilities. */
 public final class RocketBlockEntity extends BlockEntity implements MenuProvider {
+    public static final int LAUNCH_TICKS = 80;
+    private long launchStarted = -1;
+    private UUID pilot;
+    public long launchStarted() { return launchStarted; }
+    public boolean beginLaunch(ServerPlayer player) {
+        if (launchStarted >= 0 || !RocketTravel.canLaunch(player, this)) return false;
+        pilot = player.getUUID(); launchStarted = level.getGameTime();
+        level.sendBlockUpdated(worldPosition, getBlockState(), getBlockState(), 3);
+        level.playSound(null, worldPosition, ModPresentation.LAUNCH.get(), net.minecraft.sounds.SoundSource.BLOCKS, 1.5F, 1F);
+        player.closeContainer(); return true;
+    }
     private int destination = 1;
     public int destination() { return destination; }
     public int tier() { return ((RocketBlock) getBlockState().getBlock()).tier(); }
     public void nextDestination() {
+        if (launchStarted >= 0) return;
         for (int i = 0; i < SolarSystem.BODIES.size(); i++) {
             destination = (destination + 1) % SolarSystem.BODIES.size();
             var body = SolarSystem.destination(destination);
@@ -63,7 +82,28 @@ public final class RocketBlockEntity extends BlockEntity implements MenuProvider
     }
 
     public static void tick(Level level, BlockPos pos, BlockState state, RocketBlockEntity rocket) {
-        if (level.getGameTime() % 20 == 0) RocketFueling.refuel(rocket.inventory, rocket.fuel);
+        if (level.getGameTime() % 20 == 0) {
+            RocketFueling.refuel(rocket.inventory, rocket.fuel); RocketParts.install(level, pos);
+        }
+        if (rocket.launchStarted < 0 || !(level instanceof ServerLevel server)) return;
+        ServerPlayer player = rocket.pilot == null ? null : server.getServer().getPlayerList().getPlayer(rocket.pilot);
+        if (player == null || !RocketTravel.canLaunch(player, rocket)) { rocket.cancelLaunch(); return; }
+        if (level.getGameTime() % 3 == 0) {
+            server.sendParticles(ModPresentation.EXHAUST.get(), pos.getX() + .5, pos.getY() + .2, pos.getZ() + .5, 10, .6, .1, .6, .05);
+            server.sendParticles(ModPresentation.SMOKE.get(), pos.getX() + .5, pos.getY(), pos.getZ() + .5, 7, 1, .2, 1, .025);
+        }
+        if (level.getGameTime() - rocket.launchStarted >= LAUNCH_TICKS) {
+            rocket.cancelLaunch();
+            if (!RocketTravel.launch(player, rocket)) player.displayClientMessage(Component.translatable("message.galaxycraft.travel_failed"), true);
+        }
+    }
+    private void cancelLaunch() {
+        launchStarted = -1; pilot = null;
+        level.sendBlockUpdated(worldPosition, getBlockState(), getBlockState(), 3);
+    }
+    @Override public ClientboundBlockEntityDataPacket getUpdatePacket() { return ClientboundBlockEntityDataPacket.create(this); }
+    @Override public CompoundTag getUpdateTag(HolderLookup.Provider registries) {
+        CompoundTag tag = saveWithoutMetadata(registries); tag.putLong("LaunchVisual", launchStarted); return tag;
     }
 
     @Override protected void saveAdditional(CompoundTag tag, HolderLookup.Provider registries) {
@@ -78,6 +118,8 @@ public final class RocketBlockEntity extends BlockEntity implements MenuProvider
 
     @Override protected void loadAdditional(CompoundTag tag, HolderLookup.Provider registries) {
         super.loadAdditional(tag, registries);
+        // La cuenta atrás no se guarda: al reiniciar se cancela sin gastar combustible.
+        launchStarted = tag.contains("LaunchVisual") ? tag.getLong("LaunchVisual") : -1;
         inventory.deserializeNBT(registries, tag.getCompound("Inventory"));
         fuel.readFromNBT(registries, tag.getCompound("Fuel"));
         destination = tag.contains("DestinationId") ? SolarSystem.indexOf(tag.getString("DestinationId"))

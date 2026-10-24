@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/io_observatory_schematic"
+  }
+}

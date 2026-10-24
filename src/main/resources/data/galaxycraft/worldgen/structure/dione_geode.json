@@ -1,0 +1,10 @@
+{
+  "type": "galaxycraft:planetary_site",
+  "biomes": "#galaxycraft:has_structure/dione_geode",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "template": "galaxycraft:expedition/dione_geode",
+  "underground": true,
+  "burial_depth": 12
+}

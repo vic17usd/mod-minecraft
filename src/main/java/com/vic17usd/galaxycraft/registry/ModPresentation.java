@@ -33,7 +33,7 @@ public final class ModPresentation {
 
     // Material propio con las mismas defensas iniciales del casco de hierro y reparación con titanio.
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> SPACE_ARMOR = ARMOR.register("space_suit", () -> new ArmorMaterial(
-            Map.of(ArmorItem.Type.HELMET, 2), 9, SoundEvents.ARMOR_EQUIP_IRON,
+            Map.of(ArmorItem.Type.HELMET, 2, ArmorItem.Type.CHESTPLATE, 6, ArmorItem.Type.LEGGINGS, 5, ArmorItem.Type.BOOTS, 2), 9, SoundEvents.ARMOR_EQUIP_IRON,
             () -> Ingredient.of(ModItems.TITANIUM_ORE.get()),
             List.of(new ArmorMaterial.Layer(id("space_suit"))), 0, 0));
 
@@ -42,22 +42,36 @@ public final class ModPresentation {
             .icon(() -> ModItems.GALAXY_EMBLEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 // Orden estable: construcción, minerales, supervivencia, vehículos y tecnología.
+                section(output, "building");
                 for (var body : SolarSystem.BODIES) if (!body.id().equals("earth")) {
                     output.accept(ModPlanetContent.ITEMS.get(body.id() + "_stone").get());
                     output.accept(ModPlanetContent.ITEMS.get(body.id() + "_regolith").get());
                 }
-                output.accept(ModItems.TITANIUM_ORE.get());
+                section(output, "resources"); output.accept(ModItems.TITANIUM_ORE.get());
                 for (var body : SolarSystem.BODIES) if (!body.id().equals("earth")) {
                     output.accept(ModPlanetContent.ITEMS.get(body.id() + "_ore").get());
                     output.accept(ModPlanetContent.ITEMS.get(body.resource()).get());
                 }
-                output.accept(ModItems.SPACE_HELMET.get()); output.accept(ModItems.OXYGEN_TANK.get());
-                output.accept(ModItems.LAUNCH_PAD.get());
-                output.accept(ModItems.TIER1_ROCKET.get()); output.accept(ModItems.TIER2_ROCKET.get()); output.accept(ModItems.TIER3_ROCKET.get());
+                section(output, "tools"); output.accept(ModItems.TITANIUM_PICKAXE.get()); output.accept(ModItems.EQUIPMENT_CONSOLE.get());
+                section(output, "suit"); output.accept(ModItems.SPACE_HELMET.get());
+                output.accept(ModItems.SPACE_CHESTPLATE.get()); output.accept(ModItems.SPACE_LEGGINGS.get()); output.accept(ModItems.SPACE_BOOTS.get());
+                output.accept(ModItems.OXYGEN_TANK.get());
+                section(output, "technology");
                 output.accept(ModItems.THRUSTER.get()); output.accept(ModItems.NAVIGATION_CORE.get());
+                section(output, "rockets"); output.accept(ModItems.LAUNCH_PAD.get());
+                output.accept(ModItems.TIER1_ROCKET.get()); output.accept(ModItems.TIER2_ROCKET.get()); output.accept(ModItems.TIER3_ROCKET.get());
+                section(output, "schematics");
                 output.accept(ModItems.LUNAR_SCHEMATIC.get()); output.accept(ModItems.MARTIAN_SCHEMATIC.get());
+                ModSites.SCHEMATICS.values().forEach(item -> output.accept(item.get()));
                 output.accept(ModItems.GALAXY_EMBLEM.get());
             }).build());
+
+    private static void section(CreativeModeTab.Output output, String section) {
+        var marker = ModItems.GALAXY_EMBLEM.get().getDefaultInstance();
+        marker.set(net.minecraft.core.component.DataComponents.CUSTOM_NAME, Component.translatable("section.galaxycraft." + section)
+                .withStyle(net.minecraft.ChatFormatting.AQUA, net.minecraft.ChatFormatting.BOLD));
+        output.accept(marker);
+    }
 
     public static ResourceLocation id(String path) { return ResourceLocation.fromNamespaceAndPath(GalaxyCraft.MOD_ID, path); }
     private static DeferredHolder<SoundEvent, SoundEvent> sound(String name) {

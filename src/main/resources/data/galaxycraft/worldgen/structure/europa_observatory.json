@@ -1,0 +1,10 @@
+{
+  "type": "galaxycraft:planetary_site",
+  "biomes": "#galaxycraft:has_structure/europa_observatory",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "template": "galaxycraft:expedition/europa_observatory",
+  "underground": false,
+  "burial_depth": 0
+}

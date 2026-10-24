@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RPR",
+    "TST",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "galaxycraft:mercurian_cobalt"
+    },
+    "P": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "S": {
+      "item": "galaxycraft:mercury_wreck_schematic"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:thruster",
+    "count": 1
+  }
+}

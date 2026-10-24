@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:phobos_wreck",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 23,
+    "separation": 8,
+    "salt": 922156
+  }
+}

@@ -10,6 +10,7 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;
 import java.util.Locale;
+import com.vic17usd.galaxycraft.equipment.SpaceEquipment;
 
 /** Overlay de lectura: los Data Components sincronizados siguen siendo la única fuente de oxígeno. */
 public final class SpaceHud {
@@ -19,13 +20,10 @@ public final class SpaceHud {
         var body = SolarSystem.body(player.level());
         // Long evita desbordamientos si un administrador crea tanques de capacidad extrema.
         long current = 0, maximum = 0;
-        for (var stack : player.getInventory().items) if (stack.getItem() instanceof OxygenTankItem) {
+        for (var stack : SpaceEquipment.tanks(player)) {
             var oxygen = OxygenTankItem.oxygen(stack); current += oxygen.current(); maximum += oxygen.maximum();
         }
-        if (player.getOffhandItem().getItem() instanceof OxygenTankItem) {
-            var oxygen = OxygenTankItem.oxygen(player.getOffhandItem()); current += oxygen.current(); maximum += oxygen.maximum();
-        }
-        boolean helmet = player.getItemBySlot(EquipmentSlot.HEAD).is(ModItems.SPACE_HELMET.get());
+        boolean helmet = SpaceEquipment.hasHelmet(player);
         int color = !helmet || current == 0 ? 0xFF6666 : 0x70E4FF;
         // Esquina superior izquierda: no tapa vida, hambre ni barra rápida.
         int width = Math.min(238, gui.guiWidth() - 12);

@@ -1,19 +1,22 @@
 # Descargar GalaxyCraft
 
-La versión actual es **`galaxycraft-0.2.0.jar`**, con los recursos y funciones de
-la fase 5. La versión 0.1.0 se conserva como archivo histórico. Instala solo una
-versión a la vez en `mods`. Ambas necesitan Minecraft **1.21**, NeoForge
+La versión actual es **`galaxycraft-0.3.0.jar`**, con traje independiente, cohete a
+escala, texturas de 128 px y 145 estructuras. Las versiones 0.1.0 y 0.2.0 quedan
+como archivo histórico. Instala solo una versión a la vez en `mods`.
+Todas necesitan Minecraft **1.21**, NeoForge
 **21.0.167** y Java **21**.
 
 Descarga el archivo desde GitHub usando **Download raw file**.
 
-SHA-256 de la versión 0.2.0, validada con 47 pruebas y generación en servidor:
+SHA-256 de la versión 0.3.0, validada con 195 pruebas, dos GameTests y las 145
+estructuras generadas en servidor:
 
 ```text
-ac5911ef50225833f83b15f96fc1887492c9c94fdee2810ab11587f97593c2bc
+e4ac43149bab5ac7bf765d1f7c0c97a31a30d76a3f344aca8af9c0a254d7169b
 ```
 
-La comprobación visual del HUD, el audio y el viaje con jugador sigue pendiente.
+La revisión visual de cliente y el viaje completo con jugador real siguen pendientes.
+No necesitas Curios. Pulsa **G** para abrir el equipo espacial.
 
 ## Versión anterior
 

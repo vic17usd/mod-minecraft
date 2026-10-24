@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "galaxycraft:block/rocket_part"
+      }
+    }
+  ]
+}

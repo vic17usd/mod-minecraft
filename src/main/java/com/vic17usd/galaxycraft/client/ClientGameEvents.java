@@ -16,6 +16,17 @@ import net.minecraft.ChatFormatting;
 /** Eventos visuales locales: no envían paquetes ni alteran inventarios desde el cliente. */
 @EventBusSubscriber(modid = GalaxyCraft.MOD_ID, value = Dist.CLIENT)
 public final class ClientGameEvents {
+    @SubscribeEvent public static void equipmentKey(net.neoforged.neoforge.client.event.ClientTickEvent.Post event) {
+        while (EquipmentKey.OPEN.consumeClick()) if (Minecraft.getInstance().player != null && Minecraft.getInstance().screen == null)
+            net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.equipment.EquipmentNetworking.Open());
+    }
+    @SubscribeEvent public static void equipmentButton(net.neoforged.neoforge.client.event.ScreenEvent.Init.Post event) {
+        var screen = event.getScreen();
+        if (screen instanceof net.minecraft.client.gui.screens.inventory.InventoryScreen)
+            event.addListener(net.minecraft.client.gui.components.Button.builder(Component.translatable("gui.galaxycraft.suit_button"), button ->
+                    net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.equipment.EquipmentNetworking.Open()))
+                    .bounds(screen.width / 2 + 90, screen.height / 2 - 80, 52, 20).build());
+    }
     @SubscribeEvent
     public static void dust(PlayerTickEvent.Post event) {
         var player = event.getEntity();

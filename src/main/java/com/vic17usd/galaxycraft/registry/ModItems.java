@@ -5,6 +5,9 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorItem;
 import com.vic17usd.galaxycraft.item.SchematicItem;
+import com.vic17usd.galaxycraft.item.EquipmentConsoleItem;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Tiers;
 import com.vic17usd.galaxycraft.item.OxygenTankItem;
 import com.vic17usd.galaxycraft.item.RocketItem;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -38,6 +41,15 @@ public final class ModItems {
     public static final DeferredItem<Item> NAVIGATION_CORE = ITEMS.registerSimpleItem("navigation_core");
     public static final DeferredItem<SchematicItem> LUNAR_SCHEMATIC = ITEMS.register("lunar_schematic", () -> new SchematicItem("thruster"));
     public static final DeferredItem<SchematicItem> MARTIAN_SCHEMATIC = ITEMS.register("martian_schematic", () -> new SchematicItem("navigation_core"));
+    public static final DeferredItem<EquipmentConsoleItem> EQUIPMENT_CONSOLE = ITEMS.register("equipment_console", EquipmentConsoleItem::new);
+    public static final DeferredItem<PickaxeItem> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe", () -> new PickaxeItem(Tiers.DIAMOND,
+            new Item.Properties().attributes(PickaxeItem.createAttributes(Tiers.DIAMOND, 1, -2.8F))));
+    public static final DeferredItem<ArmorItem> SPACE_CHESTPLATE = ITEMS.register("space_chestplate", () -> suitPiece(ArmorItem.Type.CHESTPLATE, 240));
+    public static final DeferredItem<ArmorItem> SPACE_LEGGINGS = ITEMS.register("space_leggings", () -> suitPiece(ArmorItem.Type.LEGGINGS, 225));
+    public static final DeferredItem<ArmorItem> SPACE_BOOTS = ITEMS.register("space_boots", () -> suitPiece(ArmorItem.Type.BOOTS, 195));
+    private static ArmorItem suitPiece(ArmorItem.Type type, int durability) {
+        return new ArmorItem(ModPresentation.SPACE_ARMOR, type, new Item.Properties().durability(durability));
+    }
 
     // La capa del casco equipado también utiliza una textura propia del mod.
     public static final DeferredItem<ArmorItem> SPACE_HELMET = ITEMS.register("space_helmet",

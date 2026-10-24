@@ -32,6 +32,11 @@ neoForge {
             server()
             gameDirectory = project.file('run/server')
             programArgument '--nogui'
+            if (providers.gradleProperty('galaxycraftGameTests').isPresent()) {
+                // Activa el tick de GameTests explícitamente, incluso sin un cliente conectado.
+                systemProperty 'neoforge.enableGameTest', 'true'
+                systemProperty 'neoforge.enabledGameTestNamespaces', 'galaxycraft'
+            }
         }
     }
 

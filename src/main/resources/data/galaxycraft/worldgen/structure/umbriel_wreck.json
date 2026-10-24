@@ -1,0 +1,10 @@
+{
+  "type": "galaxycraft:planetary_site",
+  "biomes": "#galaxycraft:has_structure/umbriel_wreck",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "template": "galaxycraft:expedition/umbriel_wreck",
+  "underground": false,
+  "burial_depth": 0
+}

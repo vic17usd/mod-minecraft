@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:titan_wreck",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 23,
+    "separation": 8,
+    "salt": 930132
+  }
+}

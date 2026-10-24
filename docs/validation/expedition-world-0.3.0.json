@@ -1,0 +1,3199 @@
+{
+  "expected": 145,
+  "verified": 145,
+  "surface": 87,
+  "underground": 58,
+  "failures": [],
+  "sites": [
+    {
+      "id": "earth_observatory",
+      "body": "earth",
+      "underground": false,
+      "structure": "galaxycraft:earth_observatory",
+      "chunk": [
+        986,
+        980
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15776,
+          70,
+          15680,
+          15796,
+          81,
+          15700
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "earth_wreck",
+      "body": "earth",
+      "underground": false,
+      "structure": "galaxycraft:earth_wreck",
+      "chunk": [
+        1023,
+        946
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16368,
+          67,
+          15136,
+          16388,
+          78,
+          15156
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "earth_sanctuary",
+      "body": "earth",
+      "underground": false,
+      "structure": "galaxycraft:earth_sanctuary",
+      "chunk": [
+        977,
+        1030
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15632,
+          63,
+          16480,
+          15652,
+          74,
+          16500
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "earth_geode",
+      "body": "earth",
+      "underground": true,
+      "structure": "galaxycraft:earth_geode",
+      "chunk": [
+        1022,
+        958
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16352,
+          39,
+          15328,
+          16372,
+          50,
+          15348
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "earth_vault",
+      "body": "earth",
+      "underground": true,
+      "structure": "galaxycraft:earth_vault",
+      "chunk": [
+        929,
+        1027
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          14864,
+          30,
+          16432,
+          14884,
+          41,
+          16452
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "moon_observatory",
+      "body": "moon",
+      "underground": false,
+      "structure": "galaxycraft:moon_observatory",
+      "chunk": [
+        1007,
+        1005
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16112,
+          66,
+          16080,
+          16132,
+          77,
+          16100
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "moon_wreck",
+      "body": "moon",
+      "underground": false,
+      "structure": "galaxycraft:moon_wreck",
+      "chunk": [
+        991,
+        990
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15856,
+          34,
+          15840,
+          15876,
+          45,
+          15860
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "moon_sanctuary",
+      "body": "moon",
+      "underground": false,
+      "structure": "galaxycraft:moon_sanctuary",
+      "chunk": [
+        1001,
+        998
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16016,
+          66,
+          15968,
+          16036,
+          77,
+          15988
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "moon_geode",
+      "body": "moon",
+      "underground": true,
+      "structure": "galaxycraft:moon_geode",
+      "chunk": [
+        1001,
+        991
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16016,
+          29,
+          15856,
+          16036,
+          40,
+          15876
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "moon_vault",
+      "body": "moon",
+      "underground": true,
+      "structure": "galaxycraft:moon_vault",
+      "chunk": [
+        1004,
+        1002
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16064,
+          30,
+          16032,
+          16084,
+          41,
+          16052
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mercury_observatory",
+      "body": "mercury",
+      "underground": false,
+      "structure": "galaxycraft:mercury_observatory",
+      "chunk": [
+        1000,
+        1008
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          86,
+          16128,
+          16020,
+          97,
+          16148
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mercury_wreck",
+      "body": "mercury",
+      "underground": false,
+      "structure": "galaxycraft:mercury_wreck",
+      "chunk": [
+        1002,
+        1000
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16032,
+          87,
+          16000,
+          16052,
+          98,
+          16020
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mercury_sanctuary",
+      "body": "mercury",
+      "underground": false,
+      "structure": "galaxycraft:mercury_sanctuary",
+      "chunk": [
+        992,
+        1004
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15872,
+          48,
+          16064,
+          15892,
+          59,
+          16084
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mercury_geode",
+      "body": "mercury",
+      "underground": true,
+      "structure": "galaxycraft:mercury_geode",
+      "chunk": [
+        996,
+        988
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15936,
+          74,
+          15808,
+          15956,
+          85,
+          15828
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mercury_vault",
+      "body": "mercury",
+      "underground": true,
+      "structure": "galaxycraft:mercury_vault",
+      "chunk": [
+        1003,
+        1011
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16048,
+          48,
+          16176,
+          16068,
+          59,
+          16196
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "venus_observatory",
+      "body": "venus",
+      "underground": false,
+      "structure": "galaxycraft:venus_observatory",
+      "chunk": [
+        1008,
+        1006
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16128,
+          102,
+          16096,
+          16148,
+          113,
+          16116
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "venus_wreck",
+      "body": "venus",
+      "underground": false,
+      "structure": "galaxycraft:venus_wreck",
+      "chunk": [
+        1003,
+        1000
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16048,
+          96,
+          16000,
+          16068,
+          107,
+          16020
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "venus_sanctuary",
+      "body": "venus",
+      "underground": false,
+      "structure": "galaxycraft:venus_sanctuary",
+      "chunk": [
+        988,
+        1003
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          110,
+          16048,
+          15828,
+          121,
+          16068
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "venus_geode",
+      "body": "venus",
+      "underground": true,
+      "structure": "galaxycraft:venus_geode",
+      "chunk": [
+        990,
+        1004
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15840,
+          77,
+          16064,
+          15860,
+          88,
+          16084
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "venus_vault",
+      "body": "venus",
+      "underground": true,
+      "structure": "galaxycraft:venus_vault",
+      "chunk": [
+        1004,
+        1006
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16064,
+          58,
+          16096,
+          16084,
+          69,
+          16116
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mars_observatory",
+      "body": "mars",
+      "underground": false,
+      "structure": "galaxycraft:mars_observatory",
+      "chunk": [
+        990,
+        980
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15840,
+          97,
+          15680,
+          15860,
+          108,
+          15700
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mars_wreck",
+      "body": "mars",
+      "underground": false,
+      "structure": "galaxycraft:mars_wreck",
+      "chunk": [
+        968,
+        966
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15488,
+          67,
+          15456,
+          15508,
+          78,
+          15476
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mars_sanctuary",
+      "body": "mars",
+      "underground": false,
+      "structure": "galaxycraft:mars_sanctuary",
+      "chunk": [
+        996,
+        997
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15936,
+          75,
+          15952,
+          15956,
+          86,
+          15972
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mars_geode",
+      "body": "mars",
+      "underground": true,
+      "structure": "galaxycraft:mars_geode",
+      "chunk": [
+        960,
+        966
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15360,
+          52,
+          15456,
+          15380,
+          63,
+          15476
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mars_vault",
+      "body": "mars",
+      "underground": true,
+      "structure": "galaxycraft:mars_vault",
+      "chunk": [
+        963,
+        994
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15408,
+          37,
+          15904,
+          15428,
+          48,
+          15924
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "phobos_observatory",
+      "body": "phobos",
+      "underground": false,
+      "structure": "galaxycraft:phobos_observatory",
+      "chunk": [
+        1012,
+        1006
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16192,
+          41,
+          16096,
+          16212,
+          52,
+          16116
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "phobos_wreck",
+      "body": "phobos",
+      "underground": false,
+      "structure": "galaxycraft:phobos_wreck",
+      "chunk": [
+        998,
+        1000
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15968,
+          60,
+          16000,
+          15988,
+          71,
+          16020
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "phobos_sanctuary",
+      "body": "phobos",
+      "underground": false,
+      "structure": "galaxycraft:phobos_sanctuary",
+      "chunk": [
+        1003,
+        1001
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16048,
+          42,
+          16016,
+          16068,
+          53,
+          16036
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "phobos_geode",
+      "body": "phobos",
+      "underground": true,
+      "structure": "galaxycraft:phobos_geode",
+      "chunk": [
+        1004,
+        994
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16064,
+          32,
+          15904,
+          16084,
+          43,
+          15924
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "phobos_vault",
+      "body": "phobos",
+      "underground": true,
+      "structure": "galaxycraft:phobos_vault",
+      "chunk": [
+        994,
+        1001
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15904,
+          16,
+          16016,
+          15924,
+          27,
+          16036
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "deimos_observatory",
+      "body": "deimos",
+      "underground": false,
+      "structure": "galaxycraft:deimos_observatory",
+      "chunk": [
+        988,
+        1008
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          79,
+          16128,
+          15828,
+          90,
+          16148
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "deimos_wreck",
+      "body": "deimos",
+      "underground": false,
+      "structure": "galaxycraft:deimos_wreck",
+      "chunk": [
+        966,
+        992
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15456,
+          81,
+          15872,
+          15476,
+          92,
+          15892
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "deimos_sanctuary",
+      "body": "deimos",
+      "underground": false,
+      "structure": "galaxycraft:deimos_sanctuary",
+      "chunk": [
+        988,
+        999
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          96,
+          15984,
+          15828,
+          107,
+          16004
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "deimos_geode",
+      "body": "deimos",
+      "underground": true,
+      "structure": "galaxycraft:deimos_geode",
+      "chunk": [
+        999,
+        994
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15984,
+          48,
+          15904,
+          16004,
+          59,
+          15924
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "deimos_vault",
+      "body": "deimos",
+      "underground": true,
+      "structure": "galaxycraft:deimos_vault",
+      "chunk": [
+        997,
+        1004
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15952,
+          28,
+          16064,
+          15972,
+          39,
+          16084
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "jupiter_observatory",
+      "body": "jupiter",
+      "underground": false,
+      "structure": "galaxycraft:jupiter_observatory",
+      "chunk": [
+        1011,
+        1008
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16176,
+          107,
+          16128,
+          16196,
+          118,
+          16148
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "jupiter_wreck",
+      "body": "jupiter",
+      "underground": false,
+      "structure": "galaxycraft:jupiter_wreck",
+      "chunk": [
+        995,
+        994
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15920,
+          109,
+          15904,
+          15940,
+          120,
+          15924
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "jupiter_sanctuary",
+      "body": "jupiter",
+      "underground": false,
+      "structure": "galaxycraft:jupiter_sanctuary",
+      "chunk": [
+        989,
+        995
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15824,
+          106,
+          15920,
+          15844,
+          117,
+          15940
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "jupiter_geode",
+      "body": "jupiter",
+      "underground": true,
+      "structure": "galaxycraft:jupiter_geode",
+      "chunk": [
+        1004,
+        990
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16064,
+          91,
+          15840,
+          16084,
+          102,
+          15860
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "jupiter_vault",
+      "body": "jupiter",
+      "underground": true,
+      "structure": "galaxycraft:jupiter_vault",
+      "chunk": [
+        994,
+        1005
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15904,
+          78,
+          16080,
+          15924,
+          89,
+          16100
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "io_observatory",
+      "body": "io",
+      "underground": false,
+      "structure": "galaxycraft:io_observatory",
+      "chunk": [
+        1009,
+        1005
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16144,
+          101,
+          16080,
+          16164,
+          112,
+          16100
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "io_wreck",
+      "body": "io",
+      "underground": false,
+      "structure": "galaxycraft:io_wreck",
+      "chunk": [
+        993,
+        997
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15888,
+          98,
+          15952,
+          15908,
+          109,
+          15972
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "io_sanctuary",
+      "body": "io",
+      "underground": false,
+      "structure": "galaxycraft:io_sanctuary",
+      "chunk": [
+        994,
+        997
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15904,
+          95,
+          15952,
+          15924,
+          106,
+          15972
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "io_geode",
+      "body": "io",
+      "underground": true,
+      "structure": "galaxycraft:io_geode",
+      "chunk": [
+        1003,
+        998
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16048,
+          82,
+          15968,
+          16068,
+          93,
+          15988
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "io_vault",
+      "body": "io",
+      "underground": true,
+      "structure": "galaxycraft:io_vault",
+      "chunk": [
+        993,
+        996
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15888,
+          56,
+          15936,
+          15908,
+          67,
+          15956
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "europa_observatory",
+      "body": "europa",
+      "underground": false,
+      "structure": "galaxycraft:europa_observatory",
+      "chunk": [
+        1000,
+        1002
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          68,
+          16032,
+          16020,
+          79,
+          16052
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "europa_wreck",
+      "body": "europa",
+      "underground": false,
+      "structure": "galaxycraft:europa_wreck",
+      "chunk": [
+        999,
+        1001
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15984,
+          67,
+          16016,
+          16004,
+          78,
+          16036
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "europa_sanctuary",
+      "body": "europa",
+      "underground": false,
+      "structure": "galaxycraft:europa_sanctuary",
+      "chunk": [
+        997,
+        989
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15952,
+          75,
+          15824,
+          15972,
+          86,
+          15844
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "europa_geode",
+      "body": "europa",
+      "underground": true,
+      "structure": "galaxycraft:europa_geode",
+      "chunk": [
+        969,
+        958
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15504,
+          53,
+          15328,
+          15524,
+          64,
+          15348
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "europa_vault",
+      "body": "europa",
+      "underground": true,
+      "structure": "galaxycraft:europa_vault",
+      "chunk": [
+        992,
+        1012
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15872,
+          9,
+          16192,
+          15892,
+          20,
+          16212
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ganymede_observatory",
+      "body": "ganymede",
+      "underground": false,
+      "structure": "galaxycraft:ganymede_observatory",
+      "chunk": [
+        1006,
+        1010
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16096,
+          68,
+          16160,
+          16116,
+          79,
+          16180
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ganymede_wreck",
+      "body": "ganymede",
+      "underground": false,
+      "structure": "galaxycraft:ganymede_wreck",
+      "chunk": [
+        977,
+        978
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15632,
+          58,
+          15648,
+          15652,
+          69,
+          15668
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ganymede_sanctuary",
+      "body": "ganymede",
+      "underground": false,
+      "structure": "galaxycraft:ganymede_sanctuary",
+      "chunk": [
+        964,
+        968
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15424,
+          80,
+          15488,
+          15444,
+          91,
+          15508
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ganymede_geode",
+      "body": "ganymede",
+      "underground": true,
+      "structure": "galaxycraft:ganymede_geode",
+      "chunk": [
+        994,
+        999
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15904,
+          62,
+          15984,
+          15924,
+          73,
+          16004
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ganymede_vault",
+      "body": "ganymede",
+      "underground": true,
+      "structure": "galaxycraft:ganymede_vault",
+      "chunk": [
+        995,
+        1012
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15920,
+          23,
+          16192,
+          15940,
+          34,
+          16212
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "callisto_observatory",
+      "body": "callisto",
+      "underground": false,
+      "structure": "galaxycraft:callisto_observatory",
+      "chunk": [
+        989,
+        992
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15824,
+          96,
+          15872,
+          15844,
+          107,
+          15892
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "callisto_wreck",
+      "body": "callisto",
+      "underground": false,
+      "structure": "galaxycraft:callisto_wreck",
+      "chunk": [
+        968,
+        967
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15488,
+          58,
+          15472,
+          15508,
+          69,
+          15492
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "callisto_sanctuary",
+      "body": "callisto",
+      "underground": false,
+      "structure": "galaxycraft:callisto_sanctuary",
+      "chunk": [
+        1004,
+        996
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16064,
+          50,
+          15936,
+          16084,
+          61,
+          15956
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "callisto_geode",
+      "body": "callisto",
+      "underground": true,
+      "structure": "galaxycraft:callisto_geode",
+      "chunk": [
+        988,
+        996
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          62,
+          15936,
+          15828,
+          73,
+          15956
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "callisto_vault",
+      "body": "callisto",
+      "underground": true,
+      "structure": "galaxycraft:callisto_vault",
+      "chunk": [
+        976,
+        971
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15616,
+          32,
+          15536,
+          15636,
+          43,
+          15556
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "saturn_observatory",
+      "body": "saturn",
+      "underground": false,
+      "structure": "galaxycraft:saturn_observatory",
+      "chunk": [
+        990,
+        986
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15840,
+          84,
+          15776,
+          15860,
+          95,
+          15796
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "saturn_wreck",
+      "body": "saturn",
+      "underground": false,
+      "structure": "galaxycraft:saturn_wreck",
+      "chunk": [
+        968,
+        1001
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15488,
+          89,
+          16016,
+          15508,
+          100,
+          16036
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "saturn_sanctuary",
+      "body": "saturn",
+      "underground": false,
+      "structure": "galaxycraft:saturn_sanctuary",
+      "chunk": [
+        994,
+        991
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15904,
+          80,
+          15856,
+          15924,
+          91,
+          15876
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "saturn_geode",
+      "body": "saturn",
+      "underground": true,
+      "structure": "galaxycraft:saturn_geode",
+      "chunk": [
+        988,
+        1004
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          66,
+          16064,
+          15828,
+          77,
+          16084
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "saturn_vault",
+      "body": "saturn",
+      "underground": true,
+      "structure": "galaxycraft:saturn_vault",
+      "chunk": [
+        997,
+        1011
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15952,
+          62,
+          16176,
+          15972,
+          73,
+          16196
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titan_observatory",
+      "body": "titan",
+      "underground": false,
+      "structure": "galaxycraft:titan_observatory",
+      "chunk": [
+        1010,
+        1009
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16160,
+          51,
+          16144,
+          16180,
+          62,
+          16164
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titan_wreck",
+      "body": "titan",
+      "underground": false,
+      "structure": "galaxycraft:titan_wreck",
+      "chunk": [
+        992,
+        992
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15872,
+          49,
+          15872,
+          15892,
+          60,
+          15892
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titan_sanctuary",
+      "body": "titan",
+      "underground": false,
+      "structure": "galaxycraft:titan_sanctuary",
+      "chunk": [
+        988,
+        1000
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          76,
+          16000,
+          15828,
+          87,
+          16020
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titan_geode",
+      "body": "titan",
+      "underground": true,
+      "structure": "galaxycraft:titan_geode",
+      "chunk": [
+        992,
+        1000
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15872,
+          36,
+          16000,
+          15892,
+          47,
+          16020
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titan_vault",
+      "body": "titan",
+      "underground": true,
+      "structure": "galaxycraft:titan_vault",
+      "chunk": [
+        997,
+        1007
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15952,
+          13,
+          16112,
+          15972,
+          24,
+          16132
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "enceladus_observatory",
+      "body": "enceladus",
+      "underground": false,
+      "structure": "galaxycraft:enceladus_observatory",
+      "chunk": [
+        1000,
+        1001
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          83,
+          16016,
+          16020,
+          94,
+          16036
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "enceladus_wreck",
+      "body": "enceladus",
+      "underground": false,
+      "structure": "galaxycraft:enceladus_wreck",
+      "chunk": [
+        1001,
+        995
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16016,
+          81,
+          15920,
+          16036,
+          92,
+          15940
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "enceladus_sanctuary",
+      "body": "enceladus",
+      "underground": false,
+      "structure": "galaxycraft:enceladus_sanctuary",
+      "chunk": [
+        996,
+        989
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15936,
+          93,
+          15824,
+          15956,
+          104,
+          15844
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "enceladus_geode",
+      "body": "enceladus",
+      "underground": true,
+      "structure": "galaxycraft:enceladus_geode",
+      "chunk": [
+        987,
+        1000
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15792,
+          71,
+          16000,
+          15812,
+          82,
+          16020
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "enceladus_vault",
+      "body": "enceladus",
+      "underground": true,
+      "structure": "galaxycraft:enceladus_vault",
+      "chunk": [
+        1000,
+        1010
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          46,
+          16160,
+          16020,
+          57,
+          16180
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mimas_observatory",
+      "body": "mimas",
+      "underground": false,
+      "structure": "galaxycraft:mimas_observatory",
+      "chunk": [
+        1009,
+        1003
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16144,
+          84,
+          16048,
+          16164,
+          95,
+          16068
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mimas_wreck",
+      "body": "mimas",
+      "underground": false,
+      "structure": "galaxycraft:mimas_wreck",
+      "chunk": [
+        995,
+        989
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15920,
+          53,
+          15824,
+          15940,
+          64,
+          15844
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mimas_sanctuary",
+      "body": "mimas",
+      "underground": false,
+      "structure": "galaxycraft:mimas_sanctuary",
+      "chunk": [
+        988,
+        993
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          47,
+          15888,
+          15828,
+          58,
+          15908
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mimas_geode",
+      "body": "mimas",
+      "underground": true,
+      "structure": "galaxycraft:mimas_geode",
+      "chunk": [
+        999,
+        996
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15984,
+          57,
+          15936,
+          16004,
+          68,
+          15956
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "mimas_vault",
+      "body": "mimas",
+      "underground": true,
+      "structure": "galaxycraft:mimas_vault",
+      "chunk": [
+        1000,
+        1005
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          38,
+          16080,
+          16020,
+          49,
+          16100
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "tethys_observatory",
+      "body": "tethys",
+      "underground": false,
+      "structure": "galaxycraft:tethys_observatory",
+      "chunk": [
+        980,
+        985
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15680,
+          81,
+          15760,
+          15700,
+          92,
+          15780
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "tethys_wreck",
+      "body": "tethys",
+      "underground": false,
+      "structure": "galaxycraft:tethys_wreck",
+      "chunk": [
+        1001,
+        999
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16016,
+          103,
+          15984,
+          16036,
+          114,
+          16004
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "tethys_sanctuary",
+      "body": "tethys",
+      "underground": false,
+      "structure": "galaxycraft:tethys_sanctuary",
+      "chunk": [
+        995,
+        988
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15920,
+          117,
+          15808,
+          15940,
+          128,
+          15828
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "tethys_geode",
+      "body": "tethys",
+      "underground": true,
+      "structure": "galaxycraft:tethys_geode",
+      "chunk": [
+        989,
+        997
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15824,
+          32,
+          15952,
+          15844,
+          43,
+          15972
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "tethys_vault",
+      "body": "tethys",
+      "underground": true,
+      "structure": "galaxycraft:tethys_vault",
+      "chunk": [
+        999,
+        993
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15984,
+          82,
+          15888,
+          16004,
+          93,
+          15908
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "dione_observatory",
+      "body": "dione",
+      "underground": false,
+      "structure": "galaxycraft:dione_observatory",
+      "chunk": [
+        1001,
+        1009
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16016,
+          46,
+          16144,
+          16036,
+          57,
+          16164
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "dione_wreck",
+      "body": "dione",
+      "underground": false,
+      "structure": "galaxycraft:dione_wreck",
+      "chunk": [
+        1002,
+        991
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16032,
+          21,
+          15856,
+          16052,
+          32,
+          15876
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "dione_sanctuary",
+      "body": "dione",
+      "underground": false,
+      "structure": "galaxycraft:dione_sanctuary",
+      "chunk": [
+        988,
+        1002
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15808,
+          67,
+          16032,
+          15828,
+          78,
+          16052
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "dione_geode",
+      "body": "dione",
+      "underground": true,
+      "structure": "galaxycraft:dione_geode",
+      "chunk": [
+        987,
+        997
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15792,
+          41,
+          15952,
+          15812,
+          52,
+          15972
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "dione_vault",
+      "body": "dione",
+      "underground": true,
+      "structure": "galaxycraft:dione_vault",
+      "chunk": [
+        967,
+        976
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15472,
+          20,
+          15616,
+          15492,
+          31,
+          15636
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "rhea_observatory",
+      "body": "rhea",
+      "underground": false,
+      "structure": "galaxycraft:rhea_observatory",
+      "chunk": [
+        1005,
+        1012
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16080,
+          26,
+          16192,
+          16100,
+          37,
+          16212
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "rhea_wreck",
+      "body": "rhea",
+      "underground": false,
+      "structure": "galaxycraft:rhea_wreck",
+      "chunk": [
+        990,
+        997
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15840,
+          66,
+          15952,
+          15860,
+          77,
+          15972
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "rhea_sanctuary",
+      "body": "rhea",
+      "underground": false,
+      "structure": "galaxycraft:rhea_sanctuary",
+      "chunk": [
+        977,
+        976
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15632,
+          43,
+          15616,
+          15652,
+          54,
+          15636
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "rhea_geode",
+      "body": "rhea",
+      "underground": true,
+      "structure": "galaxycraft:rhea_geode",
+      "chunk": [
+        987,
+        999
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15792,
+          35,
+          15984,
+          15812,
+          46,
+          16004
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "rhea_vault",
+      "body": "rhea",
+      "underground": true,
+      "structure": "galaxycraft:rhea_vault",
+      "chunk": [
+        998,
+        996
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15968,
+          14,
+          15936,
+          15988,
+          25,
+          15956
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "iapetus_observatory",
+      "body": "iapetus",
+      "underground": false,
+      "structure": "galaxycraft:iapetus_observatory",
+      "chunk": [
+        984,
+        1029
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15744,
+          61,
+          16464,
+          15764,
+          72,
+          16484
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "iapetus_wreck",
+      "body": "iapetus",
+      "underground": false,
+      "structure": "galaxycraft:iapetus_wreck",
+      "chunk": [
+        996,
+        995
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15936,
+          52,
+          15920,
+          15956,
+          63,
+          15940
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "iapetus_sanctuary",
+      "body": "iapetus",
+      "underground": false,
+      "structure": "galaxycraft:iapetus_sanctuary",
+      "chunk": [
+        999,
+        988
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15984,
+          58,
+          15808,
+          16004,
+          69,
+          15828
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "iapetus_geode",
+      "body": "iapetus",
+      "underground": true,
+      "structure": "galaxycraft:iapetus_geode",
+      "chunk": [
+        995,
+        992
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15920,
+          37,
+          15872,
+          15940,
+          48,
+          15892
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "iapetus_vault",
+      "body": "iapetus",
+      "underground": true,
+      "structure": "galaxycraft:iapetus_vault",
+      "chunk": [
+        998,
+        1012
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15968,
+          48,
+          16192,
+          15988,
+          59,
+          16212
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "uranus_observatory",
+      "body": "uranus",
+      "underground": false,
+      "structure": "galaxycraft:uranus_observatory",
+      "chunk": [
+        987,
+        988
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15792,
+          87,
+          15808,
+          15812,
+          98,
+          15828
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "uranus_wreck",
+      "body": "uranus",
+      "underground": false,
+      "structure": "galaxycraft:uranus_wreck",
+      "chunk": [
+        1002,
+        998
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16032,
+          91,
+          15968,
+          16052,
+          102,
+          15988
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "uranus_sanctuary",
+      "body": "uranus",
+      "underground": false,
+      "structure": "galaxycraft:uranus_sanctuary",
+      "chunk": [
+        977,
+        968
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15632,
+          83,
+          15488,
+          15652,
+          94,
+          15508
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "uranus_geode",
+      "body": "uranus",
+      "underground": true,
+      "structure": "galaxycraft:uranus_geode",
+      "chunk": [
+        968,
+        961
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15488,
+          60,
+          15376,
+          15508,
+          71,
+          15396
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "uranus_vault",
+      "body": "uranus",
+      "underground": true,
+      "structure": "galaxycraft:uranus_vault",
+      "chunk": [
+        961,
+        972
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15376,
+          58,
+          15552,
+          15396,
+          69,
+          15572
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ariel_observatory",
+      "body": "ariel",
+      "underground": false,
+      "structure": "galaxycraft:ariel_observatory",
+      "chunk": [
+        1009,
+        1004
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16144,
+          120,
+          16064,
+          16164,
+          131,
+          16084
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ariel_wreck",
+      "body": "ariel",
+      "underground": false,
+      "structure": "galaxycraft:ariel_wreck",
+      "chunk": [
+        1000,
+        1002
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          127,
+          16032,
+          16020,
+          138,
+          16052
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ariel_sanctuary",
+      "body": "ariel",
+      "underground": false,
+      "structure": "galaxycraft:ariel_sanctuary",
+      "chunk": [
+        1003,
+        996
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16048,
+          125,
+          15936,
+          16068,
+          136,
+          15956
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ariel_geode",
+      "body": "ariel",
+      "underground": true,
+      "structure": "galaxycraft:ariel_geode",
+      "chunk": [
+        987,
+        987
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15792,
+          111,
+          15792,
+          15812,
+          122,
+          15812
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "ariel_vault",
+      "body": "ariel",
+      "underground": true,
+      "structure": "galaxycraft:ariel_vault",
+      "chunk": [
+        1008,
+        995
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16128,
+          94,
+          15920,
+          16148,
+          105,
+          15940
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "umbriel_observatory",
+      "body": "umbriel",
+      "underground": false,
+      "structure": "galaxycraft:umbriel_observatory",
+      "chunk": [
+        1001,
+        1009
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16016,
+          57,
+          16144,
+          16036,
+          68,
+          16164
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "umbriel_wreck",
+      "body": "umbriel",
+      "underground": false,
+      "structure": "galaxycraft:umbriel_wreck",
+      "chunk": [
+        1000,
+        996
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          61,
+          15936,
+          16020,
+          72,
+          15956
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "umbriel_sanctuary",
+      "body": "umbriel",
+      "underground": false,
+      "structure": "galaxycraft:umbriel_sanctuary",
+      "chunk": [
+        991,
+        998
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15856,
+          59,
+          15968,
+          15876,
+          70,
+          15988
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "umbriel_geode",
+      "body": "umbriel",
+      "underground": true,
+      "structure": "galaxycraft:umbriel_geode",
+      "chunk": [
+        991,
+        989
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15856,
+          10,
+          15824,
+          15876,
+          21,
+          15844
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "umbriel_vault",
+      "body": "umbriel",
+      "underground": true,
+      "structure": "galaxycraft:umbriel_vault",
+      "chunk": [
+        1011,
+        998
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16176,
+          34,
+          15968,
+          16196,
+          45,
+          15988
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titania_observatory",
+      "body": "titania",
+      "underground": false,
+      "structure": "galaxycraft:titania_observatory",
+      "chunk": [
+        1010,
+        1007
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16160,
+          91,
+          16112,
+          16180,
+          102,
+          16132
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titania_wreck",
+      "body": "titania",
+      "underground": false,
+      "structure": "galaxycraft:titania_wreck",
+      "chunk": [
+        969,
+        969
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15504,
+          79,
+          15504,
+          15524,
+          90,
+          15524
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titania_sanctuary",
+      "body": "titania",
+      "underground": false,
+      "structure": "galaxycraft:titania_sanctuary",
+      "chunk": [
+        998,
+        989
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15968,
+          99,
+          15824,
+          15988,
+          110,
+          15844
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titania_geode",
+      "body": "titania",
+      "underground": true,
+      "structure": "galaxycraft:titania_geode",
+      "chunk": [
+        959,
+        970
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15344,
+          34,
+          15520,
+          15364,
+          45,
+          15540
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "titania_vault",
+      "body": "titania",
+      "underground": true,
+      "structure": "galaxycraft:titania_vault",
+      "chunk": [
+        977,
+        963
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15632,
+          40,
+          15408,
+          15652,
+          51,
+          15428
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "oberon_observatory",
+      "body": "oberon",
+      "underground": false,
+      "structure": "galaxycraft:oberon_observatory",
+      "chunk": [
+        1012,
+        1004
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16192,
+          99,
+          16064,
+          16212,
+          110,
+          16084
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "oberon_wreck",
+      "body": "oberon",
+      "underground": false,
+      "structure": "galaxycraft:oberon_wreck",
+      "chunk": [
+        969,
+        993
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15504,
+          147,
+          15888,
+          15524,
+          158,
+          15908
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "oberon_sanctuary",
+      "body": "oberon",
+      "underground": false,
+      "structure": "galaxycraft:oberon_sanctuary",
+      "chunk": [
+        1004,
+        991
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16064,
+          41,
+          15856,
+          16084,
+          52,
+          15876
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "oberon_geode",
+      "body": "oberon",
+      "underground": true,
+      "structure": "galaxycraft:oberon_geode",
+      "chunk": [
+        972,
+        967
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15552,
+          51,
+          15472,
+          15572,
+          62,
+          15492
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "oberon_vault",
+      "body": "oberon",
+      "underground": true,
+      "structure": "galaxycraft:oberon_vault",
+      "chunk": [
+        993,
+        1011
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15888,
+          40,
+          16176,
+          15908,
+          51,
+          16196
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "miranda_observatory",
+      "body": "miranda",
+      "underground": false,
+      "structure": "galaxycraft:miranda_observatory",
+      "chunk": [
+        1000,
+        1001
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          63,
+          16016,
+          16020,
+          74,
+          16036
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "miranda_wreck",
+      "body": "miranda",
+      "underground": false,
+      "structure": "galaxycraft:miranda_wreck",
+      "chunk": [
+        989,
+        1001
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15824,
+          93,
+          16016,
+          15844,
+          104,
+          16036
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "miranda_sanctuary",
+      "body": "miranda",
+      "underground": false,
+      "structure": "galaxycraft:miranda_sanctuary",
+      "chunk": [
+        990,
+        991
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15840,
+          117,
+          15856,
+          15860,
+          128,
+          15876
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "miranda_geode",
+      "body": "miranda",
+      "underground": true,
+      "structure": "galaxycraft:miranda_geode",
+      "chunk": [
+        1000,
+        1002
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16000,
+          37,
+          16032,
+          16020,
+          48,
+          16052
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "miranda_vault",
+      "body": "miranda",
+      "underground": true,
+      "structure": "galaxycraft:miranda_vault",
+      "chunk": [
+        970,
+        961
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15520,
+          44,
+          15376,
+          15540,
+          55,
+          15396
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "neptune_observatory",
+      "body": "neptune",
+      "underground": false,
+      "structure": "galaxycraft:neptune_observatory",
+      "chunk": [
+        1007,
+        1000
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16112,
+          43,
+          16000,
+          16132,
+          54,
+          16020
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "neptune_wreck",
+      "body": "neptune",
+      "underground": false,
+      "structure": "galaxycraft:neptune_wreck",
+      "chunk": [
+        993,
+        994
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15888,
+          41,
+          15904,
+          15908,
+          52,
+          15924
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "neptune_sanctuary",
+      "body": "neptune",
+      "underground": false,
+      "structure": "galaxycraft:neptune_sanctuary",
+      "chunk": [
+        990,
+        995
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15840,
+          55,
+          15920,
+          15860,
+          66,
+          15940
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "neptune_geode",
+      "body": "neptune",
+      "underground": true,
+      "structure": "galaxycraft:neptune_geode",
+      "chunk": [
+        1002,
+        994
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16032,
+          24,
+          15904,
+          16052,
+          35,
+          15924
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "neptune_vault",
+      "body": "neptune",
+      "underground": true,
+      "structure": "galaxycraft:neptune_vault",
+      "chunk": [
+        969,
+        977
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15504,
+          35,
+          15632,
+          15524,
+          46,
+          15652
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "triton_observatory",
+      "body": "triton",
+      "underground": false,
+      "structure": "galaxycraft:triton_observatory",
+      "chunk": [
+        1011,
+        1003
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16176,
+          28,
+          16048,
+          16196,
+          39,
+          16068
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "triton_wreck",
+      "body": "triton",
+      "underground": false,
+      "structure": "galaxycraft:triton_wreck",
+      "chunk": [
+        999,
+        992
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15984,
+          77,
+          15872,
+          16004,
+          88,
+          15892
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "triton_sanctuary",
+      "body": "triton",
+      "underground": false,
+      "structure": "galaxycraft:triton_sanctuary",
+      "chunk": [
+        976,
+        970
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15616,
+          63,
+          15520,
+          15636,
+          74,
+          15540
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "triton_geode",
+      "body": "triton",
+      "underground": true,
+      "structure": "galaxycraft:triton_geode",
+      "chunk": [
+        966,
+        964
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15456,
+          48,
+          15424,
+          15476,
+          59,
+          15444
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "triton_vault",
+      "body": "triton",
+      "underground": true,
+      "structure": "galaxycraft:triton_vault",
+      "chunk": [
+        992,
+        1010
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15872,
+          16,
+          16160,
+          15892,
+          27,
+          16180
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "proteus_observatory",
+      "body": "proteus",
+      "underground": false,
+      "structure": "galaxycraft:proteus_observatory",
+      "chunk": [
+        1004,
+        1002
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16064,
+          97,
+          16032,
+          16084,
+          108,
+          16052
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "proteus_wreck",
+      "body": "proteus",
+      "underground": false,
+      "structure": "galaxycraft:proteus_wreck",
+      "chunk": [
+        992,
+        998
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15872,
+          109,
+          15968,
+          15892,
+          120,
+          15988
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "proteus_sanctuary",
+      "body": "proteus",
+      "underground": false,
+      "structure": "galaxycraft:proteus_sanctuary",
+      "chunk": [
+        994,
+        1002
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          15904,
+          114,
+          16032,
+          15924,
+          125,
+          16052
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "proteus_geode",
+      "body": "proteus",
+      "underground": true,
+      "structure": "galaxycraft:proteus_geode",
+      "chunk": [
+        1003,
+        990
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16048,
+          89,
+          15840,
+          16068,
+          100,
+          15860
+        ]
+      ],
+      "status": "minecraft:full"
+    },
+    {
+      "id": "proteus_vault",
+      "body": "proteus",
+      "underground": true,
+      "structure": "galaxycraft:proteus_vault",
+      "chunk": [
+        1006,
+        992
+      ],
+      "pieces": 1,
+      "boundingBoxes": [
+        [
+          16096,
+          77,
+          15872,
+          16116,
+          88,
+          15892
+        ]
+      ],
+      "status": "minecraft:full"
+    }
+  ]
+}
