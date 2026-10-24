@@ -1,18 +1,19 @@
 # Descargar GalaxyCraft
 
-La versión actual es **`galaxycraft-0.4.0.jar`**, con mapa celestial, texturas y
+La versión actual es **`galaxycraft-0.4.1.jar`**, que corrige el botón de Sol
+bloqueado cuando llega el nivel del cohete. Incluye el mapa celestial, texturas y
 minerales rediseñados, ladrillos y bloques industriales, además del traje y las
-145 estructuras anteriores. Las versiones 0.1.0, 0.2.0 y 0.3.0 quedan
+145 estructuras anteriores. Las versiones 0.1.0, 0.2.0, 0.3.0 y 0.4.0 quedan
 como archivo histórico. Instala solo una versión a la vez en `mods`.
 Todas necesitan Minecraft **1.21**, NeoForge
 **21.0.167** y Java **21**.
 
 Descarga el archivo desde GitHub usando **Download raw file**.
 
-SHA-256 de la versión 0.4.0, validada con 199 pruebas y tres GameTests:
+SHA-256 de la versión 0.4.1, compilada y validada con 202 pruebas JUnit:
 
 ```text
-9cb169921e11cc7a1f1fc4044da4454f55f73cd5fe0cba445468eb24f95470a2
+1c7a0aeef8daf071fab3d389969a40491519cedf8a15f70e6f04cacc5a768cfa
 ```
 
 La revisión visual de cliente y el viaje completo con jugador real siguen pendientes.

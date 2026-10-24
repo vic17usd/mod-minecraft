@@ -1,7 +1,21 @@
-# Ordenador celestial y materiales — GalaxyCraft 0.4.0
+# Ordenador celestial y materiales — GalaxyCraft 0.4.1
 
 Minecraft **1.21 exacto**, NeoForge **21.0.167**, Java **21**. Sustituye el JAR
 anterior tanto en cliente como en servidor; los IDs existentes y los mundos se conservan.
+
+## Corrección 0.4.1: Sol no respondía al clic
+
+La pantalla se construía con el nivel provisional N0, antes de recibir el nivel
+del servidor. El texto de telemetría se actualizaba a N1/N2/N3, pero el botón
+conservaba el estado inactivo y el candado iniciales. `LiveNavigationButton`
+ahora reevalúa disponibilidad y candado en cada fotograma y antes de procesar
+entrada de ratón o teclado. También se corrigen las marcas de nivel de planetas.
+
+La compilación y las **202 pruebas JUnit** pasan, incluidas tres regresiones de
+widgets cliente sin OpenGL que simulan datos tardíos N0→N3, actualización al
+recibir entrada y previsualización de destinos con nivel insuficiente. No se
+cambian los requisitos de viaje ni el protocolo. Reinicia el juego después de
+sustituir el JAR; recargar texturas no actualiza las clases Java.
 
 ## Uso del mapa
 
@@ -160,7 +174,7 @@ Espera `GALAXYCRAFT_INTEGRATION_OK navigation_authority` antes de otra prueba.
 La revisión de la interfaz, el ratón, las teclas y el audio con un cliente gráfico
 queda pendiente; los tests del servidor no verifican su apariencia en pantalla.
 
-Validación de esta entrega: **199 pruebas JUnit aprobadas** y **tres GameTests**
+Validación de la entrega inicial 0.4.0: **199 pruebas JUnit aprobadas** y **tres GameTests**
 aprobados (`navigation_authority`, `equipment_round_trip`, `rocket_multiblock_cleanup`).
 Se analizaron 1701 JSON y 351 PNG. Los recursos se regeneraron sin cambios de hash.
 El servidor cargó las nuevas recetas y registros y se detuvo con guardado normal.

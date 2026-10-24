@@ -54,8 +54,9 @@ public final class CelestialMapScreen extends AbstractContainerScreen<Navigation
             int index = 0;
             for (var entry : CelestialCatalog.SYSTEMS) {
                 var node = new MapNode(cx() - 24 + index++ * 62,cy() - 24,48,"sun",Component.translatable(entry.translation()),
-                        () -> { system = entry; depth = 1; rebuild(); },!entry.enabled() || menu.tier() < entry.minimumTier());
-                node.active = entry.enabled() && menu.tier() >= entry.minimumTier();
+                        () -> { system = entry; depth = 1; rebuild(); },
+                        () -> entry.enabled() && menu.tier() >= entry.minimumTier(),
+                        () -> !entry.enabled() || menu.tier() < entry.minimumTier());
                 node.setTooltip(Tooltip.create(Component.translatable(entry.enabled() ? "navigation.galaxycraft.system_tier" : "navigation.galaxycraft.reason.unavailable",entry.minimumTier())));
                 addRenderableWidget(node);
             }
@@ -76,7 +77,8 @@ public final class CelestialMapScreen extends AbstractContainerScreen<Navigation
         }
     }
     private void addBody(CelestialBody body,int x,int y,int size,Runnable action) {
-        var node = new MapNode(x - size/2,y - size/2,size,body.id(),bodyName(body),action,menu.tier() < body.tier());
+        var node = new MapNode(x - size/2,y - size/2,size,body.id(),bodyName(body),action,
+                () -> true,() -> menu.tier() < body.tier());
         node.setTooltip(Tooltip.create(Component.translatable("navigation.galaxycraft.body_tooltip",bodyName(body),Math.max(1,body.tier()),NavigationRules.fuelCost(body))));
         addRenderableWidget(node);
     }
@@ -136,17 +138,18 @@ public final class CelestialMapScreen extends AbstractContainerScreen<Navigation
         gui.blit(ModPresentation.id("textures/gui/celestial/" + body + ".png"),x,y,0,0,size,size,size,size);
     }
     /** Botón accesible por teclado, con icono, selección visible y requisitos en tooltip. */
-    private final class MapNode extends Button {
+    private final class MapNode extends LiveNavigationButton {
         private final String body;
-        private final boolean locked;
-        private MapNode(int x,int y,int size,String body,Component label,Runnable action,boolean locked) {
-            super(x,y,size,size,label,button -> action.run(),DEFAULT_NARRATION); this.body = body; this.locked = locked;
+        private MapNode(int x,int y,int size,String body,Component label,Runnable action,
+                java.util.function.BooleanSupplier enabled,java.util.function.BooleanSupplier locked) {
+            super(x,y,size,label,button -> action.run(),enabled,locked); this.body = body;
         }
         @Override protected void renderWidget(GuiGraphics gui,int x,int y,float partialTick) {
+            refreshState();
             boolean selected = focused != null && focused.id().equals(body);
-            if (isHoveredOrFocused() || selected) gui.renderOutline(getX()-2,getY()-2,getWidth()+4,getHeight()+4,locked ? 0xFFCF795D : 0xFF71DDF0);
+            if (isHoveredOrFocused() || selected) gui.renderOutline(getX()-2,getY()-2,getWidth()+4,getHeight()+4,isLocked() ? 0xFFCF795D : 0xFF71DDF0);
             icon(gui,body,getX(),getY(),getWidth());
-            if (locked) gui.drawString(font,"×",getX()+getWidth()-5,getY(),0xFF9578,false);
+            if (isLocked()) gui.drawString(font,"×",getX()+getWidth()-5,getY(),0xFF9578,false);
         }
     }
 }

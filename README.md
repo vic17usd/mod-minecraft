@@ -1,9 +1,10 @@
 # GalaxyCraft — Sistema Solar (fases 1 a 5)
 
-La versión actual es **0.4.0**. El [ordenador celestial y nuevo arte](docs/NAVEGACION_Y_ARTE.md)
+La versión actual es **0.4.1**, que corrige el botón de Sol bloqueado tras sincronizar
+el nivel del cohete. El [ordenador celestial y nuevo arte](docs/NAVEGACION_Y_ARTE.md)
 añade mapa jerárquico con **H**, validación de viajes, patrones minerales propios,
 ladrillos planetarios y bloques industriales. Descarga
-[`galaxycraft-0.4.0.jar`](downloads/galaxycraft-0.4.0.jar) desde GitHub con
+[`galaxycraft-0.4.1.jar`](downloads/galaxycraft-0.4.1.jar) desde GitHub con
 **Download raw file** y sustituye la versión anterior en `mods`.
 
 La [fase 5 ampliada](docs/FASE_5_AVANZADA.md) documenta el equipamiento independiente,
