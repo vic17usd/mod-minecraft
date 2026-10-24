@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/orange_terracotta"
+    "all": "galaxycraft:block/jupiter_regolith"
   }
 }

@@ -8,7 +8,13 @@
     "water_color": 3747911,
     "water_fog_color": 3747911,
     "grass_color": 3747911,
-    "foliage_color": 3747911
+    "foliage_color": 3747911,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
   },
   "carvers": {},
   "features": [

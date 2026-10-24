@@ -1,0 +1,15 @@
+{
+  "name": "galaxycraft:martian_alien_ruins",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "galaxycraft:martian_alien_ruins",
+        "processors": "galaxycraft:martian_alien_ruins",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

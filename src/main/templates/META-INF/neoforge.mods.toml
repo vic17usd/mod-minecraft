@@ -9,7 +9,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''
-Exploración del Sistema Solar: dimensiones, recursos planetarios, gravedad, oxígeno y cohetes por niveles.
+Exploración del Sistema Solar con oxígeno, cohetes, estructuras, recursos originales y HUD espacial.
 '''
 
 # El intervalo se limita a la línea 21.0 para evitar prometer compatibilidad con 1.21.1.

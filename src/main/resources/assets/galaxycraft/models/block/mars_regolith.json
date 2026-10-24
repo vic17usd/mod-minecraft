@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/red_sand"
+    "all": "galaxycraft:block/mars_regolith"
   }
 }

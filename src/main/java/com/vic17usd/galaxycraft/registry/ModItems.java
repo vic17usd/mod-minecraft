@@ -4,7 +4,7 @@ import com.vic17usd.galaxycraft.GalaxyCraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
+import com.vic17usd.galaxycraft.item.SchematicItem;
 import com.vic17usd.galaxycraft.item.OxygenTankItem;
 import com.vic17usd.galaxycraft.item.RocketItem;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,9 +33,15 @@ public final class ModItems {
     public static final DeferredItem<OxygenTankItem> OXYGEN_TANK = ITEMS.register(
             "oxygen_tank", () -> new OxygenTankItem(new Item.Properties()));
 
-    // Casco funcional con material y textura de hierro provisionales, sin código cliente.
+    public static final DeferredItem<Item> GALAXY_EMBLEM = ITEMS.registerSimpleItem("galaxy_emblem");
+    public static final DeferredItem<Item> THRUSTER = ITEMS.registerSimpleItem("thruster");
+    public static final DeferredItem<Item> NAVIGATION_CORE = ITEMS.registerSimpleItem("navigation_core");
+    public static final DeferredItem<SchematicItem> LUNAR_SCHEMATIC = ITEMS.register("lunar_schematic", () -> new SchematicItem("thruster"));
+    public static final DeferredItem<SchematicItem> MARTIAN_SCHEMATIC = ITEMS.register("martian_schematic", () -> new SchematicItem("navigation_core"));
+
+    // La capa del casco equipado también utiliza una textura propia del mod.
     public static final DeferredItem<ArmorItem> SPACE_HELMET = ITEMS.register("space_helmet",
-            () -> new ArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET,
+            () -> new ArmorItem(ModPresentation.SPACE_ARMOR, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(165)));
 
     /** Se conecta como listener al bus del mod desde GalaxyCraft. */

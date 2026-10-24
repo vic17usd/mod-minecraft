@@ -1,6 +1,6 @@
 {
   "parent": "galaxycraft:block/tier1_rocket",
   "textures": {
-    "nose": "minecraft:block/purple_concrete"
+    "nose": "galaxycraft:block/nose3"
   }
 }

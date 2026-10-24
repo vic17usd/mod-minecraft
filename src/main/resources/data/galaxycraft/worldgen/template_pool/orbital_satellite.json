@@ -1,0 +1,15 @@
+{
+  "name": "galaxycraft:orbital_satellite",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "galaxycraft:orbital_satellite",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

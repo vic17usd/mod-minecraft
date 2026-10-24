@@ -9,7 +9,7 @@ version = project.mod_version
 group = project.mod_group_id
 
 base {
-    // El resultado será build/libs/galaxycraft-0.1.0.jar.
+    // El resultado será build/libs/galaxycraft-<mod_version>.jar.
     archivesName = project.mod_id
 }
 

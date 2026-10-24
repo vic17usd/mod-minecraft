@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "MCM",
+    "MNM",
     "SRS",
     "MCM"
   ],
@@ -18,6 +18,9 @@
     },
     "R": {
       "item": "galaxycraft:tier2_rocket"
+    },
+    "N": {
+      "item": "galaxycraft:navigation_core"
     }
   },
   "result": {

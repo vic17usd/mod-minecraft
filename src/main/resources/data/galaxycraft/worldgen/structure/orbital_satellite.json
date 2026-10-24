@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#galaxycraft:has_structure/orbital_satellite",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "galaxycraft:orbital_satellite",
+  "size": 1,
+  "start_height": {
+    "absolute": 200
+  },
+  "use_expansion_hack": false,
+  "max_distance_from_center": 32
+}

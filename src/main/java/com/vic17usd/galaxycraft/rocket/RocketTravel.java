@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.Heightmap;
+import com.vic17usd.galaxycraft.registry.ModPresentation;
+import net.minecraft.sounds.SoundSource;
 
 /** Viaje instantáneo de un jugador con traslado del cohete; no simula vuelo orbital. */
 public final class RocketTravel {
@@ -52,6 +54,16 @@ public final class RocketTravel {
         }
 
         // Tras confirmar el traslado, mueve objetos y consume toda la reserva del origen.
+        // Solo se emiten efectos tras confirmar el viaje; un lanzamiento rechazado permanece silencioso.
+        var exhaust = source.getBlockPos();
+        origin.sendParticles(ModPresentation.EXHAUST.get(), exhaust.getX() + .5, exhaust.getY() + .2,
+                exhaust.getZ() + .5, 45, .5, .15, .5, .08);
+        origin.sendParticles(ModPresentation.SMOKE.get(), exhaust.getX() + .5, exhaust.getY(),
+                exhaust.getZ() + .5, 55, 1, .2, 1, .03);
+        origin.playSound(null, exhaust, ModPresentation.LAUNCH.get(), SoundSource.BLOCKS, 1.5F, 1F);
+        target.sendParticles(ModPresentation.DUST.get(), rocketPos.getX() + .5, rocketPos.getY(),
+                rocketPos.getZ() + .5, 35, 1, .15, 1, .02);
+        target.playSound(null, rocketPos, ModPresentation.LAUNCH.get(), SoundSource.BLOCKS, .5F, .8F);
         for (int slot = 0; slot < 2; slot++) {
             arrived.inventory.setStackInSlot(slot, source.inventory.getStackInSlot(slot).copy());
             source.inventory.setStackInSlot(slot, ItemStack.EMPTY);

@@ -10,6 +10,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
+import com.vic17usd.galaxycraft.registry.ModPresentation;
+import net.minecraft.sounds.SoundSource;
 
 /** Toda la autoridad sobre respiración y daño permanece en el servidor. */
 public final class SpaceSurvival {
@@ -34,6 +36,9 @@ public final class SpaceSurvival {
 
         // La falta de casco también impide respirar aunque haya tanques llenos.
         player.hurt(player.damageSources().drown(), 2.0F);
+        // Una alarma como máximo cada cinco segundos por jugador sin suministro.
+        if (player.tickCount % 100 == 0) player.level().playSound(null, player.blockPosition(),
+                ModPresentation.DEPRESSURIZE.get(), SoundSource.PLAYERS, .65F, 1F);
         player.displayClientMessage(Component.translatable("message.galaxycraft.no_oxygen"), true);
     }
 

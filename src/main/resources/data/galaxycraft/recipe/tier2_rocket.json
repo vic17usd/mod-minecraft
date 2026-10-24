@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "CTC",
+    "CHC",
     "CRC",
     "CTC"
   ],
@@ -15,6 +15,9 @@
     },
     "T": {
       "item": "galaxycraft:titanium_ore"
+    },
+    "H": {
+      "item": "galaxycraft:thruster"
     }
   },
   "result": {

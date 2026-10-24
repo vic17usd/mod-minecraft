@@ -1,0 +1,27 @@
+{
+  "rocket_launch": {
+    "subtitle": "subtitles.galaxycraft.rocket_launch",
+    "sounds": [
+      {
+        "name": "galaxycraft:rocket_launch"
+      }
+    ]
+  },
+  "suit_depressurize": {
+    "subtitle": "subtitles.galaxycraft.suit_depressurize",
+    "sounds": [
+      {
+        "name": "galaxycraft:suit_depressurize"
+      }
+    ]
+  },
+  "space_ambient": {
+    "subtitle": "subtitles.galaxycraft.space_ambient",
+    "sounds": [
+      {
+        "name": "galaxycraft:space_ambient",
+        "stream": true
+      }
+    ]
+  }
+}

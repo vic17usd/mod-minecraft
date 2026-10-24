@@ -86,6 +86,12 @@ class SolarSystemTest {
         Set<String> available = new HashSet<>(Set.of("titanium_ore", "tier1_rocket", "tier2_rocket"));
         for (int tier = 2; tier <= 3; tier++) {
             for (var body : SolarSystem.BODIES) if (SolarSystem.accessible(tier - 1, body)) available.add(body.resource());
+            String component = tier == 2 ? "thruster" : "navigation_core";
+            for (var ingredient : data("recipe/" + component).getAsJsonObject("key").entrySet()) {
+                String item = ingredient.getValue().getAsJsonObject().get("item").getAsString().substring("galaxycraft:".length());
+                assertTrue(available.contains(item), "Componente inaccesible: " + component + " requiere " + item);
+            }
+            available.add(component);
             var recipe = data("recipe/tier" + tier + "_rocket");
             for (var ingredient : recipe.getAsJsonObject("key").entrySet()) {
                 String item = ingredient.getValue().getAsJsonObject().get("item").getAsString().substring("galaxycraft:".length());

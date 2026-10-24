@@ -141,3 +141,5 @@ for (const language of ['es_es', 'en_us']) {
     write(file, translations);
 }
 console.log(`Recursos generados para ${bodies.length - 1} dimensiones; Tierra = Overworld.`);
+// El acabado propio se aplica al final para que regenerar la fase 4 no restaure placeholders.
+await import('./generate-presentation.mjs');

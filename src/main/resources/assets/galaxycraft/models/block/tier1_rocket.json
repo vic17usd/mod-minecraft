@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "particle": "minecraft:block/iron_block",
-    "body": "minecraft:block/iron_block",
-    "nose": "minecraft:block/red_concrete",
-    "engine": "minecraft:block/polished_blackstone",
-    "window": "minecraft:block/light_blue_concrete"
+    "particle": "galaxycraft:block/hull",
+    "body": "galaxycraft:block/hull",
+    "nose": "galaxycraft:block/nose1",
+    "engine": "galaxycraft:block/engine",
+    "window": "galaxycraft:block/window"
   },
   "elements": [
     {

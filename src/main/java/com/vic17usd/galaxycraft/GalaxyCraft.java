@@ -6,6 +6,7 @@ import com.vic17usd.galaxycraft.registry.ModDataComponents;
 import com.vic17usd.galaxycraft.registry.ModRocketRegistries;
 import com.vic17usd.galaxycraft.registry.ModPlanetContent;
 import com.vic17usd.galaxycraft.registry.ModAlienEntities;
+import com.vic17usd.galaxycraft.registry.ModPresentation;
 import com.vic17usd.galaxycraft.solar.SolarEnvironment;
 import com.vic17usd.galaxycraft.config.SpaceConfig;
 import com.vic17usd.galaxycraft.survival.SpaceSurvival;
@@ -28,6 +29,10 @@ public final class GalaxyCraft {
         ModDataComponents.COMPONENTS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModPresentation.ARMOR.register(modEventBus);
+        ModPresentation.TABS.register(modEventBus);
+        ModPresentation.SOUNDS.register(modEventBus);
+        ModPresentation.PARTICLES.register(modEventBus);
         ModRocketRegistries.BLOCK_ENTITIES.register(modEventBus);
         ModRocketRegistries.MENUS.register(modEventBus);
         ModAlienEntities.ENTITIES.register(modEventBus);

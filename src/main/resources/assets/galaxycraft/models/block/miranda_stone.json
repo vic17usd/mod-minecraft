@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/smooth_basalt"
+    "all": "galaxycraft:block/miranda_stone"
   }
 }

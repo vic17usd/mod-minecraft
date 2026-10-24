@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " M ",
+    "CLC",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "galaxycraft:martian_metal"
+    },
+    "C": {
+      "item": "galaxycraft:mercurian_cobalt"
+    },
+    "L": {
+      "item": "galaxycraft:lunar_crystal"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:navigation_core",
+    "count": 1
+  }
+}

@@ -1,4 +1,10 @@
-# GalaxyCraft — Sistema Solar (fases 1 a 4)
+# GalaxyCraft — Sistema Solar (fases 1 a 5)
+
+La [guía de la fase 5](docs/FASE_5.md) describe la pestaña creativa, las texturas y
+sonidos originales, las tres estructuras con botín, los componentes mecánicos,
+las partículas y el HUD. La versión actual es **0.2.0**; descarga el JAR de
+[`downloads/galaxycraft-0.2.0.jar`](downloads/galaxycraft-0.2.0.jar) desde GitHub
+con **Download raw file**. Sustituye la versión anterior en `mods`.
 
 La [guía de la fase 4](docs/FASE_4.md) documenta los 29 cuerpos del catálogo,
 28 dimensiones nuevas, gravedad, atmósferas, recursos, criaturas y navegación
