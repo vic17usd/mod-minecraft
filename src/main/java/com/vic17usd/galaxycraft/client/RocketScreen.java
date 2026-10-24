@@ -11,11 +11,19 @@ import com.vic17usd.galaxycraft.solar.SolarSystem;
 
 /** Interfaz provisional dibujada sin texturas externas de GUI. */
 public final class RocketScreen extends AbstractContainerScreen<RocketMenu> {
+    @Override public boolean keyPressed(int key,int scanCode,int modifiers) {
+        if (EquipmentKey.NAVIGATE.matches(key,scanCode)) {
+            net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.navigation.NavigationNetworking.Open());
+            return true;
+        }
+        return super.keyPressed(key,scanCode,modifiers);
+    }
     private Button launch;
     @Override protected void init() {
         super.init();
-        addRenderableWidget(Button.builder(Component.translatable("gui.galaxycraft.next"), button ->
-                minecraft.gameMode.handleInventoryButtonClick(menu.containerId, 0)).bounds(leftPos + 8, topPos + 198, 100, 20).build());
+        addRenderableWidget(Button.builder(Component.translatable("navigation.galaxycraft.navigate"), button ->
+                net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.navigation.NavigationNetworking.Open()))
+                .bounds(leftPos + 8, topPos + 198, 100, 20).build());
         launch = addRenderableWidget(Button.builder(Component.translatable("gui.galaxycraft.launch"), button ->
                 minecraft.gameMode.handleInventoryButtonClick(menu.containerId, 1)).bounds(leftPos + 112, topPos + 198, 56, 20).build());
     }

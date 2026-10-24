@@ -19,6 +19,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public final class ModItems {
     public static final DeferredRegister.Items ITEMS =
             DeferredRegister.createItems(GalaxyCraft.MOD_ID);
+    public static final DeferredItem<BlockItem> REINFORCED_PANEL = ITEMS.registerSimpleBlockItem("reinforced_panel",ModBlocks.REINFORCED_PANEL);
+    public static final DeferredItem<BlockItem> VENT_GRATE = ITEMS.registerSimpleBlockItem("vent_grate",ModBlocks.VENT_GRATE);
+    public static final DeferredItem<BlockItem> ENERGY_CELL = ITEMS.registerSimpleBlockItem("energy_cell",ModBlocks.ENERGY_CELL);
 
     // El BlockItem permite transportar y colocar el bloque desde un ItemStack.
     // El helper resuelve el bloque cuando el registro está preparado, sin un get() prematuro.

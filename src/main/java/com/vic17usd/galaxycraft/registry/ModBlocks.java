@@ -15,6 +15,12 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public final class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(GalaxyCraft.MOD_ID);
+    public static final DeferredBlock<Block> REINFORCED_PANEL = BLOCKS.registerSimpleBlock("reinforced_panel",
+            BlockBehaviour.Properties.of().strength(6).sound(SoundType.METAL).requiresCorrectToolForDrops());
+    public static final DeferredBlock<Block> VENT_GRATE = BLOCKS.registerSimpleBlock("vent_grate",
+            BlockBehaviour.Properties.of().strength(3).sound(SoundType.METAL).requiresCorrectToolForDrops());
+    public static final DeferredBlock<Block> ENERGY_CELL = BLOCKS.registerSimpleBlock("energy_cell",
+            BlockBehaviour.Properties.of().strength(4).sound(SoundType.METAL).lightLevel(state -> 10).requiresCorrectToolForDrops());
     public static final DeferredBlock<RocketPartBlock> ROCKET_PART = BLOCKS.register("rocket_part",
             () -> new RocketPartBlock(BlockBehaviour.Properties.of().strength(4).sound(SoundType.METAL).noOcclusion()));
 

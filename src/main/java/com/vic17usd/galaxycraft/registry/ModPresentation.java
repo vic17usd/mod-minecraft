@@ -46,7 +46,9 @@ public final class ModPresentation {
                 for (var body : SolarSystem.BODIES) if (!body.id().equals("earth")) {
                     output.accept(ModPlanetContent.ITEMS.get(body.id() + "_stone").get());
                     output.accept(ModPlanetContent.ITEMS.get(body.id() + "_regolith").get());
+                    output.accept(ModPlanetContent.ITEMS.get(body.id() + "_bricks").get());
                 }
+                output.accept(ModItems.REINFORCED_PANEL.get()); output.accept(ModItems.VENT_GRATE.get()); output.accept(ModItems.ENERGY_CELL.get());
                 section(output, "resources"); output.accept(ModItems.TITANIUM_ORE.get());
                 for (var body : SolarSystem.BODIES) if (!body.id().equals("earth")) {
                     output.accept(ModPlanetContent.ITEMS.get(body.id() + "_ore").get());

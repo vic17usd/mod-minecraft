@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:neptune_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:neptune_bricks",
+    "count": 4
+  }
+}

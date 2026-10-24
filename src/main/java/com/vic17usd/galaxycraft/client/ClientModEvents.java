@@ -24,6 +24,7 @@ public final class ClientModEvents {
     }
     @SubscribeEvent public static void keys(net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent event) {
         event.register(EquipmentKey.OPEN);
+        event.register(EquipmentKey.NAVIGATE);
     }
     @SubscribeEvent
     public static void layers(RegisterGuiLayersEvent event) {
@@ -50,5 +51,6 @@ public final class ClientModEvents {
     public static void registerScreens(RegisterMenuScreensEvent event) {
         event.register(ModRocketRegistries.ROCKET_MENU.get(), RocketScreen::new);
         event.register(ModEquipment.MENU.get(), SpaceEquipmentScreen::new);
+        event.register(ModRocketRegistries.NAVIGATION_MENU.get(),CelestialMapScreen::new);
     }
 }

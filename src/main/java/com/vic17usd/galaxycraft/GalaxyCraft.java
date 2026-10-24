@@ -42,6 +42,7 @@ public final class GalaxyCraft {
         ModSites.STRUCTURES.register(modEventBus);
         ModSites.PIECES.register(modEventBus);
         modEventBus.addListener(EquipmentNetworking::register);
+        modEventBus.addListener(com.vic17usd.galaxycraft.navigation.NavigationNetworking::register);
         ModRocketRegistries.BLOCK_ENTITIES.register(modEventBus);
         ModRocketRegistries.MENUS.register(modEventBus);
         ModAlienEntities.ENTITIES.register(modEventBus);

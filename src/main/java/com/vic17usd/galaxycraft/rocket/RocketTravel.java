@@ -29,6 +29,8 @@ public final class RocketTravel {
                 || source.readiness() != 3) return false;
         var body = SolarSystem.destination(source.destination());
         var target = player.server.getLevel(body.dimension());
+        var system = com.vic17usd.galaxycraft.navigation.CelestialCatalog.system(body);
+        if (system.isEmpty() || !system.get().enabled() || source.tier() < system.get().minimumTier()) return false;
         return target != null && !body.dimension().equals(player.level().dimension()) && SolarSystem.accessible(source.tier(), body)
                 && (player.isCreative() || !SpaceSurvival.isAirless(target) || equipped(player));
     }

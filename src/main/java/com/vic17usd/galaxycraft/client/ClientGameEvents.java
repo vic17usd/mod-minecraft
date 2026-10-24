@@ -17,6 +17,9 @@ import net.minecraft.ChatFormatting;
 @EventBusSubscriber(modid = GalaxyCraft.MOD_ID, value = Dist.CLIENT)
 public final class ClientGameEvents {
     @SubscribeEvent public static void equipmentKey(net.neoforged.neoforge.client.event.ClientTickEvent.Post event) {
+        while (EquipmentKey.NAVIGATE.consumeClick()) if (Minecraft.getInstance().player != null
+                && (Minecraft.getInstance().screen == null || Minecraft.getInstance().screen instanceof RocketScreen))
+            net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.navigation.NavigationNetworking.Open());
         while (EquipmentKey.OPEN.consumeClick()) if (Minecraft.getInstance().player != null && Minecraft.getInstance().screen == null)
             net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.equipment.EquipmentNetworking.Open());
     }

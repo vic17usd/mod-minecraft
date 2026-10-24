@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:rhea_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:rhea_bricks",
+    "count": 4
+  }
+}

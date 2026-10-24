@@ -47,6 +47,10 @@ public final class RocketBlockEntity extends BlockEntity implements MenuProvider
     }
     private int destination = 1;
     public int destination() { return destination; }
+    public boolean selectDestination(String id) {
+        if (launchStarted >= 0 || com.vic17usd.galaxycraft.navigation.CelestialCatalog.body(id).isEmpty()) return false;
+        destination = SolarSystem.indexOf(id); setChanged(); return true;
+    }
     public int tier() { return ((RocketBlock) getBlockState().getBlock()).tier(); }
     public void nextDestination() {
         if (launchStarted >= 0) return;

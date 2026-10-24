@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:triton_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:triton_bricks",
+    "count": 4
+  }
+}

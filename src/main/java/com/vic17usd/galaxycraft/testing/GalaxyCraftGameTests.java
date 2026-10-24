@@ -36,6 +36,37 @@ import java.util.UUID;
 @GameTestHolder("galaxycraft")
 @PrefixGameTestTemplate(false)
 public final class GalaxyCraftGameTests {
+    @GameTest(template = "tests/empty",timeoutTicks = 80)
+    public static void navigation_authority(GameTestHelper helper) {
+        var level=helper.getLevel();var root=helper.absolutePos(new BlockPos(6,2,6));
+        for(int x=-1;x<=1;x++)for(int z=-1;z<=1;z++)level.setBlockAndUpdate(root.offset(x,-1,z),ModBlocks.LAUNCH_PAD.get().defaultBlockState());
+        level.setBlockAndUpdate(root,ModBlocks.TIER1_ROCKET.get().defaultBlockState());
+        var rocket=(RocketBlockEntity)level.getBlockEntity(root);
+        var player=FakePlayerFactory.get(level,new GameProfile(UUID.randomUUID(),"GCNavigation"));player.setPos(root.getX()+2.5,root.getY(),root.getZ()+.5);
+        var menu=new com.vic17usd.galaxycraft.menu.NavigationMenu(37,player.getInventory(),rocket);player.containerMenu=menu;
+        helper.assertTrue(com.vic17usd.galaxycraft.navigation.NavigationAccess.currentRocket(player)==rocket,"No encontró el ordenador abierto");
+        var moon=com.vic17usd.galaxycraft.registry.ModPresentation.id("moon");var mars=com.vic17usd.galaxycraft.registry.ModPresentation.id("mars");
+        helper.assertTrue(!menu.select(player,net.minecraft.resources.ResourceLocation.withDefaultNamespace("moon")),"Aceptó un namespace ajeno");
+        helper.assertTrue(!menu.select(player,com.vic17usd.galaxycraft.registry.ModPresentation.id("unknown")),"Aceptó destino inexistente");
+        helper.assertTrue(menu.select(player,mars),"No permitió previsualizar Marte");
+        helper.assertTrue(menu.reason()==com.vic17usd.galaxycraft.navigation.NavigationRules.BlockReason.TIER,"No bloqueó Marte con cohete N1");
+        helper.assertTrue(!menu.launch(player,mars),"Saltó el requisito de nivel");
+        helper.assertTrue(menu.select(player,moon),"No seleccionó la Luna");
+        helper.assertTrue(menu.reason()==com.vic17usd.galaxycraft.navigation.NavigationRules.BlockReason.FUEL,"No identificó falta de combustible");
+        rocket.fuel.fill(new FluidStack(Fluids.LAVA,4000),IFluidHandler.FluidAction.EXECUTE);
+        helper.assertTrue(menu.reason()==com.vic17usd.galaxycraft.navigation.NavigationRules.BlockReason.OXYGEN,"No bloqueó la falta de equipo");
+        SpaceEquipment.inventory(player).setStackInSlot(0,new ItemStack(ModItems.SPACE_HELMET.get()));
+        SpaceEquipment.inventory(player).setStackInSlot(4,new ItemStack(ModItems.OXYGEN_TANK.get()));
+        helper.assertTrue(menu.reason()==com.vic17usd.galaxycraft.navigation.NavigationRules.BlockReason.READY,"No confirmó requisitos completos");
+        helper.assertTrue(!menu.launch(player,mars),"Aceptó confirmación de un destino desactualizado");
+        player.setPos(root.getX()+30,root.getY(),root.getZ());helper.assertTrue(!menu.select(player,moon),"Aceptó selección a distancia");
+        player.setPos(root.getX()+2.5,root.getY(),root.getZ()+.5);player.containerMenu=player.inventoryMenu;
+        helper.assertTrue(!menu.launch(player,moon),"Aceptó un menú ya cerrado");player.containerMenu=menu;
+        helper.assertTrue(menu.launch(player,moon),"No inició el viaje confirmado");
+        RocketBlockEntity.tick(level,root,rocket.getBlockState(),rocket);
+        helper.assertTrue(rocket.fuel.getFluidAmount()==4000&&rocket.launchStarted()<0,"Cancelar gastó combustible");
+        helper.succeed();com.mojang.logging.LogUtils.getLogger().info("GALAXYCRAFT_INTEGRATION_OK navigation_authority");
+    }
     @GameTest(template = "tests/empty", timeoutTicks = 80)
     public static void equipment_round_trip(GameTestHelper helper) {
         helper.assertTrue(com.vic17usd.galaxycraft.registry.ModSites.SCHEMATICS.size() == 145, "Faltan esquemas registrados");

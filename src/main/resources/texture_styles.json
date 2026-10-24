@@ -1,0 +1,142 @@
+[
+  {
+    "body": "moon",
+    "ore_pattern": "parallel_filaments",
+    "texture_size": 128
+  },
+  {
+    "body": "mercury",
+    "ore_pattern": "metal_needles",
+    "texture_size": 128
+  },
+  {
+    "body": "venus",
+    "ore_pattern": "sulfur_vesicles",
+    "texture_size": 128
+  },
+  {
+    "body": "mars",
+    "ore_pattern": "angular_ladder",
+    "texture_size": 128
+  },
+  {
+    "body": "phobos",
+    "ore_pattern": "triangular_shards",
+    "texture_size": 128
+  },
+  {
+    "body": "deimos",
+    "ore_pattern": "isolated_lenses",
+    "texture_size": 128
+  },
+  {
+    "body": "jupiter",
+    "ore_pattern": "cyclone_ellipses",
+    "texture_size": 128
+  },
+  {
+    "body": "io",
+    "ore_pattern": "volcanic_fissures",
+    "texture_size": 128
+  },
+  {
+    "body": "europa",
+    "ore_pattern": "hexagonal_pockets",
+    "texture_size": 128
+  },
+  {
+    "body": "ganymede",
+    "ore_pattern": "braided_ribbons",
+    "texture_size": 128
+  },
+  {
+    "body": "callisto",
+    "ore_pattern": "impact_rings",
+    "texture_size": 128
+  },
+  {
+    "body": "saturn",
+    "ore_pattern": "oblique_strata",
+    "texture_size": 128
+  },
+  {
+    "body": "titan",
+    "ore_pattern": "amber_dendrites",
+    "texture_size": 128
+  },
+  {
+    "body": "enceladus",
+    "ore_pattern": "tiger_stripes",
+    "texture_size": 128
+  },
+  {
+    "body": "mimas",
+    "ore_pattern": "radial_fan",
+    "texture_size": 128
+  },
+  {
+    "body": "tethys",
+    "ore_pattern": "diamond_nodules",
+    "texture_size": 128
+  },
+  {
+    "body": "dione",
+    "ore_pattern": "binary_clusters",
+    "texture_size": 128
+  },
+  {
+    "body": "rhea",
+    "ore_pattern": "sawtooth_seams",
+    "texture_size": 128
+  },
+  {
+    "body": "iapetus",
+    "ore_pattern": "bipolar_facets",
+    "texture_size": 128
+  },
+  {
+    "body": "uranus",
+    "ore_pattern": "tabular_grid",
+    "texture_size": 128
+  },
+  {
+    "body": "ariel",
+    "ore_pattern": "curved_channels",
+    "texture_size": 128
+  },
+  {
+    "body": "umbriel",
+    "ore_pattern": "dark_druzy",
+    "texture_size": 128
+  },
+  {
+    "body": "titania",
+    "ore_pattern": "polygon_web",
+    "texture_size": 128
+  },
+  {
+    "body": "oberon",
+    "ore_pattern": "branching_tree",
+    "texture_size": 128
+  },
+  {
+    "body": "miranda",
+    "ore_pattern": "stepped_maze",
+    "texture_size": 128
+  },
+  {
+    "body": "neptune",
+    "ore_pattern": "storm_spiral",
+    "texture_size": 128
+  },
+  {
+    "body": "triton",
+    "ore_pattern": "snowflake_stars",
+    "texture_size": 128
+  },
+  {
+    "body": "proteus",
+    "ore_pattern": "polygon_geodes",
+    "texture_size": 128
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:jupiter_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:jupiter_bricks",
+    "count": 4
+  }
+}

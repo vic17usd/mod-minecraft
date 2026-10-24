@@ -1,0 +1,9 @@
+[
+  {
+    "id": "sol",
+    "translation": "system.galaxycraft.sol",
+    "minimumTier": 1,
+    "enabled": true,
+    "planets": ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
+  }
+]

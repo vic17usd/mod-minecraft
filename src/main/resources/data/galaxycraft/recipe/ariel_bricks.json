@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:ariel_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:ariel_bricks",
+    "count": 4
+  }
+}

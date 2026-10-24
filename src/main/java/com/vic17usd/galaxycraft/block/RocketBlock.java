@@ -45,7 +45,7 @@ public final class RocketBlock extends BaseEntityBlock {
     public InteractionResult interact(Level level, BlockPos pos, Player player) {
         if (player instanceof ServerPlayer serverPlayer && level.getBlockEntity(pos) instanceof RocketBlockEntity rocket) {
             // La posición viaja en el paquete de apertura; el menú valida distancia y bloque.
-            serverPlayer.openMenu(rocket, pos);
+            com.vic17usd.galaxycraft.navigation.NavigationAccess.openRocket(serverPlayer,rocket);
         }
         return InteractionResult.sidedSuccess(level.isClientSide());
     }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:enceladus_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:enceladus_bricks",
+    "count": 4
+  }
+}

@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
-export function generateAdvanced({ png, json, read, binary, id, int, str, list, compound, intList, payload, bodies, res, assets, data }) {
+export async function generateAdvanced({ png, json, read, binary, id, int, str, list, compound, intList, payload, bodies, res, assets, data }) {
     const kinds = ['observatory', 'wreck', 'sanctuary', 'geode', 'vault'];
     const labels = { observatory: ['Observatorio', 'Observatory'], wreck: ['Pecio en cráter', 'Crater Wreck'],
         sanctuary: ['Santuario alienígena', 'Alien Sanctuary'], geode: ['Geoda profunda', 'Deep Geode'], vault: ['Bóveda subterránea', 'Underground Vault'] };
@@ -276,4 +276,6 @@ export function generateAdvanced({ png, json, read, binary, id, int, str, list, 
         json(file,texts);
     }
     console.log(`Ampliación: ${manifest.length} estructuras activas, cinco por cuerpo; texturas geológicas de 128 px.`);
+    const { generateNavigation } = await import('./generate-navigation-assets.mjs');
+    generateNavigation({ png,json,read,binary,id,bodies,res,assets,data });
 }

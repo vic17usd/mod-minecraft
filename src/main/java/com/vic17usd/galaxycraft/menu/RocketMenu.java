@@ -53,6 +53,7 @@ public final class RocketMenu extends AbstractContainerMenu {
     public int readiness() { return data.get(1); }
     public int tier() { return data.get(2); }
     public int destination() { return data.get(3); }
+    public net.minecraft.core.BlockPos rocketPosition() { return access.evaluate((level,pos) -> pos,null); }
 
     @Override public boolean stillValid(Player player) {
         return access.evaluate((level, pos) -> level.getBlockState(pos).getBlock() instanceof RocketBlock

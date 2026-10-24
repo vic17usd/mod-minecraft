@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:ganymede_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:ganymede_bricks",
+    "count": 4
+  }
+}

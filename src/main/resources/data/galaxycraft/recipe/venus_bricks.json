@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:venus_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:venus_bricks",
+    "count": 4
+  }
+}

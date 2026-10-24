@@ -8,5 +8,7 @@ import org.lwjgl.glfw.GLFW;
 public final class EquipmentKey {
     public static final KeyMapping OPEN = new KeyMapping("key.galaxycraft.equipment", InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_G, "key.categories.galaxycraft");
+    public static final KeyMapping NAVIGATE = new KeyMapping("key.galaxycraft.navigation",InputConstants.Type.KEYSYM,
+            GLFW.GLFW_KEY_H,"key.categories.galaxycraft");
     private EquipmentKey() {}
 }

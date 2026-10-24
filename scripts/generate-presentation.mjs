@@ -276,4 +276,4 @@ for (const [index, lang] of ['es_es', 'en_us'].entries()) {
 console.log('Presentación generada: texturas originales, audio, estructuras NBT, botín y traducciones.');
 // La ampliación reutiliza los escritores tipados sin reabrir ni editar imágenes existentes.
 const { generateAdvanced } = await import('./generate-advanced.mjs');
-generateAdvanced({ png, json, read, binary, id, int, str, list, compound, intList, payload, bodies, res, assets, data });
+await generateAdvanced({ png, json, read, binary, id, int, str, list, compound, intList, payload, bodies, res, assets, data });

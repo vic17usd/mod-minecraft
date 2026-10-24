@@ -3,6 +3,7 @@ package com.vic17usd.galaxycraft.registry;
 import com.vic17usd.galaxycraft.GalaxyCraft;
 import com.vic17usd.galaxycraft.blockentity.RocketBlockEntity;
 import com.vic17usd.galaxycraft.menu.RocketMenu;
+import com.vic17usd.galaxycraft.menu.NavigationMenu;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -23,6 +24,8 @@ public final class ModRocketRegistries {
                     RocketBlockEntity::new, ModBlocks.TIER1_ROCKET.get(), ModBlocks.TIER2_ROCKET.get(), ModBlocks.TIER3_ROCKET.get()).build(null));
     public static final DeferredHolder<MenuType<?>, MenuType<RocketMenu>> ROCKET_MENU =
             MENUS.register("rocket", () -> IMenuTypeExtension.create(RocketMenu::new));
+    public static final DeferredHolder<MenuType<?>,MenuType<NavigationMenu>> NAVIGATION_MENU =
+            MENUS.register("navigation",() -> IMenuTypeExtension.create(NavigationMenu::new));
 
     public static void registerCapabilities(RegisterCapabilitiesEvent event) {
         // Los mismos handlers permanecen estables durante la vida de la máquina.

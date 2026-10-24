@@ -1,10 +1,13 @@
 # GalaxyCraft — Sistema Solar (fases 1 a 5)
 
-La versión actual es **0.3.0**. La [fase 5 ampliada](docs/FASE_5_AVANZADA.md) añade
-equipamiento independiente, texturas de 128 px, cohete a escala y **145 estructuras
-activas**, exactamente cinco por cuerpo. Descarga
-[`galaxycraft-0.3.0.jar`](downloads/galaxycraft-0.3.0.jar) desde GitHub con
+La versión actual es **0.4.0**. El [ordenador celestial y nuevo arte](docs/NAVEGACION_Y_ARTE.md)
+añade mapa jerárquico con **H**, validación de viajes, patrones minerales propios,
+ladrillos planetarios y bloques industriales. Descarga
+[`galaxycraft-0.4.0.jar`](downloads/galaxycraft-0.4.0.jar) desde GitHub con
 **Download raw file** y sustituye la versión anterior en `mods`.
+
+La [fase 5 ampliada](docs/FASE_5_AVANZADA.md) documenta el equipamiento independiente,
+el cohete a escala y las 145 estructuras de 0.3.0, que siguen disponibles.
 
 La [fase 5 inicial](docs/FASE_5.md) documenta la entrega histórica 0.2.0.
 

@@ -19,7 +19,7 @@ public final class ModPlanetContent {
     public static void register() {
         for (var body : SolarSystem.BODIES) {
             if (body.id().equals("earth")) continue;
-            for (String suffix : new String[]{"stone", "regolith", "ore"}) {
+            for (String suffix : new String[]{"stone", "regolith", "ore", "bricks"}) {
                 String name = body.id() + "_" + suffix;
                 var block = ModBlocks.BLOCKS.registerSimpleBlock(name, BlockBehaviour.Properties.of()
                         .strength(suffix.equals("ore") ? 4 : 2).sound(SoundType.STONE).requiresCorrectToolForDrops());

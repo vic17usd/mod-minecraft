@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:miranda_stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:miranda_bricks",
+    "count": 4
+  }
+}
