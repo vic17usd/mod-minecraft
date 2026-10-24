@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 6715289,
+    "fog_color": 6715289,
+    "water_color": 6715289,
+    "water_fog_color": 6715289,
+    "grass_color": 6715289,
+    "foliage_color": 6715289
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:tethys_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:tethys_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

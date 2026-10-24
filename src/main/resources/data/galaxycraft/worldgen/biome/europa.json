@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 4809607,
+    "fog_color": 4809607,
+    "water_color": 4809607,
+    "water_fog_color": 4809607,
+    "grass_color": 4809607,
+    "foliage_color": 4809607
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:europa_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:europa_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

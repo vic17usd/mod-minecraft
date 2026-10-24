@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 2370383,
+    "fog_color": 2370383,
+    "water_color": 2370383,
+    "water_fog_color": 2370383,
+    "grass_color": 2370383,
+    "foliage_color": 2370383
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:proteus_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:proteus_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

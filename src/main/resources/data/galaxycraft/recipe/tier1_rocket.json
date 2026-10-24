@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "TGT",
+    "TOT",
+    "FIF"
+  ],
+  "key": {
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "O": {
+      "item": "galaxycraft:oxygen_tank"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:tier1_rocket",
+    "count": 1
+  }
+}

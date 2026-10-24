@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:mimas",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:mimas",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:mimas"
+    }
+  }
+}

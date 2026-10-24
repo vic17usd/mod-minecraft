@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 3357531,
+    "fog_color": 3357531,
+    "water_color": 3357531,
+    "water_fog_color": 3357531,
+    "grass_color": 3357531,
+    "foliage_color": 3357531
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:oberon_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:oberon_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

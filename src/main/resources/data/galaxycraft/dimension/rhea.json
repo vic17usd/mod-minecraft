@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:rhea",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:rhea",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:rhea"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 4733250,
+    "fog_color": 4733250,
+    "water_color": 4733250,
+    "water_fog_color": 4733250,
+    "grass_color": 4733250,
+    "foliage_color": 4733250
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:deimos_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:deimos_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:phobos",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:phobos",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:phobos"
+    }
+  }
+}

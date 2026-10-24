@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 7695254,
+    "fog_color": 7695254,
+    "water_color": 7695254,
+    "water_fog_color": 7695254,
+    "grass_color": 7695254,
+    "foliage_color": 7695254
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:triton_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:triton_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

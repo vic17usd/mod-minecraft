@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 2566986,
+    "fog_color": 2566986,
+    "water_color": 2566986,
+    "water_fog_color": 2566986,
+    "grass_color": 2566986,
+    "foliage_color": 2566986
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:umbriel_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:umbriel_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

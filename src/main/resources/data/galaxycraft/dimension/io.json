@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:io",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:io",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:io"
+    }
+  }
+}

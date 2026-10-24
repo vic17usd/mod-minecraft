@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:mercury",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:mercury",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:mercury"
+    }
+  }
+}

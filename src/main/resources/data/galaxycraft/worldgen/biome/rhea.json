@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 5592439,
+    "fog_color": 5592439,
+    "water_color": 5592439,
+    "water_fog_color": 5592439,
+    "grass_color": 5592439,
+    "foliage_color": 5592439
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:rhea_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:rhea_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

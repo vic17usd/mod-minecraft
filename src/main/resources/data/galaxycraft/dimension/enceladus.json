@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:enceladus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:enceladus",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:enceladus"
+    }
+  }
+}

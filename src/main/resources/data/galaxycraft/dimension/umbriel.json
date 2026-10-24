@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:umbriel",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:umbriel",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:umbriel"
+    }
+  }
+}

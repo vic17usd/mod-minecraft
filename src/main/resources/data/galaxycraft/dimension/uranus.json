@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:uranus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:uranus",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:uranus"
+    }
+  }
+}

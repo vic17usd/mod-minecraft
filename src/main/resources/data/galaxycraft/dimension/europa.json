@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:europa",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:europa",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:europa"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 13072213,
+    "fog_color": 13072213,
+    "water_color": 13072213,
+    "water_fog_color": 13072213,
+    "grass_color": 13072213,
+    "foliage_color": 13072213
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:mars_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:mars_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "type": "galaxycraft:mars_crawler",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  }
+}

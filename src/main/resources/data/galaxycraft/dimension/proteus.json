@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:proteus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:proteus",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:proteus"
+    }
+  }
+}

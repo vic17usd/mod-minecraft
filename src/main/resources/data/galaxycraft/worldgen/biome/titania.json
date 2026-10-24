@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 6774663,
+    "fog_color": 6774663,
+    "water_color": 6774663,
+    "water_fog_color": 6774663,
+    "grass_color": 6774663,
+    "foliage_color": 6774663
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:titania_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:titania_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

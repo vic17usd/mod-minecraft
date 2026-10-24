@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CTC",
+    "CRC",
+    "CTC"
+  ],
+  "key": {
+    "C": {
+      "item": "galaxycraft:lunar_crystal"
+    },
+    "R": {
+      "item": "galaxycraft:tier1_rocket"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:tier2_rocket",
+    "count": 1
+  }
+}

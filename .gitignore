@@ -1,0 +1,15 @@
+# Cachés, compilación y mundos de desarrollo locales.
+.gradle/
+build/
+run/
+runs/
+out/
+
+# Configuración personal del editor.
+.idea/
+*.iml
+.vscode/
+
+# Archivos locales del sistema operativo.
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MCM",
+    "SRS",
+    "MCM"
+  ],
+  "key": {
+    "M": {
+      "item": "galaxycraft:martian_metal"
+    },
+    "S": {
+      "item": "galaxycraft:venusian_sulfur"
+    },
+    "C": {
+      "item": "galaxycraft:mercurian_cobalt"
+    },
+    "R": {
+      "item": "galaxycraft:tier2_rocket"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:tier3_rocket",
+    "count": 1
+  }
+}

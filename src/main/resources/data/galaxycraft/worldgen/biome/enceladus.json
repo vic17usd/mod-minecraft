@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 6657720,
+    "fog_color": 6657720,
+    "water_color": 6657720,
+    "water_fog_color": 6657720,
+    "grass_color": 6657720,
+    "foliage_color": 6657720
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:enceladus_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:enceladus_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

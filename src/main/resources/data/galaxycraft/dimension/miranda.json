@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:miranda",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:miranda",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:miranda"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:ariel",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:ariel",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:ariel"
+    }
+  }
+}

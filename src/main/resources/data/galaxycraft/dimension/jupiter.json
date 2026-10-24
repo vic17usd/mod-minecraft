@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:jupiter",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:jupiter",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:jupiter"
+    }
+  }
+}

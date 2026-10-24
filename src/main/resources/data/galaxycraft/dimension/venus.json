@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:venus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:venus",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:venus"
+    }
+  }
+}

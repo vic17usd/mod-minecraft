@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 5918577,
+    "fog_color": 5918577,
+    "water_color": 5918577,
+    "water_fog_color": 5918577,
+    "grass_color": 5918577,
+    "foliage_color": 5918577
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:ganymede_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:ganymede_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

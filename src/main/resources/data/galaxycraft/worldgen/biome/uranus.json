@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 7065560,
+    "fog_color": 7065560,
+    "water_color": 7065560,
+    "water_fog_color": 7065560,
+    "grass_color": 7065560,
+    "foliage_color": 7065560
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:uranus_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:uranus_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 14928773,
+    "fog_color": 14928773,
+    "water_color": 14928773,
+    "water_fog_color": 14928773,
+    "grass_color": 14928773,
+    "foliage_color": 14928773
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:saturn_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:saturn_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

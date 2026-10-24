@@ -1,0 +1,109 @@
+plugins {
+    id 'java-library'
+    // Versión del plugin utilizada por el MDK oficial de Minecraft 1.21.
+    id 'net.neoforged.moddev' version '2.0.148'
+    id 'idea'
+}
+
+version = project.mod_version
+group = project.mod_group_id
+
+base {
+    // El resultado será build/libs/galaxycraft-0.1.0.jar.
+    archivesName = project.mod_id
+}
+
+java {
+    // Minecraft 1.21 necesita Java 21 tanto al compilar como al ejecutarse.
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+neoForge {
+    // ModDevGradle agrega Minecraft, NeoForge y sus repositorios automáticamente.
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run/client')
+        }
+
+        server {
+            server()
+            gameDirectory = project.file('run/server')
+            programArgument '--nogui'
+        }
+    }
+
+    mods {
+        // Vincula las clases y recursos del source set con el identificador del mod.
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+
+    unitTest {
+        // Proporciona las clases de Minecraft al proceso de pruebas JUnit.
+        enable()
+        testedMod = mods.galaxycraft
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test', Test).configure {
+    useJUnitPlatform()
+}
+
+// Genera el TOML sin modificar la plantilla ni escribir archivos en src/main/resources.
+def generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    def propertiesToExpand = [
+        minecraft_version_range: project.minecraft_version_range,
+        neo_version_range      : project.neo_version_range,
+        loader_version_range   : project.loader_version_range,
+        mod_id                 : project.mod_id,
+        mod_name               : project.mod_name,
+        mod_version            : project.mod_version,
+        mod_authors            : project.mod_authors,
+        mod_license            : project.mod_license
+    ]
+
+    inputs.properties propertiesToExpand
+    expand propertiesToExpand
+    from 'src/main/templates'
+    into layout.buildDirectory.dir('generated/sources/modMetadata')
+}
+
+// El JAR y las ejecuciones del IDE incluyen los metadatos ya expandidos.
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    // Conserva correctamente los comentarios y textos en español.
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+tasks.named('wrapper', Wrapper).configure {
+    // La distribución binaria es suficiente para compilar y ejecutar el mod.
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+tasks.named('runServer', JavaExec).configure {
+    // Permite escribir comandos como «list» y «stop» en la consola del servidor.
+    standardInput = System.in
+}
+
+idea {
+    module {
+        // Permite consultar las fuentes de Minecraft y NeoForge desde IntelliJ.
+        downloadSources = true
+    }
+}

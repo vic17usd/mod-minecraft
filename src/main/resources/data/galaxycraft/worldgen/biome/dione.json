@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 6780842,
+    "fog_color": 6780842,
+    "water_color": 6780842,
+    "water_fog_color": 6780842,
+    "grass_color": 6780842,
+    "foliage_color": 6780842
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:dione_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:dione_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:ganymede",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:ganymede",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:ganymede"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:mars",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:mars",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:mars"
+    }
+  }
+}

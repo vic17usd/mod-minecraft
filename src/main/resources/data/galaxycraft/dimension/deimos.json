@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:deimos",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:deimos",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:deimos"
+    }
+  }
+}

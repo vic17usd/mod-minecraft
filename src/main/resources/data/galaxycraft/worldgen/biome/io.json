@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 12429877,
+    "fog_color": 12429877,
+    "water_color": 12429877,
+    "water_fog_color": 12429877,
+    "grass_color": 12429877,
+    "foliage_color": 12429877
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:io_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:io_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

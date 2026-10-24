@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:tethys",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:tethys",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:tethys"
+    }
+  }
+}

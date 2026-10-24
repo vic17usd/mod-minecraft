@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:oberon",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:oberon",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:oberon"
+    }
+  }
+}

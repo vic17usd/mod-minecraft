@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:saturn",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:saturn",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:saturn"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 4675434,
+    "fog_color": 4675434,
+    "water_color": 4675434,
+    "water_fog_color": 4675434,
+    "grass_color": 4675434,
+    "foliage_color": 4675434
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:miranda_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:miranda_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

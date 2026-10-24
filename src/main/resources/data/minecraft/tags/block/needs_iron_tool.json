@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "galaxycraft:titanium_ore",
+    "galaxycraft:launch_pad",
+    "galaxycraft:tier1_rocket",
+    "galaxycraft:tier2_rocket",
+    "galaxycraft:tier3_rocket",
+    "#galaxycraft:mineable_planetary"
+  ]
+}

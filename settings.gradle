@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        // ModDevGradle se publica en el portal oficial de plugins.
+        gradlePluginPortal()
+    }
+}
+
+// Este nombre identifica el proyecto en IntelliJ IDEA y Gradle.
+rootProject.name = 'galaxycraft'

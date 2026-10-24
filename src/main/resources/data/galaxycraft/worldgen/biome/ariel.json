@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 6389663,
+    "fog_color": 6389663,
+    "water_color": 6389663,
+    "water_fog_color": 6389663,
+    "grass_color": 6389663,
+    "foliage_color": 6389663
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:ariel_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:ariel_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

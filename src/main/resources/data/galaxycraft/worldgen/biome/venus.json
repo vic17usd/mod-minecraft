@@ -1,0 +1,42 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 13603368,
+    "fog_color": 13603368,
+    "water_color": 13603368,
+    "water_fog_color": 13603368,
+    "grass_color": 13603368,
+    "foliage_color": 13603368
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:venus_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:venus_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "type": "galaxycraft:venus_crawler",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  }
+}

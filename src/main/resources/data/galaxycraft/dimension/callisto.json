@@ -1,0 +1,11 @@
+{
+  "type": "galaxycraft:callisto",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "galaxycraft:callisto",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "galaxycraft:callisto"
+    }
+  }
+}
