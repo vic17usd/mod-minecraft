@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/martian_queen_heart"
+  }
+}

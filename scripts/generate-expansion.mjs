@@ -1,4 +1,5 @@
 // Recursos declarativos de logística, misiones y las 29 órbitas; Node no es dependencia del mod instalado.
+import { generateFrontiers } from './generate-frontiers.mjs';
 export function generateExpansion({png,json,read,id,bodies,assets,data}){
     const rewards=(...items)=>items.map(([item,count])=>({item:id(item),count}));
     const quests=[
@@ -123,4 +124,5 @@ export function generateExpansion({png,json,read,id,bodies,assets,data}){
         json(file,text);
     }
     console.log('Expansión: diez contratos, logística FE, recursos de plomo y 29 dimensiones orbitales.');
+    generateFrontiers({png,json,read,id,bodies,assets,data});
 }

@@ -137,6 +137,7 @@ public final class ExpansionNetworking {
                   value.sheltered = packet.value().getBoolean("Sheltered");
                   value.roomOxygen = packet.value().getInt("RoomOxygen");
                   value.roomCapacity = packet.value().getInt("RoomCapacity");
+                  value.weather=packet.value().getInt("Weather");value.weatherSeconds=packet.value().getInt("WeatherSeconds");
                 }));
     packets.playToServer(
         Controls.TYPE,

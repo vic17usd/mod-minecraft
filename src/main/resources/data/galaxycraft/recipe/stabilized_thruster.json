@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "galaxycraft:lunar_guardian_core"
+    },
+    {
+      "item": "galaxycraft:thruster"
+    },
+    {
+      "item": "galaxycraft:meteor_fragment"
+    }
+  ],
+  "result": {
+    "id": "galaxycraft:stabilized_thruster",
+    "count": 1
+  }
+}

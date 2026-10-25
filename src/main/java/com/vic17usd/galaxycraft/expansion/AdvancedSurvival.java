@@ -129,12 +129,15 @@ public final class AdvancedSurvival {
         value.sheltered
             ? 0
             : OrbitStations.isOrbit(player.level()) ? 3 : body == null ? 0 : body.radiation();
+    int flare=value.sheltered?0:com.vic17usd.galaxycraft.weather.SpaceWeather.radiation(player.level());radiation+=flare;
+    value.weather=com.vic17usd.galaxycraft.weather.SpaceWeather.active(player.level());
+    value.weatherSeconds=value.weather==0?0:(int)Math.max(0,(com.vic17usd.galaxycraft.weather.SpaceWeatherState.get(player.serverLevel()).ends-player.level().getGameTime())/20);
     boolean extreme = value.temperature > 60 || value.temperature < -35,
         thermal = module(player, 6),
         shield = module(player, 7);
     value.thermal = Math.clamp(value.thermal + (extreme && !thermal ? 4 : -5), 0, 100);
     value.radiation =
-        Math.clamp(value.radiation + (shield ? -4 : radiation > 0 ? radiation : -2), 0, 100);
+        Math.clamp(value.radiation + (shield ? Math.max(-4,radiation-4) : radiation > 0 ? radiation : -2), 0, 100);
     value.pressure =
         value.sheltered
             ? 101
@@ -149,8 +152,8 @@ public final class AdvancedSurvival {
                 ? player.damageSources().freeze()
                 : player.damageSources().hotFloor(),
             2 * factor);
-      if (value.radiation >= 30 && !shield)
-        player.hurt(player.damageSources().magic(), Math.max(1, radiation) * factor);
+      if (value.radiation >= 30 && (!shield||flare>0))
+        player.hurt(player.damageSources().magic(), Math.max(1, radiation) * factor*(shield?.5F:1));
     }
     var tag = new net.minecraft.nbt.CompoundTag();
     tag.putInt("Temperature", value.temperature);
@@ -160,6 +163,7 @@ public final class AdvancedSurvival {
     tag.putBoolean("Sheltered", value.sheltered);
     tag.putInt("RoomOxygen", value.roomOxygen);
     tag.putInt("RoomCapacity", value.roomCapacity);
+    tag.putInt("Weather",value.weather);tag.putInt("WeatherSeconds",value.weatherSeconds);
     PacketDistributor.sendToPlayer(player, new ExpansionNetworking.EnvironmentSnapshot(tag));
   }
 

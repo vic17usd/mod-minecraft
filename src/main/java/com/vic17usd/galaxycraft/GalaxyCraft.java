@@ -30,6 +30,7 @@ public final class GalaxyCraft {
         ModPlanetContent.register();
         ModSites.registerItems();
         com.vic17usd.galaxycraft.expansion.ModExpansion.registerBlockItems();
+        com.vic17usd.galaxycraft.frontier.ModFrontiers.registerItems();
         // Los registros y la pestaña creativa pertenecen al bus del mod.
         ModDataComponents.COMPONENTS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
@@ -54,6 +55,12 @@ public final class GalaxyCraft {
         ModRocketRegistries.BLOCK_ENTITIES.register(modEventBus);
         ModRocketRegistries.MENUS.register(modEventBus);
         ModAlienEntities.ENTITIES.register(modEventBus);
+        com.vic17usd.galaxycraft.frontier.ModFrontiers.ENTITIES.register(modEventBus);
+        com.vic17usd.galaxycraft.frontier.ModFrontiers.BLOCK_ENTITIES.register(modEventBus);
+        com.vic17usd.galaxycraft.frontier.ModFrontiers.MENUS.register(modEventBus);
+        modEventBus.addListener(com.vic17usd.galaxycraft.frontier.ModFrontiers::attributes);
+        modEventBus.addListener(com.vic17usd.galaxycraft.frontier.ModFrontiers::placements);
+        modEventBus.addListener(com.vic17usd.galaxycraft.logistics.LogisticsCapabilities::register);
         modEventBus.addListener(ModAlienEntities::attributes);
         modEventBus.addListener(ModAlienEntities::placements);
         modEventBus.addListener(ModRocketRegistries::registerCapabilities);

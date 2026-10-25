@@ -1,11 +1,16 @@
 # GalaxyCraft — Sistema Solar y supervivencia avanzada
 
-La versión actual es **0.5.0**: [misiones, supervivencia, rover y estaciones](docs/EXPANSION_SUPERVIVENCIA.md).
-Añade diez contratos con GUI (**J**), módulos térmico y de radiación en el traje
-(**G**), bases herméticas con oxígeno y FE finitos, rover con muestras/batería y
-29 órbitas con estaciones personales y gravedad cero. Descarga
-[`galaxycraft-0.5.0.jar`](downloads/galaxycraft-0.5.0.jar) desde GitHub con
+La versión actual es **0.6.0**: [combate, clima y redes](docs/FRONTERAS_COMBATE_Y_REDES.md).
+Añade dos jefes en las bóvedas de Luna/Marte, 28 hostiles planetarios, tormentas
+solares/de polvo, meteoritos y redes independientes de FE, oxígeno y combustible.
+Incluye depósitos masivos, refinería térmica y repostaje por plataforma. Descarga
+[`galaxycraft-0.6.0.jar`](downloads/galaxycraft-0.6.0.jar) desde GitHub con
 **Download raw file** y sustituye la versión anterior en `mods`.
+
+Conserva [misiones, supervivencia, rover y estaciones](docs/EXPANSION_SUPERVIVENCIA.md):
+**J** para contratos, **G** para traje y módulos, y 29 órbitas con gravedad cero.
+Los nuevos sellos de jefe aparecen en bóvedas de chunks nuevos; no se modifican
+las mazmorras ya generadas. Haz una copia del mundo antes de actualizar.
 
 El [ordenador celestial y nuevo arte](docs/NAVEGACION_Y_ARTE.md) conserva el mapa
 jerárquico con **H**, validación de viajes y patrones minerales propios, incluida

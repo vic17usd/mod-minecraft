@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "TGT",
+    "G G",
+    "TGT"
+  ],
+  "key": {
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:bulk_fuel_tank",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "TBT",
+    "BRB",
+    "TBT"
+  ],
+  "key": {
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "B": {
+      "item": "galaxycraft:rover_battery"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:energy_bank",
+    "count": 1
+  }
+}

@@ -43,6 +43,16 @@
     "galaxycraft:pressure_detector",
     "galaxycraft:solar_panel",
     "galaxycraft:docking_module",
-    "galaxycraft:gravity_generator"
+    "galaxycraft:gravity_generator",
+    "galaxycraft:meteorite",
+    "galaxycraft:lunar_boss_anchor",
+    "galaxycraft:martian_boss_anchor",
+    "galaxycraft:energy_cable",
+    "galaxycraft:oxygen_conduit",
+    "galaxycraft:fuel_pipe",
+    "galaxycraft:bulk_fuel_tank",
+    "galaxycraft:energy_bank",
+    "galaxycraft:fuel_refinery",
+    "galaxycraft:oxygen_reservoir"
   ]
 }

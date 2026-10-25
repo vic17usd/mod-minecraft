@@ -45,6 +45,11 @@ public final class ClientModEvents {
         ModAlienEntities.CRAWLERS.values().forEach(type -> event.registerEntityRenderer(type.get(), PlanetaryCrawlerRenderer::new));
         event.registerBlockEntityRenderer(ModRocketRegistries.ROCKET.get(), FullScaleRocketRenderer::new);
         event.registerEntityRenderer(com.vic17usd.galaxycraft.expansion.ModExpansion.ROVER.get(),RoverRenderer::new);
+        event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.GUARDIAN.get(),context->new FrontierBossRenderer(context,false));
+        event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.QUEEN.get(),context->new FrontierBossRenderer(context,true));
+        com.vic17usd.galaxycraft.frontier.ModFrontiers.RAIDERS.values().forEach(type->event.registerEntityRenderer(type.get(),PlanetaryRaiderRenderer::new));
+        event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.PLASMA_BOLT.get(),context->new net.minecraft.client.renderer.entity.ThrownItemRenderer<>(context,.65F,true));
+        event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.METEOR.get(),context->new net.minecraft.client.renderer.entity.ThrownItemRenderer<>(context,1.5F,true));
     }
     @SubscribeEvent public static void models(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(FullScaleRocketRenderer.LAYER, FullScaleRocketRenderer::layer);
@@ -57,6 +62,7 @@ public final class ClientModEvents {
         event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.QUEST_MENU.get(),QuestScreen::new);
         event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.MACHINE_MENU.get(),LogisticsScreens.Machine::new);
         event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.ROVER_MENU.get(),LogisticsScreens.Rover::new);
+        event.register(com.vic17usd.galaxycraft.frontier.ModFrontiers.MENU.get(),ResourceNetworkScreen::new);
     }
     @SubscribeEvent public static void orbitalEffects(net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent event){event.register(ModPresentation.id("orbit"),new OrbitalEffects());}
 }

@@ -43,6 +43,7 @@ public final class SpaceHud {
         gui.fill(6,68,6+width,92,0xBB091322);
         gui.drawString(mc.font,Component.translatable("expansion.galaxycraft.environment",exposure.temperature,exposure.radiation),12,72,0xD5DEE8);
         gui.drawString(mc.font,Component.translatable("expansion.galaxycraft.shelter."+exposure.sheltered),12,83,exposure.sheltered?0x78DCA4:0xE2AC79);
+        if(exposure.weather>0){gui.fill(6,95,6+width,111,0xCC30223A);gui.drawString(mc.font,Component.translatable("weather.galaxycraft."+exposure.weather,exposure.weatherSeconds),12,99,0xFFD179);}
     }
     public static double nominalPressure(String body) {
         return switch (body) {

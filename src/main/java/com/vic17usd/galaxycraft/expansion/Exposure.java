@@ -5,6 +5,7 @@ package com.vic17usd.galaxycraft.expansion;
  */
 public final class Exposure {
   public int thermal, radiation, temperature, pressure, input, roomOxygen, roomCapacity;
+  public int weather,weatherSeconds;
   public long inputAt;
   public boolean sheltered;
 }

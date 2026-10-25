@@ -156,6 +156,8 @@ export async function generateAdvanced({ png, json, read, binary, id, int, str, 
         const resource = body.id === 'earth' ? 'titanium_ore' : body.resource;
         const palette = [rock, soil, ore, 'minecraft:air', 'minecraft:glass', id('launch_pad'), 'minecraft:sea_lantern', 'minecraft:chest', 'minecraft:spawner']
             .map(Name => compound({ Name: str(Name), ...(Name === 'minecraft:chest' ? { Properties: compound({ facing: str('south'), type: str('single'), waterlogged: str('false') }) } : {}) }));
+        const bossRoom=kind==='vault'&&['moon','mars'].includes(body.id);
+        if(bossRoom)palette.push(compound({Name:str(id(body.id==='moon'?'lunar_boss_anchor':'martian_boss_anchor'))}));
         let chest = kind === 'observatory' ? [7,1,10] : [10,1,10]; if (kind === 'sanctuary') chest = [10,5,10]; if (kind === 'vault') chest = [15,1,15]; if (kind === 'geode') chest = [10,2,10];
         const blocks = [];
         for (let x = 0; x < 21; x++) for (let z = 0; z < 21; z++) for (let y = 0; y < 12; y++) {
@@ -199,9 +201,11 @@ export async function generateAdvanced({ png, json, read, binary, id, int, str, 
             if (x === chest[0] && z === chest[2] && y === chest[1] - 1) state = 0;
             if (x === chest[0] && z === chest[2] && y > chest[1] && y <= chest[1] + 2) state = 3;
             if (isChest) state = 7;
+            if(bossRoom&&x===5&&z===5&&y===1)state=9;
             if (state === null) continue; // Fuera de la arquitectura se conserva el terreno del chunk.
             const block = { pos: intList([x,y,z]), state: int(state) };
             if (isChest) block.nbt = compound({ id: str('minecraft:chest'), LootTable: str(id(`chests/expedition/${name}`)) });
+            if(state===9)block.nbt=compound({id:str(id('boss_anchor'))});
             if (state === 8) block.nbt = compound({ id: str('minecraft:mob_spawner'), Delay: int(100), MinSpawnDelay: int(300), MaxSpawnDelay: int(700), SpawnCount: int(2), MaxNearbyEntities: int(4), RequiredPlayerRange: int(12), SpawnRange: int(3), SpawnData: compound({ entity: compound({ id: str(id(`${body.mob ? body.id : 'moon'}_crawler`)) }) }) });
             blocks.push(compound(block));
         }

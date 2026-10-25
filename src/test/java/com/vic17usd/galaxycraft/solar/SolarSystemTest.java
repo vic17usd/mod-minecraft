@@ -92,6 +92,12 @@ class SolarSystemTest {
                 assertTrue(available.contains(item), "Componente inaccesible: " + component + " requiere " + item);
             }
             available.add(component);
+            String improved=tier==2?"stabilized_thruster":"advanced_navigation_core";
+            available.add(tier==2?"lunar_guardian_core":"martian_queen_heart");available.add("meteor_fragment");
+            var improvement=data("recipe/"+improved);
+            if(improvement.has("key"))for(var ingredient:improvement.getAsJsonObject("key").entrySet())assertTrue(available.contains(ingredient.getValue().getAsJsonObject().get("item").getAsString().substring("galaxycraft:".length())));
+            else for(var ingredient:improvement.getAsJsonArray("ingredients"))assertTrue(available.contains(ingredient.getAsJsonObject().get("item").getAsString().substring("galaxycraft:".length())));
+            available.add(improved);
             var recipe = data("recipe/tier" + tier + "_rocket");
             for (var ingredient : recipe.getAsJsonObject("key").entrySet()) {
                 String item = ingredient.getValue().getAsJsonObject().get("item").getAsString().substring("galaxycraft:".length());

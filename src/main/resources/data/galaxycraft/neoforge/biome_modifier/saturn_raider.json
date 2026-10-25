@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "galaxycraft:saturn",
+  "spawners": {
+    "type": "galaxycraft:saturn_raider",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

@@ -131,8 +131,9 @@ public final class ExpansionMachine extends BlockEntity implements MenuProvider 
                   <= pos.getY() + 1
               : level.canSeeSky(pos.above()) && level.isDay() && !level.isRaining();
       if (sunlight) {
-        machine.energy.receiveEnergy(40, false);
-        operating = true;
+        int production=com.vic17usd.galaxycraft.weather.SpaceWeather.solarOutput(level);
+        machine.energy.receiveEnergy(production, false);
+        operating = production>0;
       }
     }
     if (kind == 0 || kind == 3) {

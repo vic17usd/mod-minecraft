@@ -9,7 +9,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''
-Sistema Solar con ordenador celestial, traje independiente, cohetes a escala y recursos planetarios propios.
+Exploración del Sistema Solar con misiones, estaciones, jefes alienígenas, clima espacial y redes de energía, oxígeno y combustible.
 '''
 
 # El intervalo se limita a la línea 21.0 para evitar prometer compatibilidad con 1.21.1.
