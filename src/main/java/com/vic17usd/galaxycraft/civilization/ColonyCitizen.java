@@ -138,7 +138,13 @@ public final class ColonyCitizen extends PathfinderMob implements MenuProvider {
         give(
             player,
             com.vic17usd.galaxycraft.registry.ModSites.SCHEMATICS
-                .get(body() + "_observatory")
+                .get(
+                    com.vic17usd.galaxycraft.expedition.ExpeditionCatalog.ALL.stream()
+                        .filter(
+                            site -> site.body().equals(body()) && site.role().equals("observatory"))
+                        .findFirst()
+                        .orElseThrow()
+                        .id())
                 .get(),
             1);
       }

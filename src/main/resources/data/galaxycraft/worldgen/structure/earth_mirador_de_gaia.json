@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "earth_mirador_de_gaia",
+  "biomes": "#galaxycraft:colony_earth",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

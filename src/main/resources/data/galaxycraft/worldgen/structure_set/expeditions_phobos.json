@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:phobos_colonia_de_los_garfios",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_bastion_de_stickney",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_capilla_del_ultimo_giro",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_amarre_de_las_cadenas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_baliza_del_transito_rapido",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_tuneles_de_la_brecha",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_taller_de_los_remolcadores",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_criptas_del_anclaje",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_camara_de_las_orbitas_caidas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:phobos_mandibula_del_abismo_de_fobos",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "phobos",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5839722
+  }
+}

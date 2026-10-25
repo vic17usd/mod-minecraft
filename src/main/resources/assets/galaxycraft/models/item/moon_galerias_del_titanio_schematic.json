@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/moon_galerias_del_titanio_schematic"
+  }
+}

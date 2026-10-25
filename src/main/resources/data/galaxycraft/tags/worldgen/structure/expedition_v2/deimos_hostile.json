@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:deimos_torreon_de_swift",
+    "galaxycraft:deimos_oratorio_del_satelite_menor",
+    "galaxycraft:deimos_pozos_del_susurro",
+    "galaxycraft:deimos_factoria_de_los_microengranajes",
+    "galaxycraft:deimos_tumbas_del_exilio",
+    "galaxycraft:deimos_biblioteca_del_silencio",
+    "galaxycraft:deimos_aguja_del_rey_ausente"
+  ]
+}

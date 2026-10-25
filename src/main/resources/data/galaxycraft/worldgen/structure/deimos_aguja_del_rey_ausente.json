@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "deimos_aguja_del_rey_ausente",
+  "biomes": "#galaxycraft:deimos_habitats",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:mars_ciudad_de_los_canales_rojos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_ciudadela_de_valles_marineris",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_templo_de_los_dos_satelites",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_caravasar_de_elysium",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_astrolabio_de_olympus",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_minas_de_arsia",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_fundicion_de_la_tormenta",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_necropolis_de_cydonia",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_camara_de_los_cartografos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mars_palacio_de_la_reina_de_ares",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "mars",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5831803
+  }
+}

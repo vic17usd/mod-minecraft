@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "umbriel_fortin_de_wunda",
+  "biomes": "#galaxycraft:umbriel_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

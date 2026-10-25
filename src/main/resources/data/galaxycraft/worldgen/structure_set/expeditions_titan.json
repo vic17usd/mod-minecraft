@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:titan_ciudad_de_los_lagos_negros",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_fortaleza_de_kraken",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_templo_de_la_lluvia_de_metano",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_puerto_de_ligeia",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_lentes_de_la_niebla_naranja",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_minas_de_los_hidrocarburos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_destileria_del_crepusculo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_sepulcros_de_las_dunas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_archivo_de_las_mareas_negras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titan_refineria_del_monarca_de_titan",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "titan",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5903074
+  }
+}

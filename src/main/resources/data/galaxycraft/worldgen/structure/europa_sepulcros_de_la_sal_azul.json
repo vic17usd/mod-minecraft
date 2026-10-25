@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "europa_sepulcros_de_la_sal_azul",
+  "biomes": "#galaxycraft:europa_habitats",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

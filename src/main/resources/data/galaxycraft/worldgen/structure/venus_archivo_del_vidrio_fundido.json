@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "venus_archivo_del_vidrio_fundido",
+  "biomes": "#galaxycraft:venus_habitats",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

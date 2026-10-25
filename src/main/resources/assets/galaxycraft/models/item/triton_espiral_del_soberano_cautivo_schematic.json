@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/triton_espiral_del_soberano_cautivo_schematic"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:io_ciudad_de_las_cien_chimeneas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_baluarte_de_prometeo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_templo_del_fuego_amarillo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_puesto_de_pele",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_telescopios_del_humo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_socavones_del_azufre",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_forja_de_los_geiseres_rojos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_mausoleo_de_las_escorias",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_camara_de_los_braseros",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:io_organo_del_coloso_igneo",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "io",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5863479
+  }
+}

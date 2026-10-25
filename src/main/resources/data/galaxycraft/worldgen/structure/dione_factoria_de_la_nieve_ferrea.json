@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "dione_factoria_de_la_nieve_ferrea",
+  "biomes": "#galaxycraft:dione_habitats",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

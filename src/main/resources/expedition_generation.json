@@ -1,0 +1,1175 @@
+{
+  "version": 2,
+  "structures": 290,
+  "perBody": 10,
+  "surface": 5,
+  "underground": 5,
+  "spacingChunks": 384,
+  "separationChunks": 192,
+  "minimumCandidateDistance": 3088,
+  "templateCount": 8813,
+  "totalBlocks": 24699158,
+  "originalArchitecture": true,
+  "layouts": [
+    {
+      "id": "earth_ciudad_del_arca",
+      "hash": "a71c2d697d1ba01d75de37818ba425b06b51459628bb0a5cc945a3148944d2d6"
+    },
+    {
+      "id": "earth_bastion_del_meridiano",
+      "hash": "d5a62cd72a7fe75e28e4f83f14e5499003fc35e49d6d80c491df4bc2609a2ad2"
+    },
+    {
+      "id": "earth_templo_del_primer_horizonte",
+      "hash": "87344136b2c09d4cdb7e547dc1dfd4ffbeebc1e742c335c13d837513cf4a82d0"
+    },
+    {
+      "id": "earth_puerto_de_los_pioneros",
+      "hash": "8531462a1e74954def1941259d2d1fe734ef76262a7847c8313d6f8061f5dd16"
+    },
+    {
+      "id": "earth_mirador_de_gaia",
+      "hash": "732dbadc70d79f6a0142ec835f4a0f6fb4f351c4fb75a932b3fe4410451e3679"
+    },
+    {
+      "id": "earth_canteras_del_manto",
+      "hash": "825b47a3a4387c6a83de16b86b776f9cd1719b37ddbbbe28c557f010d5a47efb"
+    },
+    {
+      "id": "earth_forja_de_las_raices",
+      "hash": "8df82e244b3fe241a7946e6908f2e6f3bda4abed71ec1be8af8b2f789fa9c5dd"
+    },
+    {
+      "id": "earth_catacumbas_del_diluvio",
+      "hash": "3cd6f497a2e4e12ee422accc47eaa848ec970cc1935434116796d8205b6ec593"
+    },
+    {
+      "id": "earth_archivo_de_las_semillas",
+      "hash": "cecf4067a1657030793d6630421415b2e475b9aa344e4e4395ea866d81f62142"
+    },
+    {
+      "id": "earth_trono_del_nucleo_azul",
+      "hash": "0dacd561349fd575dea837a19afd6882b02e65c2c009f7d9d9ea41b2091091d8"
+    },
+    {
+      "id": "moon_selenopolis_de_copernico",
+      "hash": "c8d75e7720ecf9f0f6e9a52d33666661c4d906355383a7b7306a8395b22c25f5"
+    },
+    {
+      "id": "moon_muralla_de_tycho",
+      "hash": "7a75506a509478dbcba3aa3dcd0cca0ede37dec836cbd937f3d779b01beef9f5"
+    },
+    {
+      "id": "moon_santuario_de_la_cara_oculta",
+      "hash": "2b8bfa4fd9d6a97005f79e67dee43e4c4be25188320b9a228b6c24f6c17bb3f2"
+    },
+    {
+      "id": "moon_darsena_del_mar_tranquilo",
+      "hash": "ae9c5bafe8bfcb30eea5601a1ff54139a787eea4540ab874a2803b1bb157df90"
+    },
+    {
+      "id": "moon_agujas_de_aristarco",
+      "hash": "f661e230f3cee0cfba65ac97572070a0deb3a6b688e1f8f2cfa0c93e939d2973"
+    },
+    {
+      "id": "moon_galerias_del_titanio",
+      "hash": "a1a06f1b0670cab8eb308ad7b2f0906378daa0c98b5c355ad8d1771d5298ea7a"
+    },
+    {
+      "id": "moon_refineria_del_helio",
+      "hash": "32c7b31a22865fb148bb7b797ee4ba0984f9ebc8eb2cfad0783e4fb12dad58b0"
+    },
+    {
+      "id": "moon_osario_de_los_selenitas",
+      "hash": "4ffad39c46b6566e3217e818a28b3c793babc32bc4590f8f08d42b2c853c5ce5"
+    },
+    {
+      "id": "moon_cripta_de_las_mareas",
+      "hash": "f11ed69411119d1dfbba6ccbf10ceef8d319b586c65cb6dfab386c545b91e4dc"
+    },
+    {
+      "id": "moon_catedral_del_guardian_gris",
+      "hash": "3c5f930d953af8e216d9bc7fa79339d162b88f76e0fc30248a8b8f8c12d14520"
+    },
+    {
+      "id": "mercury_ciudad_de_las_sombras_largas",
+      "hash": "c82786fda22a43663aa7305fecb658785c22b4ee522ede7ec9934ce8192a0b2c"
+    },
+    {
+      "id": "mercury_fortaleza_del_terminador",
+      "hash": "6ee5c2c9ee91d863072d0ab692a8ce6348a6561378b6328e77fd20720f68054f"
+    },
+    {
+      "id": "mercury_templo_del_sol_inmovil",
+      "hash": "75325defc5d0b65602e0c1da16e72b8c9edee0c8f9ebcb5ddc4f38fa76cc38be"
+    },
+    {
+      "id": "mercury_refugio_de_caloris",
+      "hash": "340ef97f2289f5bd53c3342cdf34eb245b5374bdf30a75e19613c7f66f6ba2ba"
+    },
+    {
+      "id": "mercury_espejos_de_la_aurora",
+      "hash": "6d531c730f1bc2a1c7332a6df4623cdfcbdbeee5aff6c27f2667d30322b3496f"
+    },
+    {
+      "id": "mercury_pozos_del_cobalto",
+      "hash": "72a110e8e387f0da34bed1b05e263201c7a632ddc05763e7ae95c583a8b9577b"
+    },
+    {
+      "id": "mercury_hornos_de_la_insolacion",
+      "hash": "3f750533034f9442201adab06ed4a996e5082bf30d786bf4dde84db8a6ac5df5"
+    },
+    {
+      "id": "mercury_sepulcros_del_hierro_negro",
+      "hash": "e63ac51f6d33edeb44c0700dafad97e413edcecff82d5ef22a6ea3c99ac3ba7c"
+    },
+    {
+      "id": "mercury_boveda_del_perihelio",
+      "hash": "a48cb93f0d649fdbe3695fcebdaf36f29906dfe5f8e827c28c25626d571faf24"
+    },
+    {
+      "id": "mercury_motor_del_corazon_solar",
+      "hash": "1ae135fd3f290c790d94c37e9ec0dd2bc6c7dba0bf1aef9c86baa36546795cd9"
+    },
+    {
+      "id": "venus_urbe_de_la_corona_sulfurica",
+      "hash": "08e73d62bc2d63d051f897ef13b3b20f1bd77c1b19606faf4360fdd481ed4981"
+    },
+    {
+      "id": "venus_alcazar_de_ishtar",
+      "hash": "d89495d7ba029adb983cff3c16cd0611e3aed11877a30681043aeed594d55287"
+    },
+    {
+      "id": "venus_zigurat_de_las_cenizas",
+      "hash": "395f92dbd4e4f94965a105580c144394da4b47d03236345179698d503df4723a"
+    },
+    {
+      "id": "venus_embarcadero_de_maat",
+      "hash": "558bc0168de0089af3040f134781ce43cce777c1461473caeb6e8026f04c3577"
+    },
+    {
+      "id": "venus_lentes_de_la_bruma_dorada",
+      "hash": "31b4560d10bd50cf5cfad8db8c29b4b9895b805e78864826774d75736f9aebf5"
+    },
+    {
+      "id": "venus_canteras_del_basalto_vivo",
+      "hash": "2be8ec037c0c554ce6bbe991c24031ee6783f1cdfd04625fb5916b9e5e6984d2"
+    },
+    {
+      "id": "venus_destileria_de_las_nubes",
+      "hash": "b2f38b140266b78617cdecb3975b6af1ea5727e1b7b49677f1adddaa166366bc"
+    },
+    {
+      "id": "venus_tumbas_de_la_lluvia_acida",
+      "hash": "64005e3b330615fd2a1d9b8d9fb82c5c90936aa9380c269a7e3e1de2579583cb"
+    },
+    {
+      "id": "venus_archivo_del_vidrio_fundido",
+      "hash": "981f08cd8d1abbcb526e70b3df56e83eb7f7432bae206b42acd81e8f4210303a"
+    },
+    {
+      "id": "venus_palacio_de_la_caldera_eterna",
+      "hash": "4ac7e6dc94dd65e6b1085d348ba79f5969ead63b9c2ad3662477cdeaee94d463"
+    },
+    {
+      "id": "mars_ciudad_de_los_canales_rojos",
+      "hash": "b71c06c4bb946a67544609c7f924000d3752c8fddda6763ff6df78344c98fc6e"
+    },
+    {
+      "id": "mars_ciudadela_de_valles_marineris",
+      "hash": "b0f366da73aa0862d96ca141424658dca5a415b7a7637f76c4f2383b4e977d68"
+    },
+    {
+      "id": "mars_templo_de_los_dos_satelites",
+      "hash": "69dcc9d578160457ae2568012f71856afe942e6554105e906995958639e38eda"
+    },
+    {
+      "id": "mars_caravasar_de_elysium",
+      "hash": "00c4e7beb30ef91ce4b9d8c29020874f67dde08a43cd1237166a36b1ad2bbd94"
+    },
+    {
+      "id": "mars_astrolabio_de_olympus",
+      "hash": "708a509a78ec6fb8bf489959e916cd6a6e007f728d504a595a5d364c0c600f22"
+    },
+    {
+      "id": "mars_minas_de_arsia",
+      "hash": "c59e30e52ea7359f682c7cf59c38037dbf3876b23c5e0d4af12bdf608e45f872"
+    },
+    {
+      "id": "mars_fundicion_de_la_tormenta",
+      "hash": "fa0e18894d30c4681a4b86e3258e5cf2a958bc341278f942f2a661ed7113f56c"
+    },
+    {
+      "id": "mars_necropolis_de_cydonia",
+      "hash": "3a3af51047de23fdb7633926e83798b8532dc156ad6cb1e57c9817dd18e69f07"
+    },
+    {
+      "id": "mars_camara_de_los_cartografos",
+      "hash": "92c9c6b9a4f312bc1fe8031c7ef2b58f5a04c19951481dff7b048abed0883bce"
+    },
+    {
+      "id": "mars_palacio_de_la_reina_de_ares",
+      "hash": "2d4aea236f931567331d71be419373fdf25e22212446ba6dee879b61f2f76556"
+    },
+    {
+      "id": "phobos_colonia_de_los_garfios",
+      "hash": "46807ea50caa3e134e54a3eed835f175ff0202b5d5d188310a7a5df1f97e54f1"
+    },
+    {
+      "id": "phobos_bastion_de_stickney",
+      "hash": "4ae9c3a839c1f5d798b31c0fee013bc4902878e4a228c24a3c5fba745e832c79"
+    },
+    {
+      "id": "phobos_capilla_del_ultimo_giro",
+      "hash": "cd0af6c744e1cde72f5f6c95e98b3bb5b986d364e0f88896aca0cd9949e1ee97"
+    },
+    {
+      "id": "phobos_amarre_de_las_cadenas",
+      "hash": "bc3836642c48399a4d2e033be66d6950acf3d667891ba58c7c4c98bb017444ad"
+    },
+    {
+      "id": "phobos_baliza_del_transito_rapido",
+      "hash": "44e57597d6df573a4d02112f770a2b6a1a29269a9a18ffdfbe38ad43c97b3714"
+    },
+    {
+      "id": "phobos_tuneles_de_la_brecha",
+      "hash": "2bb3429c110ca9d45fd7aa0eb3e1da174047f20bca9d43fecf3c504af4d5af68"
+    },
+    {
+      "id": "phobos_taller_de_los_remolcadores",
+      "hash": "98c4a66e72e8a08c463eb6308448aff17de25cbb382b0377306273713dab72f5"
+    },
+    {
+      "id": "phobos_criptas_del_anclaje",
+      "hash": "a5a452a8f610242f92dc8adadf2030b2969ae4b058dcb5d2b643541ad941f819"
+    },
+    {
+      "id": "phobos_camara_de_las_orbitas_caidas",
+      "hash": "7b46cde11bc151cdea449c875c4f5e05816a2b7ba78efe9544eda0b1c139faa6"
+    },
+    {
+      "id": "phobos_mandibula_del_abismo_de_fobos",
+      "hash": "1eae6ea9a2fdb0476c8fd5f91850c50b3451653d3ffb16eadd23b09db383a4f2"
+    },
+    {
+      "id": "deimos_aldea_del_eco_lejano",
+      "hash": "9117161253499e2acd5065bcce39fd9d4e99074ccfe8b49adede8eb039b000be"
+    },
+    {
+      "id": "deimos_torreon_de_swift",
+      "hash": "1484431c33dae7042dc66227bd99c3cd8173d1d4669c137b682e6608f1ac7372"
+    },
+    {
+      "id": "deimos_oratorio_del_satelite_menor",
+      "hash": "8ef2099b3a8cfb6e90c76587b236edae08112c04eee270ebd99ff254a9f55735"
+    },
+    {
+      "id": "deimos_muelle_del_polvo_quieto",
+      "hash": "787ce1b3ba6582ea41f089a27b0e204300f98496ff2fd54ffd368dcbe3fa0229"
+    },
+    {
+      "id": "deimos_vigia_de_voltaire",
+      "hash": "ecaf74ac2dd07455e7f5fbd3ccfccf5bf42ecb08c9c45174d894a17cf52909c6"
+    },
+    {
+      "id": "deimos_pozos_del_susurro",
+      "hash": "8eb5471b3ad568a4d71da7607a1c21f63d2322d57b784ad5c28c427af0fa2845"
+    },
+    {
+      "id": "deimos_factoria_de_los_microengranajes",
+      "hash": "4057e63ef6036f48ca6030b914d29e5bea422d28dac3be7beb1062d19b476bd2"
+    },
+    {
+      "id": "deimos_tumbas_del_exilio",
+      "hash": "ae009870bfbb152d2d0b823efd2f25dea94843596fe55c2fea62d2b8c54c35bc"
+    },
+    {
+      "id": "deimos_biblioteca_del_silencio",
+      "hash": "e299b738fd06bfc0221ee36d79cb7f42f19ac5b2b8c450251203b03a14526c60"
+    },
+    {
+      "id": "deimos_aguja_del_rey_ausente",
+      "hash": "e25bf7c722001ec146794de8df278e3382f9a1701b586b979a394fa6a02db199"
+    },
+    {
+      "id": "jupiter_metropolis_del_ojo_ambar",
+      "hash": "2aee3c16bb7d557be16a8f1daeccd563074c3a73148da34b7bc655f67fd62dac"
+    },
+    {
+      "id": "jupiter_fortaleza_de_la_gran_mancha",
+      "hash": "44bbc2f98af457a26fce7b2688d8288148693b9e9804169eec8589dab8621bea"
+    },
+    {
+      "id": "jupiter_templo_de_las_bandas",
+      "hash": "958e81df1672c2fb1131b868931350e77c43f7e98975cbe1af53c732c18d0155"
+    },
+    {
+      "id": "jupiter_puerto_de_los_vientos_profundos",
+      "hash": "e331bebcb3b6154e3fa0fc17f2629de58fb93460626b4b34b572d39863d2f232"
+    },
+    {
+      "id": "jupiter_corona_de_las_cuatro_lunas",
+      "hash": "e33a78606955f9cff27b1372eb4af1edc48616ad2821fa1b2114dd7345ecb928"
+    },
+    {
+      "id": "jupiter_galerias_de_la_presion",
+      "hash": "6d87a6679d14463e4993c43e2f476d0ac9306fd17a8b646c294c69e690ad4043"
+    },
+    {
+      "id": "jupiter_turbinas_del_ciclon",
+      "hash": "076323977977acf9d1f4e71c43e70d71085f1e507633c767ae3922be426c192b"
+    },
+    {
+      "id": "jupiter_panteon_de_los_rayos",
+      "hash": "ba7dcce4b0b223b504cd4ef89135099d8b2b2c54a921148e473c765ca765cc7f"
+    },
+    {
+      "id": "jupiter_archivo_del_hidrogeno",
+      "hash": "4428f3f5cb245de8c891380afbe35d07781d811280f36d5380c6b289ee3b34d9"
+    },
+    {
+      "id": "jupiter_bastion_del_emperador_de_tormentas",
+      "hash": "e0fadf1f6965e148b629f60de30022d8bd398cea60057ae6f9842f9994c66957"
+    },
+    {
+      "id": "io_ciudad_de_las_cien_chimeneas",
+      "hash": "6e84aeddd60ea973374e090db53c8238991dd2470bb8f6823f65b979269f6285"
+    },
+    {
+      "id": "io_baluarte_de_prometeo",
+      "hash": "edc2b68934a75cf19afbfab7ebe0f63e1adbf09abaf678c248db30149dc23254"
+    },
+    {
+      "id": "io_templo_del_fuego_amarillo",
+      "hash": "050236220bfa03a19a93f23beb0ce90d3b062c158e877aaabddb1a86255b0bb3"
+    },
+    {
+      "id": "io_puesto_de_pele",
+      "hash": "03bb3e8cd4634cba176272a727f46541cdb57879a0c730d0bb85c47260f247c1"
+    },
+    {
+      "id": "io_telescopios_del_humo",
+      "hash": "542e7f2756fc3429d5444450bded369fe70fa166eefda1271e38e580572b88a3"
+    },
+    {
+      "id": "io_socavones_del_azufre",
+      "hash": "0281e7b684ad7ee98e2dad6e1aaab805a5e1b7fe12b2113f60b3a4c00f07df16"
+    },
+    {
+      "id": "io_forja_de_los_geiseres_rojos",
+      "hash": "a8503c2a84c3f4dfb933c606c8f0b29baa4603f36672b457c81c51d643faa73e"
+    },
+    {
+      "id": "io_mausoleo_de_las_escorias",
+      "hash": "1a15081155ba4232e4b264eef28d8965491727883e8fa55af112714323c6c503"
+    },
+    {
+      "id": "io_camara_de_los_braseros",
+      "hash": "932b2c1b953d52ce2580b2162d931b12555e8a01a955d7961d8abcb18a22fa84"
+    },
+    {
+      "id": "io_organo_del_coloso_igneo",
+      "hash": "4ac7234aed03a3c4fcc914c7a2ce99f4dc97de9cdc4a8bb09009fda6bc237539"
+    },
+    {
+      "id": "europa_ciudad_de_los_puentes_de_hielo",
+      "hash": "d2c5990271d422af7e1a1e6e7aeb97c349438963577f873292106050bd206b32"
+    },
+    {
+      "id": "europa_fortin_de_las_fracturas",
+      "hash": "fcc09eb57558a12f330e50a9bb655fc645077aa00f71989b5a10ff26c788cc15"
+    },
+    {
+      "id": "europa_templo_del_oceano_sellado",
+      "hash": "83f0198ad72c16c4d1fbc88299da006e572f4d8a4c94db6b22af7e7445821ec7"
+    },
+    {
+      "id": "europa_refugio_de_conamara",
+      "hash": "bc64d3f4cbd559e0193547c624bd0484e9f6f1d509768d92aec41fd07f956588"
+    },
+    {
+      "id": "europa_faros_de_la_corteza",
+      "hash": "e588b36b55b268bb63b431f51f02990b2e7f71529deb62942d65f64be2eca96f"
+    },
+    {
+      "id": "europa_minas_de_las_estrias",
+      "hash": "2ae124a3a85a8863d5c43c5eb8a73b58974dceae4c7bca5486246651e4522597"
+    },
+    {
+      "id": "europa_bombas_del_mar_interior",
+      "hash": "e61033446c05122d3c78056e8b853921fa37e119aea2303148c84518a41f54fe"
+    },
+    {
+      "id": "europa_sepulcros_de_la_sal_azul",
+      "hash": "211582f89aafd777c864f6ef89b6073d53cb787ccbe2bc4916b049f5165c68a7"
+    },
+    {
+      "id": "europa_archivo_del_agua_antigua",
+      "hash": "b80291a3daf417e611b85aad0f546b5d9127fa6f64fd17d2fff8c11d1181ebac"
+    },
+    {
+      "id": "europa_abadia_del_leviatan_blanco",
+      "hash": "a71017851962e7ea1262118a07bc941a93f957b21a1e8f09341368555356994c"
+    },
+    {
+      "id": "ganymede_ciudad_de_las_lineas_magneticas",
+      "hash": "41dec75b6e725af8d790fab345e0ca47b99784f14a343e43058f429a353607fe"
+    },
+    {
+      "id": "ganymede_fortaleza_de_galileo",
+      "hash": "10bd39890867a90ee3471e061208386bacd684290df4f489b18103667a0a2287"
+    },
+    {
+      "id": "ganymede_templo_de_los_rombos",
+      "hash": "60c57495efa413594e17eb3b208f6ebadca374dab0e10e9f470443038a6deaf7"
+    },
+    {
+      "id": "ganymede_enclave_de_marius",
+      "hash": "10afd0cbf54d37775603c1910f3f1801742432cacbdf71f8925d12cdcca3d3ab"
+    },
+    {
+      "id": "ganymede_prismas_del_campo_polar",
+      "hash": "48a9cadf63aa3cdc18cde0ee99fc152e7f1818cef9460dc5ef8579ea1ef9539c"
+    },
+    {
+      "id": "ganymede_excavaciones_de_la_corteza_oscura",
+      "hash": "ad8f853aa1ae185e869929ccdb33cf94947e36fa90fe28ddb6231020bfbcbc23"
+    },
+    {
+      "id": "ganymede_dinamo_de_las_auroras",
+      "hash": "dc5382ac1702e5bd8ed4d6bca99398463bc3b0db48b2da310dbd065296da80ff"
+    },
+    {
+      "id": "ganymede_criptas_del_nucleo_metalico",
+      "hash": "c99842e7c3b92352ee7b533ab5bc9c9699f34311409ddd881f0c313af4f914d5"
+    },
+    {
+      "id": "ganymede_archivo_de_las_cuatro_brujulas",
+      "hash": "207e3ea2b91d144d71e3e3a4e6700e5e9ac4b25ce3a8cc6b340dd97882a62283"
+    },
+    {
+      "id": "ganymede_ciudadela_del_regente_magnetico",
+      "hash": "76f34362338ae7ea34a29d99149eeba4a29cb625b9364fc9f313f2dc960cd457"
+    },
+    {
+      "id": "callisto_ciudad_de_los_anillos_viejos",
+      "hash": "f766bc9fceee8fa0b5a79c041245c3e5188fffa785b670fb245dd7261482fb83"
+    },
+    {
+      "id": "callisto_fortaleza_de_valhalla",
+      "hash": "4b1488098c0cf42593ca40f5cc0d770c92a7397387eabf815dbadec00faad461"
+    },
+    {
+      "id": "callisto_templo_del_impacto_primordial",
+      "hash": "37401039a92dd8a6a02ca80a9910a1310e2320489cf7dbe03c8c4607a2b47182"
+    },
+    {
+      "id": "callisto_posada_de_asgard",
+      "hash": "89b3014e34808d12d2d774cb35e9ba670eb1f55d239e476574ef90f9701c07f2"
+    },
+    {
+      "id": "callisto_atalaya_de_las_cicatrices",
+      "hash": "801254ba5c1108a823f745427c6eb98b80f542ccfe63fabc755ce529af284fdd"
+    },
+    {
+      "id": "callisto_galerias_del_crater_hundido",
+      "hash": "5158334e8abf78aa2ef7a0ee3dfa4a0295b47c6de6707b9c9d2d3cc775b98571"
+    },
+    {
+      "id": "callisto_taller_de_las_edades",
+      "hash": "80ee8f4a0a0e8898525b0bf1248ca1830856f11cb75b4fe9f28a55cef93410a7"
+    },
+    {
+      "id": "callisto_necropolis_de_los_impactos",
+      "hash": "f419c96526ea122cb942092f232b1f9ae5cf5c8c31fd78358ffeba3da78a79a6"
+    },
+    {
+      "id": "callisto_archivo_del_bombardeo",
+      "hash": "bccc77198469ec088c0efb04ded18056bc75a02c01166e94d10f3c5b5c9aeb0d"
+    },
+    {
+      "id": "callisto_corona_del_senor_de_valhalla",
+      "hash": "90f867c2111562e4d56f007c02a05bd9545a6e37faea98483181aa027755139b"
+    },
+    {
+      "id": "saturn_ciudad_del_cinturon_dorado",
+      "hash": "2f1ce813968921890b03fe99b9faa464b3574891529f8ff78cfc07483f7eeb3a"
+    },
+    {
+      "id": "saturn_bastion_de_los_anillos",
+      "hash": "bc1ef69ca56d00147a1e78fbcf45bee02703fbde5b610b2acac70c54837d091c"
+    },
+    {
+      "id": "saturn_templo_de_las_siete_sombras",
+      "hash": "9f56e8141be0136ebd058d7ab2bc30dc779022ff615eeb223e99745a8f499f49"
+    },
+    {
+      "id": "saturn_darsena_de_cassini",
+      "hash": "3abd8e9cb5a3ad56baa304531688196be67db04ce3ec0b7cd449187b176afdab"
+    },
+    {
+      "id": "saturn_miradores_de_la_division",
+      "hash": "ce18949fbe05a27f707d119d5932f54d24ce048780ecd899f6045a8a2b44b4a4"
+    },
+    {
+      "id": "saturn_minas_del_hielo_comprimido",
+      "hash": "5109143da6c0560570cb62e0d8e55c441c207db66d73afc972bef9723dde8b74"
+    },
+    {
+      "id": "saturn_factoria_del_polvo_anular",
+      "hash": "e80676afba47b78e1bedf06265685e60f2f3f2f5857395fcc4c8e97517c65ac1"
+    },
+    {
+      "id": "saturn_criptas_del_ovalo",
+      "hash": "c213a9f68c59dd496ea878e910007b6f35cfa28fe2e46601a75dab2132b0bd86"
+    },
+    {
+      "id": "saturn_archivo_de_los_pastores",
+      "hash": "3323a09311a6da20c167196ef308c0e89577dae1fafd67cbe76830e33b6088ff"
+    },
+    {
+      "id": "saturn_palacio_del_soberano_anular",
+      "hash": "4c6d53a2dd89d944547abc33cd70095d47e54a0405a0f5625da3674df2b9d218"
+    },
+    {
+      "id": "titan_ciudad_de_los_lagos_negros",
+      "hash": "66dc180ffe3d70fd5445252ace556635513d6006418dff73f08752b2ce10358e"
+    },
+    {
+      "id": "titan_fortaleza_de_kraken",
+      "hash": "768f525f3e08419692dc5aed714efe1c00984a95b015718e4531b2e46e69722f"
+    },
+    {
+      "id": "titan_templo_de_la_lluvia_de_metano",
+      "hash": "3e5325a9da025911fd9c40f30406201634c71cfa2f274478ae4f2cae8d9e4489"
+    },
+    {
+      "id": "titan_puerto_de_ligeia",
+      "hash": "96ae4ae47920dc4ab3dc729eb633ebe73e887a79cc5c081868bab8e1f9350274"
+    },
+    {
+      "id": "titan_lentes_de_la_niebla_naranja",
+      "hash": "940ee581dedcb96fe9a2257f2fadcb119da31462369d7c6f57437af114f04ebb"
+    },
+    {
+      "id": "titan_minas_de_los_hidrocarburos",
+      "hash": "c3f0dbc5b250c0892079fb6d518b0d6abedff5c0ea098b9659be798fb5311dce"
+    },
+    {
+      "id": "titan_destileria_del_crepusculo",
+      "hash": "d86121374f5b8807a1272361f0943c412c7277844920d18b201b989a3908aaeb"
+    },
+    {
+      "id": "titan_sepulcros_de_las_dunas",
+      "hash": "a16a0208a99e33299ad11af642bd4ae0e5e922dba89ea65e8a6547777c2a99d5"
+    },
+    {
+      "id": "titan_archivo_de_las_mareas_negras",
+      "hash": "512f67a395d93a685729c3c411760f30582252f945cd00beeee91b10a61b23cd"
+    },
+    {
+      "id": "titan_refineria_del_monarca_de_titan",
+      "hash": "22c5f7380ebeaaf319ed0d8db0ec5959068ad3f288d56367337f75630df67a13"
+    },
+    {
+      "id": "enceladus_ciudad_de_los_penachos",
+      "hash": "6c444ad8656b7c75115e273e526063b26df894251c10909aef421cfe1ccf658e"
+    },
+    {
+      "id": "enceladus_ciudadela_de_damasco",
+      "hash": "42fa4ff1310ed33719f1dd21a520b4c62cd5a6ae4f995fbe7d10498545527368"
+    },
+    {
+      "id": "enceladus_templo_de_las_rayas_de_tigre",
+      "hash": "6626d6cfcec40bfab8cb65c038d387b246adccb108005f7499cdd8e382caf92a"
+    },
+    {
+      "id": "enceladus_refugio_de_bagdad",
+      "hash": "9c98cca2dfb660f5e3b06e833c70b1ee9e4b90765d5398f844c1f1ac0b87f194"
+    },
+    {
+      "id": "enceladus_balcones_del_polo_sur",
+      "hash": "8c2f4bddac37e54c765a97abf42d1983f3257dd2ba1964301517e8760596105e"
+    },
+    {
+      "id": "enceladus_pozos_del_oceano_tibio",
+      "hash": "529225aa336e6fd3b28f713c9d8a4acebf51cc60cffc87e9992abc3b5fb2232e"
+    },
+    {
+      "id": "enceladus_condensadores_del_vapor",
+      "hash": "2bafcba92a56ca50575d7c0e6bde3d34daef51a5e1bee8c4142fdfbb43ca3acd"
+    },
+    {
+      "id": "enceladus_tumbas_de_la_escarcha",
+      "hash": "bc87cf45a13a2b38e99790672435605ee124f7f74042bad763138c4aac4a16ab"
+    },
+    {
+      "id": "enceladus_archivo_de_las_gotas",
+      "hash": "888866ddec66bc3d0047e35bb5d6ef33954209afe0a16405f5db759ebdf7657b"
+    },
+    {
+      "id": "enceladus_camara_del_rey_de_los_geiseres",
+      "hash": "01dc7e287df94825133612c1b5f129920651ff3bb2fc48539fd498aa48ba6ccf"
+    },
+    {
+      "id": "mimas_pueblo_de_la_gran_concavidad",
+      "hash": "1d3274fb221c799029f3414fcf7dfd02763440ef0c872da53229872e4c54bdfe"
+    },
+    {
+      "id": "mimas_bastion_de_herschel",
+      "hash": "67a8121fb2f3a899531793995875c1469e86ff40b9830c8389fb8de7945e89df"
+    },
+    {
+      "id": "mimas_templo_del_hemisferio_roto",
+      "hash": "34190d969f4eccc56cefd95dcc493e47a37660916719d206416be44bd997725a"
+    },
+    {
+      "id": "mimas_puesto_del_borde_exterior",
+      "hash": "b8c58800c39ca4c89798509000e80d537f4317026bba2d7740090fe74d23bcae"
+    },
+    {
+      "id": "mimas_vigias_del_crater_gigante",
+      "hash": "c5df523ad37bc304563cf17b2004dee1ba6044b60b5000e20c14391b1d4776b3"
+    },
+    {
+      "id": "mimas_pozos_de_la_resonancia",
+      "hash": "98d630518affce83c061f22ca9cd10203324a828a6b9eed092df1734ea8cd439"
+    },
+    {
+      "id": "mimas_complejo_del_eco_mecanico",
+      "hash": "8c0be44fe9af50502b14a1832b9ef4959ecc333db17861f96886252885d29c6d"
+    },
+    {
+      "id": "mimas_criptas_del_cuenco",
+      "hash": "9ec72f0b1dbb89234aee3d3f108ff41d4321980e9afbe2c4558720757e39f237"
+    },
+    {
+      "id": "mimas_archivo_de_los_fragmentos",
+      "hash": "dc9b04bc188cbe7795cf7ea0386525c6974efd084c3cc9bce4e6098238fa690d"
+    },
+    {
+      "id": "mimas_ojo_del_centinela_de_mimas",
+      "hash": "3ce9c1195380d9f86c8759be868dee0a76ba978229f27e61ad2a917d80a9cc07"
+    },
+    {
+      "id": "tethys_ciudad_del_canal_partido",
+      "hash": "884f5936a2036db8dde1cf7c2129cddf830445730f5c14045792e88d8761db18"
+    },
+    {
+      "id": "tethys_fortaleza_de_odiseo",
+      "hash": "877ae0758414f991e8b601168701d40a0bc5d960c5b896ad7fc7ff5d0ada7ecb"
+    },
+    {
+      "id": "tethys_templo_de_itaca",
+      "hash": "6a010ad45e598a7927e5498a6423c498718981aea13e55659e99dae89708aafd"
+    },
+    {
+      "id": "tethys_enclave_de_las_riberas",
+      "hash": "8f7afc914a00f449340cf9596e5998809233bc82bd1f644075fc9f76debad43f"
+    },
+    {
+      "id": "tethys_agujas_del_gran_canon",
+      "hash": "84dd870b3f1e23883a6fb1c0aeccb2980f7653da8847501a8e6bba3102f2739a"
+    },
+    {
+      "id": "tethys_canteras_de_las_dos_orillas",
+      "hash": "4112d12b95fc697dc4833a92097878e78fdaab03299d0d2d5e59405838ec8743"
+    },
+    {
+      "id": "tethys_molinos_del_hielo_tectonico",
+      "hash": "e54bdf18a656fd0cbaad6bc935612701915616d6b8339b6273e7350d6f10b42f"
+    },
+    {
+      "id": "tethys_catacumbas_del_istmo",
+      "hash": "24e613372e17cbb0357e9345abd9c8876e7c19ba94527579a49670879e3d71c2"
+    },
+    {
+      "id": "tethys_archivo_de_la_fisura",
+      "hash": "d82a4a0d4329f757f426cd32905ba550a32c73f37f6e9fa1a1023ccc06bf764a"
+    },
+    {
+      "id": "tethys_laberinto_del_juez_de_itaca",
+      "hash": "d71a6604416b6bea31dcebe36a9306a45432bbafd4af3c67be3d672f8f215517"
+    },
+    {
+      "id": "dione_ciudad_de_las_plumas_blancas",
+      "hash": "cccd172b567cb76449faf91f106aeae9dfa9ca4427199cf10415d9e87a7b47e9"
+    },
+    {
+      "id": "dione_ciudadela_de_evandro",
+      "hash": "3d7a38c45f6343dc697921e60eacd062c2c87833cd911111dea0aaeae8660291"
+    },
+    {
+      "id": "dione_templo_de_los_acantilados",
+      "hash": "1cbe7e63a0953d39adffe3fdd289b1757c458335a677f69162b2fcb3f6179631"
+    },
+    {
+      "id": "dione_amarre_de_creusa",
+      "hash": "13c3522026ccfdbae72a3ea48fc8629a608f764aedc1484aa13fc9b87d0ddb28"
+    },
+    {
+      "id": "dione_torres_del_filamento",
+      "hash": "0b27a725f91e298b09801774e99af7bb548dfdc68b79d94d984dabfad2d3a181"
+    },
+    {
+      "id": "dione_galerias_de_la_cornisa",
+      "hash": "2aebae36246f065926c3afaee78b9e86803420efc8d1524efaf0431ebd194191"
+    },
+    {
+      "id": "dione_factoria_de_la_nieve_ferrea",
+      "hash": "4b1c1605bb66bcdf45e8c9547233718224566d5c215f7e0a86a6df4affa08c13"
+    },
+    {
+      "id": "dione_criptas_de_los_precipicios",
+      "hash": "9078f2a25be5ad80e54d1e76a002d041db2a41bf0ecba3d6b02f199c7332b1c6"
+    },
+    {
+      "id": "dione_archivo_de_la_pared_clara",
+      "hash": "cb731aa0ddf0f379643e60f8c1b9469dfceff85e6736e90f2eda8ad9c7ba76d0"
+    },
+    {
+      "id": "dione_aguja_del_verdugo_de_dione",
+      "hash": "18a05463715cc714193aa3ca08a6189cd76ebbd8088dccb0bfc0c39db319a382"
+    },
+    {
+      "id": "rhea_ciudad_del_alabastro_helado",
+      "hash": "7f046657454d8d1f84dcbe15c170d54248fa55f6c138d1a984bb563d4e572776"
+    },
+    {
+      "id": "rhea_fortin_de_tirawa",
+      "hash": "9ada743f645bb716d28d7842a1e46f6bde6775bf7db84cf18032119b5bc356be"
+    },
+    {
+      "id": "rhea_santuario_de_las_terrazas",
+      "hash": "d5bceb09056a1d93c5c48b790f2e10a4a9a9b092eb91634af17847f0779d7543"
+    },
+    {
+      "id": "rhea_puesto_de_mamaldi",
+      "hash": "9879e2f630088cac1e5ace08a41b3495d22ba5dc0f985eb448ada35f827fabb2"
+    },
+    {
+      "id": "rhea_miradores_de_la_llanura_palida",
+      "hash": "e42ae2debb09c745128e5b58ab61780b980f766bec3073c20630474192c70249"
+    },
+    {
+      "id": "rhea_minas_del_cristal_lechoso",
+      "hash": "52cb1b7ab0677933097f7b966d202b6298f6ce3c620f8754896dfc31c60c2f32"
+    },
+    {
+      "id": "rhea_talleres_del_cincel_frio",
+      "hash": "ff5619bf225dc6ed56886e63497f762ddfc40516030a9d8d2a4943ab9194455b"
+    },
+    {
+      "id": "rhea_panteon_de_la_nieve_antigua",
+      "hash": "337d35ddc7c9f36746f0d4bc415ad6f250303d390c83646182c68c1d69a59ac1"
+    },
+    {
+      "id": "rhea_archivo_del_silencio_blanco",
+      "hash": "30ebc44eb75307e528f8c4673f89beabb90f1851a1d84b5affd3f214ec0e8b1e"
+    },
+    {
+      "id": "rhea_anfiteatro_de_la_matriarca_de_rea",
+      "hash": "36951f3d6d6b65037c68aa7684a86a632a05dfba0d1bd1fcedac55c68b18638e"
+    },
+    {
+      "id": "iapetus_ciudad_del_dia_y_la_noche",
+      "hash": "c5a4451690ccb46b002e32bfa567198c96934214e7c2d02dccc3a9a2b764dc75"
+    },
+    {
+      "id": "iapetus_muralla_de_cassini_regio",
+      "hash": "6528d364d593e02626d241cc80fa2a417983e244358369798e64f085e82e0c40"
+    },
+    {
+      "id": "iapetus_templo_de_los_dos_rostros",
+      "hash": "7af11da31d4e92c799db98595d870049bb5acfee739b063439d8f61e4bd9fa42"
+    },
+    {
+      "id": "iapetus_paso_del_ecuador",
+      "hash": "019d66505c3394d38534bb7b5c3db82517d0d727f035d318a5bd383d09413bf9"
+    },
+    {
+      "id": "iapetus_vigia_del_contraste",
+      "hash": "bed3bf98b731d1de238e75681981fa05cb76f2bc9c9cdc23a083b5ac4f69a1b0"
+    },
+    {
+      "id": "iapetus_mina_de_las_vetas_gemelas",
+      "hash": "febffc8604fb59fe78aaadcf584e1d247741df69934444c5acd72fc5db368b04"
+    },
+    {
+      "id": "iapetus_forja_del_hielo_negro",
+      "hash": "124c31951a3deb216d6f6815714f33bb738a56d397410391c0b9bf2a14623da6"
+    },
+    {
+      "id": "iapetus_catacumbas_de_la_penumbra",
+      "hash": "15800f142a47073320048dc25872592bc00660b3b45e874a12ca93aa5a6f08c8"
+    },
+    {
+      "id": "iapetus_archivo_de_las_mitades",
+      "hash": "56185d942641a747e691e0023ab69d98962e9f4d92d37964fe1a983c78d39040"
+    },
+    {
+      "id": "iapetus_trono_del_soberano_bifronte",
+      "hash": "9ff4d593bd0c66abe0b80ccdeed46e044c37731db135e208b212d1a0dee4cda3"
+    },
+    {
+      "id": "uranus_ciudad_del_eje_tendido",
+      "hash": "910e9c15cba6b0aab4372da66bec4df44c8ce3bbfe7b2ec179c2771e5848f553"
+    },
+    {
+      "id": "uranus_fortaleza_de_la_rotacion_azul",
+      "hash": "1dc3cede2c1f5649735d69338d27b87c965dd8f9e1eab96da07846dcf78e3613"
+    },
+    {
+      "id": "uranus_templo_de_los_solsticios_largos",
+      "hash": "7487a03eed9fbb2dd68f6908d0f8907ad8ebb96c61730ba50c6793899f7dea8f"
+    },
+    {
+      "id": "uranus_puerto_del_horizonte_inclinado",
+      "hash": "c65a35f7d54bba23f8e69df5fd740cd2238a1ceabdb33feab413d8f951a9bf0c"
+    },
+    {
+      "id": "uranus_lentes_del_polo_turquesa",
+      "hash": "4b449947ef52d715f2c736b1a2057e473b27da7d8ff81d5457b7fa8c8c034ff6"
+    },
+    {
+      "id": "uranus_pozos_de_la_alta_presion",
+      "hash": "e032f96140a31228413aed1046b64169b12de1ee921ed3e1c3357bd80f57a60f"
+    },
+    {
+      "id": "uranus_turbinas_de_la_inclinacion",
+      "hash": "494a3baa1d1a06a0de7af0cd177187c45bb7d32255701ad2ce0cad8e94982dff"
+    },
+    {
+      "id": "uranus_tumbas_de_la_estacion_perdida",
+      "hash": "e4a89fa37fbd42d4108e01f7c0795b861a8bc61fb9b51c7df007654e1ff0ad20"
+    },
+    {
+      "id": "uranus_archivo_del_eje_antiguo",
+      "hash": "ca8c31b06e650675e60d6be440ba6055e96b689c32b2c3a0132644ffc1351de0"
+    },
+    {
+      "id": "uranus_giroscopo_del_rey_invertido",
+      "hash": "dac3b53fb827f191880f8d5c211430978e0ffbd2e1dbc648127d768291f8eb29"
+    },
+    {
+      "id": "ariel_ciudad_de_los_surcos_radiantes",
+      "hash": "a7b7e0fd2814a4f2b954d0b2966aee5b648ed7a3707b3718d93692c478ca3fa1"
+    },
+    {
+      "id": "ariel_fortaleza_de_kachina",
+      "hash": "642a2b4bd89ea5e47aa94d39b733c065baeb55933d7c9b9f586464450724559f"
+    },
+    {
+      "id": "ariel_templo_de_los_cinco_radios",
+      "hash": "6fbdc3befb92660c4648eea1a0f299164946d3ac58d481dd8ce894e939910243"
+    },
+    {
+      "id": "ariel_puesto_de_yangoor",
+      "hash": "97346264775e2b9bde18798a2d35c4a94f26ff48f1c180844af4ddb2b0499ce8"
+    },
+    {
+      "id": "ariel_agujas_del_amanecer_azul",
+      "hash": "ea3527dfb98a4d07cd27073d2504bfbc375a724e1fd1c28f3c534ed36d12bd2e"
+    },
+    {
+      "id": "ariel_pozos_del_valle_brillante",
+      "hash": "43af17b13413a9efc6a058c26aee57ddeca502a66e36b963b10c90c9530017f9"
+    },
+    {
+      "id": "ariel_bombas_del_hielo_radial",
+      "hash": "33f870cfa7261aca299351edb168ce05a8e303caecfffad981a676fcb95d25e5"
+    },
+    {
+      "id": "ariel_criptas_del_centro_vacio",
+      "hash": "e0cbb95eeebd03ecba44fc38e2b126dd9b465768c3712bc65ecac43c743343cd"
+    },
+    {
+      "id": "ariel_archivo_de_los_rayos_helados",
+      "hash": "55618477d1cf36fadeb437568422c966134494ecf82a93b77928d78150f6ce89"
+    },
+    {
+      "id": "ariel_atrio_de_la_regente_radiante",
+      "hash": "13c10914ada026c13a10ebbf755aa0faad9ca855929bcd1c09c76117f4005985"
+    },
+    {
+      "id": "umbriel_ciudad_del_velo_negro",
+      "hash": "eea636a99c4b53c28daae5215c3b5c86d9b6312f4499fca8ff1c355722907f8c"
+    },
+    {
+      "id": "umbriel_fortin_de_wunda",
+      "hash": "f41134b2bf4622ad098198537bc56dde47170be6f3c4f5f8276db9a6460b17b9"
+    },
+    {
+      "id": "umbriel_templo_del_anillo_palido",
+      "hash": "db4933f39f7d5a49d3fc000eb43d011b1580eb27770f32ad87799c5ee5572650"
+    },
+    {
+      "id": "umbriel_enclave_de_fin",
+      "hash": "86652e58d8b04563f0c14053884752d6b581d749d54b91b215c15457d45ae29c"
+    },
+    {
+      "id": "umbriel_ojo_de_la_noche_perpetua",
+      "hash": "1db4c490e6efa4711daf861aa9b5f3407d829e611bb68c10bb9b047449a8a0cd"
+    },
+    {
+      "id": "umbriel_minas_del_carbon_helado",
+      "hash": "d6a54129eec13236f5e20cc987e27513e6a46282216930adc8b09dc6b8e61911"
+    },
+    {
+      "id": "umbriel_factoria_de_las_sombras",
+      "hash": "83f9eb078b70c7c0535e3fb96706c7e7b4ef4bd1a57525dca30d7f8052223a0a"
+    },
+    {
+      "id": "umbriel_tumbas_del_disco_blanco",
+      "hash": "91a27b25355a01f3d7efef018a1ccf0849f54c4d988b8beb3ef23bc2a0ad155b"
+    },
+    {
+      "id": "umbriel_archivo_de_los_nombres_borrados",
+      "hash": "0974ece918968ef97b4929c8edc778e65ed007e3b03f3eace3780779e6ffb935"
+    },
+    {
+      "id": "umbriel_pozo_del_heraldo_de_umbriel",
+      "hash": "8817b83637a75d365fe0f1e590ad8e9912bbaea94fcdd88944a774615d3205bb"
+    },
+    {
+      "id": "titania_ciudad_de_los_arcos_gemelos",
+      "hash": "490136da06d3aedea30192cbaa0fcf3112e306afe3faabef348670a014bf12d5"
+    },
+    {
+      "id": "titania_fortaleza_de_gertrudis",
+      "hash": "57925ef8d219102462832a284b7d6264c4392c5c5ebd4a7b335993a7b16fef86"
+    },
+    {
+      "id": "titania_templo_del_bosque_de_cristal",
+      "hash": "760ba1fb7d53b4e1ce87ffd5fd5b0e58bbec349562bf5d00d0cd2bf8a0f4c727"
+    },
+    {
+      "id": "titania_posada_de_messina",
+      "hash": "4eb9388dd169dcb0a3b784bd847016d55550d7c9295d088f03f13684b88e5e22"
+    },
+    {
+      "id": "titania_balcones_de_las_gargantas",
+      "hash": "c791a1acd2a368086dba878fda4fa92f58a03de380be044cc59df15ab54c1ada"
+    },
+    {
+      "id": "titania_minas_de_las_raices_heladas",
+      "hash": "8c79b13653685c5bbfa7db49301f3d3a4316a872b178ff0c5b8dd1befa7db178"
+    },
+    {
+      "id": "titania_complejo_de_las_dos_corrientes",
+      "hash": "52bcfb0acdc78a843871ef9ad628690233e3b9dda080f6d37ed34d259038788c"
+    },
+    {
+      "id": "titania_sepulcros_de_la_reina_dormida",
+      "hash": "cdf0d74941a1617a3232155264586340042017481c1443172b17d32cea129244"
+    },
+    {
+      "id": "titania_herbario_del_vacio",
+      "hash": "8ab31b7edabf07802760cdbd413fc2cf987519e7d64a8f660c12064d78bdcabf"
+    },
+    {
+      "id": "titania_jardin_del_trono_de_titania",
+      "hash": "422c907ed2786d3b5bfab3186fc58cf20b40fc4417c5afb5f766dbeaa6865bd7"
+    },
+    {
+      "id": "oberon_ciudad_de_las_coronas_negras",
+      "hash": "4370775419614cf2a8afc7db9981d28e66190af3cc32b4c10c681f901f0b7065"
+    },
+    {
+      "id": "oberon_castillo_de_hamlet",
+      "hash": "fc94a4db7564c3c9e3f06fe9f1938d66514daded9207223377caaa2d18bf13ae"
+    },
+    {
+      "id": "oberon_templo_del_invierno_exiliado",
+      "hash": "ec99003bf864ff633bec93a44a6a7ffa6c5e6c8c3b9ac396ffd4ca933ac657cd"
+    },
+    {
+      "id": "oberon_enclave_de_macbeth",
+      "hash": "b3667355cb920b083655c18d851f668fd5ef141686848029cdbf9c865a8eb3d2"
+    },
+    {
+      "id": "oberon_torres_del_borde_sombrio",
+      "hash": "db4a864f38911261a87e13af2332a5b47fe14ba592d19388a120d2396ffffac4"
+    },
+    {
+      "id": "oberon_minas_de_la_piedra_estelar",
+      "hash": "7f5d341a21b8af96de3c32eb15f639d444fcecc836c4f460e8c4e506402917e3"
+    },
+    {
+      "id": "oberon_forja_de_las_coronas",
+      "hash": "e8660dbd44ff118c69c69e2ceffeb5aad4a4cc071cdd32bfc4533adc129c4368"
+    },
+    {
+      "id": "oberon_criptas_de_los_juramentos",
+      "hash": "4b97fe8cc8c156f60746a811b848dad7398c8bee875627da08506a65a2eaf4c8"
+    },
+    {
+      "id": "oberon_archivo_de_las_mascaras",
+      "hash": "ed6c4d58e79005e962068916e8e89b2b612e07bc4458f4e92e99958b0ff42929"
+    },
+    {
+      "id": "oberon_fortaleza_del_monarca_de_oberon",
+      "hash": "bfdaae3acbce13b042e805ff41106d2dcaf68bd330c46e29cefd44cfdae790b9"
+    },
+    {
+      "id": "miranda_colonia_de_las_tres_coronas",
+      "hash": "cb1ab4537bf4533deeb2709021f0c6e680414531f51a4499557fef4f1bfe89b2"
+    },
+    {
+      "id": "miranda_bastion_de_verona_rupes",
+      "hash": "c4c5ea7187e00dc757ee9f0a7ae84d89a1057cc01d2ffea48121e339f3914f0d"
+    },
+    {
+      "id": "miranda_templo_del_mosaico_roto",
+      "hash": "d092aede3ac99a58589a624d4a77b634a8bef467733c8ad005cd691fd5c3ec31"
+    },
+    {
+      "id": "miranda_escalera_de_inverness",
+      "hash": "76806f8e41f7a4ec55d566b33e7677e080f1a17b919b2f687299d63c3cf52894"
+    },
+    {
+      "id": "miranda_mirador_de_los_escarpes",
+      "hash": "47ff05d9267e9532667ee87d199d5bea09d442f85f8c0c81aa3c8dc3b69ef116"
+    },
+    {
+      "id": "miranda_canteras_de_los_fragmentos",
+      "hash": "f61d4d1ebf751768e1226f26efdf55ebd7cc6b5a371556f39b96d0c6ca65ded7"
+    },
+    {
+      "id": "miranda_taller_de_las_costuras",
+      "hash": "aaa5f2f782d2a2dcba2c03e4dc962ef498656c9a450c561d6387eddc46966e7d"
+    },
+    {
+      "id": "miranda_criptas_del_mundo_rehecho",
+      "hash": "79849d0146c063cd40cfb9cc086b90169d754b883764ec43058bec28376792b4"
+    },
+    {
+      "id": "miranda_archivo_de_la_reconstruccion",
+      "hash": "07d6c19c31caa6d83ef19bd452b4770779eff8c0b869aa32a5b4984a05b302b8"
+    },
+    {
+      "id": "miranda_cicatriz_del_titan_de_miranda",
+      "hash": "2fae3d63849f491d5266b12c388cb4c8943d20fb55ae5322728498f39085b84d"
+    },
+    {
+      "id": "neptune_ciudad_de_la_corriente_azul",
+      "hash": "041a57bf15813198034c51c8a5cbe28b780217a9dcd4485ffe1d9630510ba6a0"
+    },
+    {
+      "id": "neptune_bastion_de_la_mancha_oscura",
+      "hash": "e5cda849895c2bfba011845f5e0751e879a05b1225b87dac169a3add44cf3855"
+    },
+    {
+      "id": "neptune_templo_del_viento_supersonico",
+      "hash": "536c7eee0a3e58b0b10f46a0a64e92d1ec946c71802280a5e22f1941677a1937"
+    },
+    {
+      "id": "neptune_puerto_de_la_deriva",
+      "hash": "6bfb7d5e1c7fc629f76298064d14fd5a94d4b6241d503fe0a3ff0e610f474adf"
+    },
+    {
+      "id": "neptune_faros_del_abismo_indigo",
+      "hash": "cf6cec72b75a217f60170d04ea1e868ac96cdc55716c0a41ec3b126c01b1aad4"
+    },
+    {
+      "id": "neptune_pozos_de_la_presion_azul",
+      "hash": "c034983a83443091ec1aad9c448a040102ae8e481fa49bfce3a1a1f09b39add7"
+    },
+    {
+      "id": "neptune_turbinas_de_las_mil_leguas",
+      "hash": "dec29a5185f77069daefdf8a6e9092510f79e71f8017bf9e57201fe7a56b4248"
+    },
+    {
+      "id": "neptune_panteon_de_las_corrientes",
+      "hash": "b3202f4502512858279e2c409c4bd5e25a864357f99ca4690bc4dfc360b5b17f"
+    },
+    {
+      "id": "neptune_archivo_del_oceano_de_gas",
+      "hash": "1aac5aa17bcf2afd8d7534b847dea216ac191a512f6ab51180946ed7a33ecfd9"
+    },
+    {
+      "id": "neptune_vortice_del_senor_abisal",
+      "hash": "2c699f88d4f1ebb42a020729022a51907c9eacaf54e4efd2c4b5bef6999ccb6b"
+    },
+    {
+      "id": "triton_ciudad_de_la_marcha_inversa",
+      "hash": "b0d2e63cfd19808ecb1011b8365fa82370e8363b4c8db458fb30aa0c0cc212a3"
+    },
+    {
+      "id": "triton_ciudadela_de_bubembe",
+      "hash": "6969fc90fe8d9496baf0dfd08c3984a6d6cfb7136127bb63a35232dc4832cc29"
+    },
+    {
+      "id": "triton_templo_de_los_penachos_negros",
+      "hash": "1028de708a38e3b269386fcf0eaf7c72433dd837e990cdbb8826da54f0b1139c"
+    },
+    {
+      "id": "triton_refugio_de_uhlanga",
+      "hash": "93b5f9bb38fe1e006228058c225bc42605ac1a6613cfef04bb77b31863c5d370"
+    },
+    {
+      "id": "triton_obeliscos_del_giro_retrogrado",
+      "hash": "129d038725cd891d41dff25136be400fc570a91b225e6d730f8287849af9108c"
+    },
+    {
+      "id": "triton_minas_del_nitrogeno",
+      "hash": "6985ece49d76e3874369e32d28d46680655754edc786074d58f9b433ea679da2"
+    },
+    {
+      "id": "triton_condensadores_del_invierno",
+      "hash": "b30fcbce461689f8ee26f6c9332c74f13b1f41408c32d1480277df388d855e19"
+    },
+    {
+      "id": "triton_criptas_de_la_orbita_capturada",
+      "hash": "0eba416622a1307f34fd8cba39392cb9c5f8c1999b6b394866b6538e3fce6050"
+    },
+    {
+      "id": "triton_archivo_de_la_caida_exterior",
+      "hash": "d24943bc6d4c4b6a45f91b032d881c6129e7e10242719b0707c37f633987fcef"
+    },
+    {
+      "id": "triton_espiral_del_soberano_cautivo",
+      "hash": "1eb620ecd2414dc284718f28ab8fb558ab3c9729b6cc4d6492fd25827cab4d38"
+    },
+    {
+      "id": "proteus_colonia_de_las_mil_caras",
+      "hash": "5368072c62339ec8849db7adcbdc48b498fdd5c33c24dd0604bc55a9c892ffd6"
+    },
+    {
+      "id": "proteus_fortaleza_de_pharos",
+      "hash": "f0abf0063c7357101c984a717d54f449f49ad588e2ac8629511cce3a0ef5a155"
+    },
+    {
+      "id": "proteus_templo_del_poliedro",
+      "hash": "dc45bd135a61018abece63ecbeb04405f5da439de3f9a5763fa173244e10396c"
+    },
+    {
+      "id": "proteus_amarre_de_la_roca_irregular",
+      "hash": "018751dc3cfbe0d78cf5badd2441e02ef7a4d3ff6f56a4795e14deb230ad9140"
+    },
+    {
+      "id": "proteus_vigias_de_los_vertices",
+      "hash": "505a2290e527055090938dc37802b5bda2c09918d38c4dbdd9181caf0e1a7069"
+    },
+    {
+      "id": "proteus_galerias_de_las_aristas",
+      "hash": "19ffe2a5d2c2f56c93adf86199b4793e25f232205283331898be13a42084cf77"
+    },
+    {
+      "id": "proteus_taller_de_los_planos_oblicuos",
+      "hash": "24bdecd4a67b57e864692cdb4a802747c94fce8a815c32adc00fb93e9b8fec15"
+    },
+    {
+      "id": "proteus_catacumbas_del_prisma_oscuro",
+      "hash": "1dd88222420f85ceffa719fb5a1eadc508738ac06bc7d7ffadeec76ea2dad9b4"
+    },
+    {
+      "id": "proteus_archivo_de_las_facetas",
+      "hash": "990f7920edfcc2a806d7dbedc75ce64c6752f0125a34c2e2fb7af584000c72cc"
+    },
+    {
+      "id": "proteus_poliedro_del_guardian_de_proteo",
+      "hash": "259ff7cbd7bb08c947d40b19d08eb9f625094d8c4c2476b7618ee450d8dc2764"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "saturn_templo_de_las_siete_sombras",
+  "biomes": "#galaxycraft:saturn_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "miranda_cicatriz_del_titan_de_miranda",
+  "biomes": "#galaxycraft:miranda_habitats",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

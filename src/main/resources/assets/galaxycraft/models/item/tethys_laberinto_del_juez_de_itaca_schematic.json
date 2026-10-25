@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/tethys_laberinto_del_juez_de_itaca_schematic"
+  }
+}

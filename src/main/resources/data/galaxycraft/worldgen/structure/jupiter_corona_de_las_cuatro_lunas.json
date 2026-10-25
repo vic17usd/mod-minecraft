@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "jupiter_corona_de_las_cuatro_lunas",
+  "biomes": "#galaxycraft:jupiter_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

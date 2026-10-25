@@ -69,7 +69,7 @@ public final class GalaxyCraftGameTests {
     }
     @GameTest(template = "tests/empty", timeoutTicks = 80)
     public static void equipment_round_trip(GameTestHelper helper) {
-        helper.assertTrue(com.vic17usd.galaxycraft.registry.ModSites.SCHEMATICS.size() == 145, "Faltan esquemas registrados");
+        helper.assertTrue(com.vic17usd.galaxycraft.registry.ModSites.SCHEMATICS.size() == 435, "Se esperan 145 esquemas históricos y 290 nuevos");
         var tab = com.vic17usd.galaxycraft.registry.ModPresentation.GALAXY_TAB.get();
         tab.buildContents(new net.minecraft.world.item.CreativeModeTab.ItemDisplayParameters(
                 net.minecraft.world.flag.FeatureFlags.DEFAULT_FLAGS,true,helper.getLevel().registryAccess()));

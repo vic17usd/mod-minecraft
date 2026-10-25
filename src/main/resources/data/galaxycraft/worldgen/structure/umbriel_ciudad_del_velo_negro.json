@@ -1,0 +1,13 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "umbriel_ciudad_del_velo_negro",
+  "biomes": "#galaxycraft:umbriel_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

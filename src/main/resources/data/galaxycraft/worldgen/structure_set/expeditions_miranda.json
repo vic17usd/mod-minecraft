@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:miranda_colonia_de_las_tres_coronas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_bastion_de_verona_rupes",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_templo_del_mosaico_roto",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_escalera_de_inverness",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_mirador_de_los_escarpes",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_canteras_de_los_fragmentos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_taller_de_las_costuras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_criptas_del_mundo_rehecho",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_archivo_de_la_reconstruccion",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:miranda_cicatriz_del_titan_de_miranda",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "miranda",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5998102
+  }
+}

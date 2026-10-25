@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RTR",
+    "TST",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "galaxycraft:ariel_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "S": {
+      "item": "galaxycraft:ariel_criptas_del_centro_vacio_schematic"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:pressure_detector",
+    "count": 1
+  }
+}

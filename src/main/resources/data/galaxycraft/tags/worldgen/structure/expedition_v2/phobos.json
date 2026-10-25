@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:phobos_colonia_de_los_garfios",
+    "galaxycraft:phobos_bastion_de_stickney",
+    "galaxycraft:phobos_capilla_del_ultimo_giro",
+    "galaxycraft:phobos_amarre_de_las_cadenas",
+    "galaxycraft:phobos_baliza_del_transito_rapido",
+    "galaxycraft:phobos_tuneles_de_la_brecha",
+    "galaxycraft:phobos_taller_de_los_remolcadores",
+    "galaxycraft:phobos_criptas_del_anclaje",
+    "galaxycraft:phobos_camara_de_las_orbitas_caidas",
+    "galaxycraft:phobos_mandibula_del_abismo_de_fobos"
+  ]
+}

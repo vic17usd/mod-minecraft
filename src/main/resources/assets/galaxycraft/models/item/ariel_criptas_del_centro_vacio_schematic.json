@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ariel_criptas_del_centro_vacio_schematic"
+  }
+}

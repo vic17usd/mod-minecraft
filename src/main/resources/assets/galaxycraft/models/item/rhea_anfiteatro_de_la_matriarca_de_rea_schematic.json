@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/rhea_anfiteatro_de_la_matriarca_de_rea_schematic"
+  }
+}

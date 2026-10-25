@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:saturn_ciudad_del_cinturon_dorado",
+    "galaxycraft:saturn_bastion_de_los_anillos",
+    "galaxycraft:saturn_templo_de_las_siete_sombras",
+    "galaxycraft:saturn_darsena_de_cassini",
+    "galaxycraft:saturn_miradores_de_la_division",
+    "galaxycraft:saturn_minas_del_hielo_comprimido",
+    "galaxycraft:saturn_factoria_del_polvo_anular",
+    "galaxycraft:saturn_criptas_del_ovalo",
+    "galaxycraft:saturn_archivo_de_los_pastores",
+    "galaxycraft:saturn_palacio_del_soberano_anular"
+  ]
+}

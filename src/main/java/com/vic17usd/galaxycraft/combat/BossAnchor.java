@@ -14,6 +14,12 @@ import net.minecraft.world.level.block.state.BlockState;
 public final class BossAnchor extends BlockEntity {
   public boolean awakened, defeated;
   private UUID bossId;
+  // Vacío conserva exactamente el comportamiento de las anclas históricas.
+  private String encounterBody = "";
+
+  public String encounterBody() {
+    return encounterBody;
+  }
 
   public BossAnchor(BlockPos pos, BlockState state) {
     super(ModFrontiers.ANCHOR.get(), pos, state);
@@ -23,6 +29,9 @@ public final class BossAnchor extends BlockEntity {
     if (!(level instanceof ServerLevel server)
         || awakened
         || server.getDifficulty() == Difficulty.PEACEFUL) return false;
+    if (!encounterBody.isEmpty()
+        && !com.vic17usd.galaxycraft.expedition.ExpeditionDimensions.matches(
+            encounterBody, server.dimension())) return false;
     var boss =
         (((BossAnchorBlock) getBlockState().getBlock()).queen
                 ? ModFrontiers.QUEEN
@@ -30,6 +39,7 @@ public final class BossAnchor extends BlockEntity {
             .get()
             .create(server);
     if (boss == null) return false;
+    if (!encounterBody.isEmpty()) boss.expedition(encounterBody);
     boss.setPos(worldPosition.getX() + .5, worldPosition.getY() + 1, worldPosition.getZ() + .5);
     boss.anchor(worldPosition);
     if (!server.noCollision(boss) || !server.addFreshEntity(boss)) return false;
@@ -63,6 +73,7 @@ public final class BossAnchor extends BlockEntity {
     tag.putBoolean("Awakened", awakened);
     tag.putBoolean("Defeated", defeated);
     if (bossId != null) tag.putUUID("Boss", bossId);
+    if (!encounterBody.isEmpty()) tag.putString("EncounterBody", encounterBody);
   }
 
   @Override
@@ -71,5 +82,8 @@ public final class BossAnchor extends BlockEntity {
     awakened = tag.getBoolean("Awakened");
     defeated = tag.getBoolean("Defeated");
     bossId = tag.hasUUID("Boss") ? tag.getUUID("Boss") : null;
+    encounterBody = tag.getString("EncounterBody");
+    if (!encounterBody.isEmpty())
+      com.vic17usd.galaxycraft.biosphere.LivingProfiles.get(encounterBody);
   }
 }

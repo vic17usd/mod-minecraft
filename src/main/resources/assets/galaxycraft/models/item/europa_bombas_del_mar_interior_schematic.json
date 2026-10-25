@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/europa_bombas_del_mar_interior_schematic"
+  }
+}

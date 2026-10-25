@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RTR",
+    "TST",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "galaxycraft:mimas_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "S": {
+      "item": "galaxycraft:mimas_pueblo_de_la_gran_concavidad_schematic"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:reinforced_panel",
+    "count": 4
+  }
+}

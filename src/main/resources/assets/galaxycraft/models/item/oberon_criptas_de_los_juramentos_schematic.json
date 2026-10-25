@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/oberon_criptas_de_los_juramentos_schematic"
+  }
+}

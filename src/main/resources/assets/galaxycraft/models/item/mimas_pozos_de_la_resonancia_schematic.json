@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/mimas_pozos_de_la_resonancia_schematic"
+  }
+}

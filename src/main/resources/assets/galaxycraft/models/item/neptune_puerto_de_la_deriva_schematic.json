@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/neptune_puerto_de_la_deriva_schematic"
+  }
+}

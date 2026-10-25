@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/deimos_aldea_del_eco_lejano_schematic"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/phobos_camara_de_las_orbitas_caidas_schematic"
+  }
+}

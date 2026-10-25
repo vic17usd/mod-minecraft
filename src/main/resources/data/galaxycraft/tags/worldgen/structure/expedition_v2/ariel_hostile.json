@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:ariel_fortaleza_de_kachina",
+    "galaxycraft:ariel_templo_de_los_cinco_radios",
+    "galaxycraft:ariel_pozos_del_valle_brillante",
+    "galaxycraft:ariel_bombas_del_hielo_radial",
+    "galaxycraft:ariel_criptas_del_centro_vacio",
+    "galaxycraft:ariel_archivo_de_los_rayos_helados",
+    "galaxycraft:ariel_atrio_de_la_regente_radiante"
+  ]
+}

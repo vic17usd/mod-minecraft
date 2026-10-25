@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/jupiter_metropolis_del_ojo_ambar_schematic"
+  }
+}

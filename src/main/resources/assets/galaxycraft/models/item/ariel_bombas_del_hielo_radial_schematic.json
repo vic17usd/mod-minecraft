@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ariel_bombas_del_hielo_radial_schematic"
+  }
+}

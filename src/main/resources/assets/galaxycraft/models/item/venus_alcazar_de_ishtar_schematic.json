@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/venus_alcazar_de_ishtar_schematic"
+  }
+}

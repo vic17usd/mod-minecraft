@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/titania_jardin_del_trono_de_titania_schematic"
+  }
+}

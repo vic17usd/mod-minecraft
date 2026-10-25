@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/mimas_puesto_del_borde_exterior_schematic"
+  }
+}

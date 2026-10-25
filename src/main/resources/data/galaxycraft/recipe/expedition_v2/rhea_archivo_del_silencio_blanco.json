@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RTR",
+    "TST",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "galaxycraft:rhea_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "S": {
+      "item": "galaxycraft:rhea_archivo_del_silencio_blanco_schematic"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:lead_shield_module",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/io_ciudad_de_las_cien_chimeneas_schematic"
+  }
+}

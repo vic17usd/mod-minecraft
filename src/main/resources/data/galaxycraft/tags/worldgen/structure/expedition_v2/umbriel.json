@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:umbriel_ciudad_del_velo_negro",
+    "galaxycraft:umbriel_fortin_de_wunda",
+    "galaxycraft:umbriel_templo_del_anillo_palido",
+    "galaxycraft:umbriel_enclave_de_fin",
+    "galaxycraft:umbriel_ojo_de_la_noche_perpetua",
+    "galaxycraft:umbriel_minas_del_carbon_helado",
+    "galaxycraft:umbriel_factoria_de_las_sombras",
+    "galaxycraft:umbriel_tumbas_del_disco_blanco",
+    "galaxycraft:umbriel_archivo_de_los_nombres_borrados",
+    "galaxycraft:umbriel_pozo_del_heraldo_de_umbriel"
+  ]
+}

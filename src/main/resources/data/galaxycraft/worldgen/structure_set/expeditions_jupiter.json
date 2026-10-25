@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:jupiter_metropolis_del_ojo_ambar",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_fortaleza_de_la_gran_mancha",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_templo_de_las_bandas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_puerto_de_los_vientos_profundos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_corona_de_las_cuatro_lunas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_galerias_de_la_presion",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_turbinas_del_ciclon",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_panteon_de_los_rayos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_archivo_del_hidrogeno",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:jupiter_bastion_del_emperador_de_tormentas",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "jupiter",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5855560
+  }
+}

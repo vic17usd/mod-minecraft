@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/venus_zigurat_de_las_cenizas_schematic"
+  }
+}

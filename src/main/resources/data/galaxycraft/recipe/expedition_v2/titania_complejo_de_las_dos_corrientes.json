@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RTR",
+    "TST",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "galaxycraft:titania_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "S": {
+      "item": "galaxycraft:titania_complejo_de_las_dos_corrientes_schematic"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:navigation_core",
+    "count": 1
+  }
+}

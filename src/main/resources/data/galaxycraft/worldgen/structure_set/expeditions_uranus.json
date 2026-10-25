@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:uranus_ciudad_del_eje_tendido",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_fortaleza_de_la_rotacion_azul",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_templo_de_los_solsticios_largos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_puerto_del_horizonte_inclinado",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_lentes_del_polo_turquesa",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_pozos_de_la_alta_presion",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_turbinas_de_la_inclinacion",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_tumbas_de_la_estacion_perdida",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_archivo_del_eje_antiguo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:uranus_giroscopo_del_rey_invertido",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "uranus",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5958507
+  }
+}

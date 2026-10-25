@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:dione_ciudad_de_las_plumas_blancas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_ciudadela_de_evandro",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_templo_de_los_acantilados",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_amarre_de_creusa",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_torres_del_filamento",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_galerias_de_la_cornisa",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_factoria_de_la_nieve_ferrea",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_criptas_de_los_precipicios",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_archivo_de_la_pared_clara",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:dione_aguja_del_verdugo_de_dione",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "dione",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5934750
+  }
+}

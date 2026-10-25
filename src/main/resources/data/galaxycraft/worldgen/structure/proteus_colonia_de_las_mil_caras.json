@@ -1,0 +1,13 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "proteus_colonia_de_las_mil_caras",
+  "biomes": "#galaxycraft:proteus_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

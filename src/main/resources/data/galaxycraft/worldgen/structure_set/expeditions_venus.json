@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:venus_urbe_de_la_corona_sulfurica",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_alcazar_de_ishtar",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_zigurat_de_las_cenizas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_embarcadero_de_maat",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_lentes_de_la_bruma_dorada",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_canteras_del_basalto_vivo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_destileria_de_las_nubes",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_tumbas_de_la_lluvia_acida",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_archivo_del_vidrio_fundido",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:venus_palacio_de_la_caldera_eterna",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "venus",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5823884
+  }
+}

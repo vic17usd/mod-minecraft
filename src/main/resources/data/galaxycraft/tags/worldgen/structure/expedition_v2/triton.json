@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:triton_ciudad_de_la_marcha_inversa",
+    "galaxycraft:triton_ciudadela_de_bubembe",
+    "galaxycraft:triton_templo_de_los_penachos_negros",
+    "galaxycraft:triton_refugio_de_uhlanga",
+    "galaxycraft:triton_obeliscos_del_giro_retrogrado",
+    "galaxycraft:triton_minas_del_nitrogeno",
+    "galaxycraft:triton_condensadores_del_invierno",
+    "galaxycraft:triton_criptas_de_la_orbita_capturada",
+    "galaxycraft:triton_archivo_de_la_caida_exterior",
+    "galaxycraft:triton_espiral_del_soberano_cautivo"
+  ]
+}

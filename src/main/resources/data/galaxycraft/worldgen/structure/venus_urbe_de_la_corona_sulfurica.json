@@ -1,0 +1,13 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "venus_urbe_de_la_corona_sulfurica",
+  "biomes": "#galaxycraft:venus_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

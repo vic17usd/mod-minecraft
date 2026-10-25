@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/triton_obeliscos_del_giro_retrogrado_schematic"
+  }
+}

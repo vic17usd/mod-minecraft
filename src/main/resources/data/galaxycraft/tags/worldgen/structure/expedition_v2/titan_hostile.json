@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:titan_fortaleza_de_kraken",
+    "galaxycraft:titan_templo_de_la_lluvia_de_metano",
+    "galaxycraft:titan_minas_de_los_hidrocarburos",
+    "galaxycraft:titan_destileria_del_crepusculo",
+    "galaxycraft:titan_sepulcros_de_las_dunas",
+    "galaxycraft:titan_archivo_de_las_mareas_negras",
+    "galaxycraft:titan_refineria_del_monarca_de_titan"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/enceladus_pozos_del_oceano_tibio_schematic"
+  }
+}

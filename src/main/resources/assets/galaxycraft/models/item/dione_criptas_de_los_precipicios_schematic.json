@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/dione_criptas_de_los_precipicios_schematic"
+  }
+}

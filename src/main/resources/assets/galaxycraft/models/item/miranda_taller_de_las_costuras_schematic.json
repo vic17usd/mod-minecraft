@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/miranda_taller_de_las_costuras_schematic"
+  }
+}

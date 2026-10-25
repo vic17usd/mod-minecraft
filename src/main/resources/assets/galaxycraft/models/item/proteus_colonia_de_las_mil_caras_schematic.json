@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/proteus_colonia_de_las_mil_caras_schematic"
+  }
+}

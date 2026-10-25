@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:europa_ciudad_de_los_puentes_de_hielo",
+    "galaxycraft:europa_fortin_de_las_fracturas",
+    "galaxycraft:europa_templo_del_oceano_sellado",
+    "galaxycraft:europa_refugio_de_conamara",
+    "galaxycraft:europa_faros_de_la_corteza",
+    "galaxycraft:europa_minas_de_las_estrias",
+    "galaxycraft:europa_bombas_del_mar_interior",
+    "galaxycraft:europa_sepulcros_de_la_sal_azul",
+    "galaxycraft:europa_archivo_del_agua_antigua",
+    "galaxycraft:europa_abadia_del_leviatan_blanco"
+  ]
+}

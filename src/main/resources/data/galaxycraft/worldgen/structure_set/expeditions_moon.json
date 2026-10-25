@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:moon_selenopolis_de_copernico",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_muralla_de_tycho",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_santuario_de_la_cara_oculta",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_darsena_del_mar_tranquilo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_agujas_de_aristarco",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_galerias_del_titanio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_refineria_del_helio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_osario_de_los_selenitas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_cripta_de_las_mareas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:moon_catedral_del_guardian_gris",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "moon",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5808046
+  }
+}

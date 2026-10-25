@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/dione_galerias_de_la_cornisa_schematic"
+  }
+}

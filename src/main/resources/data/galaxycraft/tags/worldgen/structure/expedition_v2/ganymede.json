@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:ganymede_ciudad_de_las_lineas_magneticas",
+    "galaxycraft:ganymede_fortaleza_de_galileo",
+    "galaxycraft:ganymede_templo_de_los_rombos",
+    "galaxycraft:ganymede_enclave_de_marius",
+    "galaxycraft:ganymede_prismas_del_campo_polar",
+    "galaxycraft:ganymede_excavaciones_de_la_corteza_oscura",
+    "galaxycraft:ganymede_dinamo_de_las_auroras",
+    "galaxycraft:ganymede_criptas_del_nucleo_metalico",
+    "galaxycraft:ganymede_archivo_de_las_cuatro_brujulas",
+    "galaxycraft:ganymede_ciudadela_del_regente_magnetico"
+  ]
+}

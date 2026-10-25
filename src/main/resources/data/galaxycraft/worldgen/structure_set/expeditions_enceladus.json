@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:enceladus_ciudad_de_los_penachos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_ciudadela_de_damasco",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_templo_de_las_rayas_de_tigre",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_refugio_de_bagdad",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_balcones_del_polo_sur",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_pozos_del_oceano_tibio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_condensadores_del_vapor",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_tumbas_de_la_escarcha",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_archivo_de_las_gotas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:enceladus_camara_del_rey_de_los_geiseres",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "enceladus",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5910993
+  }
+}

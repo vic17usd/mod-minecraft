@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/mars_camara_de_los_cartografos_schematic"
+  }
+}

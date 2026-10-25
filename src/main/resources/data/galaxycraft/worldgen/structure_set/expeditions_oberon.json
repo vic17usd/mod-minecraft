@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:oberon_ciudad_de_las_coronas_negras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_castillo_de_hamlet",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_templo_del_invierno_exiliado",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_enclave_de_macbeth",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_torres_del_borde_sombrio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_minas_de_la_piedra_estelar",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_forja_de_las_coronas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_criptas_de_los_juramentos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_archivo_de_las_mascaras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:oberon_fortaleza_del_monarca_de_oberon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "oberon",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5990183
+  }
+}

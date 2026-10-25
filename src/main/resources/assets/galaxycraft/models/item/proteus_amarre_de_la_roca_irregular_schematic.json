@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/proteus_amarre_de_la_roca_irregular_schematic"
+  }
+}

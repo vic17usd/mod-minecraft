@@ -1,0 +1,13 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "mimas_pueblo_de_la_gran_concavidad",
+  "biomes": "#galaxycraft:mimas_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

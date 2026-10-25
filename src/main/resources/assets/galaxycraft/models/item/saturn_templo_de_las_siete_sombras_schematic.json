@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/saturn_templo_de_las_siete_sombras_schematic"
+  }
+}

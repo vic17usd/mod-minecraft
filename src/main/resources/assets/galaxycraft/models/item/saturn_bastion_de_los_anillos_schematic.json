@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/saturn_bastion_de_los_anillos_schematic"
+  }
+}

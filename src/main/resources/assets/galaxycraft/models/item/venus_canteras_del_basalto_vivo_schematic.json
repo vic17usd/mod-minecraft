@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/venus_canteras_del_basalto_vivo_schematic"
+  }
+}

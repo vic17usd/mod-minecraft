@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/moon_santuario_de_la_cara_oculta_schematic"
+  }
+}

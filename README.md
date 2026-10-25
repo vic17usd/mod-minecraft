@@ -1,20 +1,22 @@
 # GalaxyCraft — Sistema Solar y supervivencia avanzada
 
-La versión actual es **0.8.0**: [morfologías originales y cielos orbitales](docs/MORFOLOGIAS_Y_CIELOS.md).
-Sustituye todas las mallas de criaturas del mod por once familias originales
-articuladas, con atlas y máscaras emisivas para 179 registros. Añade planeo,
-embestidas, animaciones S2C, comercio de planos, esporas, mapas celestes HD,
-fases/tamaños angulares y dispersión Rayleigh–Mie mediante shader propio.
-Conserva las [biosferas y civilizaciones](docs/BIOSFERA_Y_CIVILIZACIONES.md),
-las 145 fachadas, 87 cultivos y colonias con contratos. La Tierra conserva
-terreno y cielo vanilla; su aspecto desde otras dimensiones sí se renueva.
-Descarga [`galaxycraft-0.8.0.jar`](downloads/galaxycraft-0.8.0.jar) desde GitHub con
+La versión actual es **0.9.0**: [exploración y megaestructuras](docs/EXPLORACION_Y_MEGAESTRUCTURAS.md).
+Reconstruye la generación con **290 diseños exclusivos**, diez por cada cuerpo:
+cinco superficiales y cinco subterráneos, incluida una megamazmorra con jefe.
+Las ciudades forman parte de esos diez. Un set compartido mantiene candidatos
+a un mínimo de **3088 bloques**, con NBT modulares, loot y planos propios.
+Consulta el [catálogo completo](docs/CATALOGO_EXPLORACION.md).
+Conserva las [morfologías y cielos](docs/MORFOLOGIAS_Y_CIELOS.md), las
+[biosferas](docs/BIOSFERA_Y_CIVILIZACIONES.md), 145 materiales, 87 cultivos,
+comercio y contratos. La Tierra conserva terreno y cielo vanilla.
+Descarga [`galaxycraft-0.9.0.jar`](downloads/galaxycraft-0.9.0.jar) desde GitHub con
 **Download raw file** y sustituye la versión anterior en `mods`.
 
-Los modelos y cielos se actualizan también en mundos existentes. Se recomienda
-explorar chunks nuevos para encontrar generación que aún no estuviera presente; no hay retrogen
-ni sustitución de construcciones existentes. Se mantienen las cinco expediciones
-por cuerpo y se añade una familia independiente de colonias. Véase la guía de migración.
+La generación antigua queda desactivada en chunks nuevos, pero sus registros
+y construcciones guardadas se conservan. No hay retrogen ni borrado del mundo.
+Para comprobar el catálogo y la separación sin legado, se recomienda un mundo
+nuevo. Las reglas cuentan estructuras de GalaxyCraft, no las de otros mods ni
+las estructuras vanilla del Overworld. Véase la guía de migración.
 
 Conserva [combate, clima y redes](docs/FRONTERAS_COMBATE_Y_REDES.md): dos jefes,
 eventos espaciales, tuberías, depósitos y repostaje por plataforma.

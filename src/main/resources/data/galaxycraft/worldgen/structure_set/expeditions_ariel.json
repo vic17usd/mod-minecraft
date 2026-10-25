@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:ariel_ciudad_de_los_surcos_radiantes",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_fortaleza_de_kachina",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_templo_de_los_cinco_radios",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_puesto_de_yangoor",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_agujas_del_amanecer_azul",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_pozos_del_valle_brillante",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_bombas_del_hielo_radial",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_criptas_del_centro_vacio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_archivo_de_los_rayos_helados",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ariel_atrio_de_la_regente_radiante",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "ariel",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5966426
+  }
+}

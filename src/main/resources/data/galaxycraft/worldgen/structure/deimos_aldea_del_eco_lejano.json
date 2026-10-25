@@ -1,0 +1,13 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "deimos_aldea_del_eco_lejano",
+  "biomes": "#galaxycraft:deimos_habitats",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

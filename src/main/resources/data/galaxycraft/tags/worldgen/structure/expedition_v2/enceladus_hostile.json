@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:enceladus_ciudadela_de_damasco",
+    "galaxycraft:enceladus_templo_de_las_rayas_de_tigre",
+    "galaxycraft:enceladus_pozos_del_oceano_tibio",
+    "galaxycraft:enceladus_condensadores_del_vapor",
+    "galaxycraft:enceladus_tumbas_de_la_escarcha",
+    "galaxycraft:enceladus_archivo_de_las_gotas",
+    "galaxycraft:enceladus_camara_del_rey_de_los_geiseres"
+  ]
+}

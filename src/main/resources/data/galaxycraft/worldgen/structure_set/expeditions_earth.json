@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:earth_ciudad_del_arca",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_bastion_del_meridiano",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_templo_del_primer_horizonte",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_puerto_de_los_pioneros",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_mirador_de_gaia",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_canteras_del_manto",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_forja_de_las_raices",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_catacumbas_del_diluvio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_archivo_de_las_semillas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:earth_trono_del_nucleo_azul",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "earth",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5800127
+  }
+}

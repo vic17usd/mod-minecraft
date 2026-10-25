@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/umbriel_pozo_del_heraldo_de_umbriel_schematic"
+  }
+}

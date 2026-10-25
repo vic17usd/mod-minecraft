@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/mimas_vigias_del_crater_gigante_schematic"
+  }
+}

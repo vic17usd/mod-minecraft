@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:venus_alcazar_de_ishtar",
+    "galaxycraft:venus_zigurat_de_las_cenizas",
+    "galaxycraft:venus_canteras_del_basalto_vivo",
+    "galaxycraft:venus_destileria_de_las_nubes",
+    "galaxycraft:venus_tumbas_de_la_lluvia_acida",
+    "galaxycraft:venus_archivo_del_vidrio_fundido",
+    "galaxycraft:venus_palacio_de_la_caldera_eterna"
+  ]
+}

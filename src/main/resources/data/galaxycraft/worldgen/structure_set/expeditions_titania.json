@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:titania_ciudad_de_los_arcos_gemelos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_fortaleza_de_gertrudis",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_templo_del_bosque_de_cristal",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_posada_de_messina",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_balcones_de_las_gargantas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_minas_de_las_raices_heladas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_complejo_de_las_dos_corrientes",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_sepulcros_de_la_reina_dormida",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_herbario_del_vacio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:titania_jardin_del_trono_de_titania",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "titania",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5982264
+  }
+}

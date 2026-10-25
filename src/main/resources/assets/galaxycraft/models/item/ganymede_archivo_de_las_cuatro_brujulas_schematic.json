@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ganymede_archivo_de_las_cuatro_brujulas_schematic"
+  }
+}

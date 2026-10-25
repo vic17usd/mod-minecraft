@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/titan_fortaleza_de_kraken_schematic"
+  }
+}

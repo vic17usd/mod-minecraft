@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/callisto_necropolis_de_los_impactos_schematic"
+  }
+}

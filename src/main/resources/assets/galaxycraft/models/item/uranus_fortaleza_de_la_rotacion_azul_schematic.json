@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/uranus_fortaleza_de_la_rotacion_azul_schematic"
+  }
+}

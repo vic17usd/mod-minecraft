@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:mercury_ciudad_de_las_sombras_largas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_fortaleza_del_terminador",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_templo_del_sol_inmovil",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_refugio_de_caloris",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_espejos_de_la_aurora",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_pozos_del_cobalto",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_hornos_de_la_insolacion",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_sepulcros_del_hierro_negro",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_boveda_del_perihelio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mercury_motor_del_corazon_solar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "mercury",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5815965
+  }
+}

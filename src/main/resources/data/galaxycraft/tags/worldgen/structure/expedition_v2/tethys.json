@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:tethys_ciudad_del_canal_partido",
+    "galaxycraft:tethys_fortaleza_de_odiseo",
+    "galaxycraft:tethys_templo_de_itaca",
+    "galaxycraft:tethys_enclave_de_las_riberas",
+    "galaxycraft:tethys_agujas_del_gran_canon",
+    "galaxycraft:tethys_canteras_de_las_dos_orillas",
+    "galaxycraft:tethys_molinos_del_hielo_tectonico",
+    "galaxycraft:tethys_catacumbas_del_istmo",
+    "galaxycraft:tethys_archivo_de_la_fisura",
+    "galaxycraft:tethys_laberinto_del_juez_de_itaca"
+  ]
+}

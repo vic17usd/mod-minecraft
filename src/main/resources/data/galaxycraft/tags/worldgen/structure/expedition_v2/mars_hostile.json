@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:mars_ciudadela_de_valles_marineris",
+    "galaxycraft:mars_templo_de_los_dos_satelites",
+    "galaxycraft:mars_minas_de_arsia",
+    "galaxycraft:mars_fundicion_de_la_tormenta",
+    "galaxycraft:mars_necropolis_de_cydonia",
+    "galaxycraft:mars_camara_de_los_cartografos",
+    "galaxycraft:mars_palacio_de_la_reina_de_ares"
+  ]
+}

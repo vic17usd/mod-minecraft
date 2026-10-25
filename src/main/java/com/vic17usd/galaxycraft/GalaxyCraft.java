@@ -29,6 +29,7 @@ public final class GalaxyCraft {
   public GalaxyCraft(IEventBus modEventBus, ModContainer container) {
     ModPlanetContent.register();
     ModSites.registerItems();
+    com.vic17usd.galaxycraft.expedition.ModExpeditions.register(modEventBus);
     com.vic17usd.galaxycraft.expansion.ModExpansion.registerBlockItems();
     com.vic17usd.galaxycraft.frontier.ModFrontiers.registerItems();
     com.vic17usd.galaxycraft.biosphere.ModBiosphere.content();

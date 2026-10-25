@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/oberon_torres_del_borde_sombrio_schematic"
+  }
+}

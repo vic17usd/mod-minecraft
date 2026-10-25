@@ -9,7 +9,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''
-Exploración del Sistema Solar con biosferas alienígenas, colonias, cultivos nativos, terrenos extremos, cielos propios, misiones, estaciones, combate y redes de recursos.
+Exploración del Sistema Solar con diez estructuras exclusivas por mundo, megamazmorras, ciudades, biosferas alienígenas, cielos propios, misiones, estaciones, combate y redes de recursos.
 '''
 
 # El intervalo se limita a la línea 21.0 para evitar prometer compatibilidad con 1.21.1.

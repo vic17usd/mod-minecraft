@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ariel_puesto_de_yangoor_schematic"
+  }
+}

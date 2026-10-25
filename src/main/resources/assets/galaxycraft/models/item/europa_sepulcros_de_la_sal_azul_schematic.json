@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/europa_sepulcros_de_la_sal_azul_schematic"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:mercury_ciudad_de_las_sombras_largas",
+    "galaxycraft:mercury_fortaleza_del_terminador",
+    "galaxycraft:mercury_templo_del_sol_inmovil",
+    "galaxycraft:mercury_refugio_de_caloris",
+    "galaxycraft:mercury_espejos_de_la_aurora",
+    "galaxycraft:mercury_pozos_del_cobalto",
+    "galaxycraft:mercury_hornos_de_la_insolacion",
+    "galaxycraft:mercury_sepulcros_del_hierro_negro",
+    "galaxycraft:mercury_boveda_del_perihelio",
+    "galaxycraft:mercury_motor_del_corazon_solar"
+  ]
+}

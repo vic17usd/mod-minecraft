@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/earth_archivo_de_las_semillas_schematic"
+  }
+}

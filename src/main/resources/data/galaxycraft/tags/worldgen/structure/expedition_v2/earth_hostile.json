@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:earth_bastion_del_meridiano",
+    "galaxycraft:earth_templo_del_primer_horizonte",
+    "galaxycraft:earth_canteras_del_manto",
+    "galaxycraft:earth_forja_de_las_raices",
+    "galaxycraft:earth_catacumbas_del_diluvio",
+    "galaxycraft:earth_archivo_de_las_semillas",
+    "galaxycraft:earth_trono_del_nucleo_azul"
+  ]
+}

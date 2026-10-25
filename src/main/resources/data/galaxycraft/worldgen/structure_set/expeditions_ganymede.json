@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:ganymede_ciudad_de_las_lineas_magneticas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_fortaleza_de_galileo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_templo_de_los_rombos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_enclave_de_marius",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_prismas_del_campo_polar",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_excavaciones_de_la_corteza_oscura",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_dinamo_de_las_auroras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_criptas_del_nucleo_metalico",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_archivo_de_las_cuatro_brujulas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:ganymede_ciudadela_del_regente_magnetico",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "ganymede",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5879317
+  }
+}

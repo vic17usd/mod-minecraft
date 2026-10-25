@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ganymede_excavaciones_de_la_corteza_oscura_schematic"
+  }
+}

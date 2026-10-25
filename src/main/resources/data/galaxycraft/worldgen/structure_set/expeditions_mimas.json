@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:mimas_pueblo_de_la_gran_concavidad",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_bastion_de_herschel",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_templo_del_hemisferio_roto",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_puesto_del_borde_exterior",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_vigias_del_crater_gigante",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_pozos_de_la_resonancia",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_complejo_del_eco_mecanico",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_criptas_del_cuenco",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_archivo_de_los_fragmentos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:mimas_ojo_del_centinela_de_mimas",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "mimas",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5918912
+  }
+}

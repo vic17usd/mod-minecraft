@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/umbriel_ciudad_del_velo_negro_schematic"
+  }
+}

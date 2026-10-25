@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/moon_catedral_del_guardian_gris_schematic"
+  }
+}

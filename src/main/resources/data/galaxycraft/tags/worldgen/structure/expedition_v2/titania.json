@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:titania_ciudad_de_los_arcos_gemelos",
+    "galaxycraft:titania_fortaleza_de_gertrudis",
+    "galaxycraft:titania_templo_del_bosque_de_cristal",
+    "galaxycraft:titania_posada_de_messina",
+    "galaxycraft:titania_balcones_de_las_gargantas",
+    "galaxycraft:titania_minas_de_las_raices_heladas",
+    "galaxycraft:titania_complejo_de_las_dos_corrientes",
+    "galaxycraft:titania_sepulcros_de_la_reina_dormida",
+    "galaxycraft:titania_herbario_del_vacio",
+    "galaxycraft:titania_jardin_del_trono_de_titania"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/dione_aguja_del_verdugo_de_dione_schematic"
+  }
+}

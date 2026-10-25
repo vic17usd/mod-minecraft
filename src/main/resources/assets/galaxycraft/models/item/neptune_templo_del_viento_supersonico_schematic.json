@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/neptune_templo_del_viento_supersonico_schematic"
+  }
+}

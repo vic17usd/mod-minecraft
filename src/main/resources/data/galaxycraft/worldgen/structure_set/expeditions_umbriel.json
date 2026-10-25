@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:umbriel_ciudad_del_velo_negro",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_fortin_de_wunda",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_templo_del_anillo_palido",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_enclave_de_fin",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_ojo_de_la_noche_perpetua",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_minas_del_carbon_helado",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_factoria_de_las_sombras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_tumbas_del_disco_blanco",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_archivo_de_los_nombres_borrados",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:umbriel_pozo_del_heraldo_de_umbriel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "umbriel",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5974345
+  }
+}

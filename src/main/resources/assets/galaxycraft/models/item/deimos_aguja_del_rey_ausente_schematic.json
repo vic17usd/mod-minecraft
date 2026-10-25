@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/deimos_aguja_del_rey_ausente_schematic"
+  }
+}

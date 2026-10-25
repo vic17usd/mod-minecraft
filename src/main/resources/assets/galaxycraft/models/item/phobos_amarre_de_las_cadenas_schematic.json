@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/phobos_amarre_de_las_cadenas_schematic"
+  }
+}

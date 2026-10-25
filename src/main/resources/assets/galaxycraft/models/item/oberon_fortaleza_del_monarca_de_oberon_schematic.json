@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/oberon_fortaleza_del_monarca_de_oberon_schematic"
+  }
+}

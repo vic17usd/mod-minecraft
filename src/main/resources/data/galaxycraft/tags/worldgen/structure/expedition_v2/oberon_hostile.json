@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:oberon_castillo_de_hamlet",
+    "galaxycraft:oberon_templo_del_invierno_exiliado",
+    "galaxycraft:oberon_minas_de_la_piedra_estelar",
+    "galaxycraft:oberon_forja_de_las_coronas",
+    "galaxycraft:oberon_criptas_de_los_juramentos",
+    "galaxycraft:oberon_archivo_de_las_mascaras",
+    "galaxycraft:oberon_fortaleza_del_monarca_de_oberon"
+  ]
+}

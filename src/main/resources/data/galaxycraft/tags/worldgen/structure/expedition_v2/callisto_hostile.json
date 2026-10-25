@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:callisto_fortaleza_de_valhalla",
+    "galaxycraft:callisto_templo_del_impacto_primordial",
+    "galaxycraft:callisto_galerias_del_crater_hundido",
+    "galaxycraft:callisto_taller_de_las_edades",
+    "galaxycraft:callisto_necropolis_de_los_impactos",
+    "galaxycraft:callisto_archivo_del_bombardeo",
+    "galaxycraft:callisto_corona_del_senor_de_valhalla"
+  ]
+}

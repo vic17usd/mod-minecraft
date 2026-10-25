@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/proteus_vigias_de_los_vertices_schematic"
+  }
+}

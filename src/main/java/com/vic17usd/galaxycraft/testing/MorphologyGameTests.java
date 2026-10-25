@@ -113,7 +113,20 @@ public final class MorphologyGameTests {
         menu.act(player, 5)
             && npc.stock() == 7
             && ColonyCitizen.count(player, ModBiosphere.TOKEN.get()) == 0
-            && ColonyCitizen.count(player, ModSites.SCHEMATICS.get("earth_observatory").get()) == 1,
+            && ColonyCitizen.count(
+                    player,
+                    ModSites.SCHEMATICS
+                        .get(
+                            com.vic17usd.galaxycraft.expedition.ExpeditionCatalog.ALL.stream()
+                                .filter(
+                                    site ->
+                                        site.body().equals("earth")
+                                            && site.role().equals("observatory"))
+                                .findFirst()
+                                .orElseThrow()
+                                .id())
+                        .get())
+                == 1,
         "Plano o pago incorrecto");
     helper.assertTrue(
         npc.getData(ModMorphology.POSE).action() == AlienPose.TRADE, "No animó el comercio");

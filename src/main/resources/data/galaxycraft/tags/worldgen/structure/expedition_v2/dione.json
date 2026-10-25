@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:dione_ciudad_de_las_plumas_blancas",
+    "galaxycraft:dione_ciudadela_de_evandro",
+    "galaxycraft:dione_templo_de_los_acantilados",
+    "galaxycraft:dione_amarre_de_creusa",
+    "galaxycraft:dione_torres_del_filamento",
+    "galaxycraft:dione_galerias_de_la_cornisa",
+    "galaxycraft:dione_factoria_de_la_nieve_ferrea",
+    "galaxycraft:dione_criptas_de_los_precipicios",
+    "galaxycraft:dione_archivo_de_la_pared_clara",
+    "galaxycraft:dione_aguja_del_verdugo_de_dione"
+  ]
+}

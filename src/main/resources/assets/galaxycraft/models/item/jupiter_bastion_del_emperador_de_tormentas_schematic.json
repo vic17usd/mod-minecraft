@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/jupiter_bastion_del_emperador_de_tormentas_schematic"
+  }
+}

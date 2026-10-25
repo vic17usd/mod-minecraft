@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/deimos_muelle_del_polvo_quieto_schematic"
+  }
+}

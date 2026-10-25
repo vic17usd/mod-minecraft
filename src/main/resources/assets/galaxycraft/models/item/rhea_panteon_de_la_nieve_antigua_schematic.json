@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/rhea_panteon_de_la_nieve_antigua_schematic"
+  }
+}

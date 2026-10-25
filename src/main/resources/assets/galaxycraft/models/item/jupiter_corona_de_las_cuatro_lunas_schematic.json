@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/jupiter_corona_de_las_cuatro_lunas_schematic"
+  }
+}

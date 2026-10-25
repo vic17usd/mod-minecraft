@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ganymede_ciudad_de_las_lineas_magneticas_schematic"
+  }
+}

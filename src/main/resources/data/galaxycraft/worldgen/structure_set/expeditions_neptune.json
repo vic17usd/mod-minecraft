@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:neptune_ciudad_de_la_corriente_azul",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_bastion_de_la_mancha_oscura",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_templo_del_viento_supersonico",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_puerto_de_la_deriva",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_faros_del_abismo_indigo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_pozos_de_la_presion_azul",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_turbinas_de_las_mil_leguas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_panteon_de_las_corrientes",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_archivo_del_oceano_de_gas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:neptune_vortice_del_senor_abisal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "neptune",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 6006021
+  }
+}

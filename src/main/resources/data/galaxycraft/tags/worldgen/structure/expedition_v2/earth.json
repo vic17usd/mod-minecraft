@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:earth_ciudad_del_arca",
+    "galaxycraft:earth_bastion_del_meridiano",
+    "galaxycraft:earth_templo_del_primer_horizonte",
+    "galaxycraft:earth_puerto_de_los_pioneros",
+    "galaxycraft:earth_mirador_de_gaia",
+    "galaxycraft:earth_canteras_del_manto",
+    "galaxycraft:earth_forja_de_las_raices",
+    "galaxycraft:earth_catacumbas_del_diluvio",
+    "galaxycraft:earth_archivo_de_las_semillas",
+    "galaxycraft:earth_trono_del_nucleo_azul"
+  ]
+}

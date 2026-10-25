@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/titania_minas_de_las_raices_heladas_schematic"
+  }
+}

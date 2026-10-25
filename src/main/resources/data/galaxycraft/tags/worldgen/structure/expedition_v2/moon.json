@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:moon_selenopolis_de_copernico",
+    "galaxycraft:moon_muralla_de_tycho",
+    "galaxycraft:moon_santuario_de_la_cara_oculta",
+    "galaxycraft:moon_darsena_del_mar_tranquilo",
+    "galaxycraft:moon_agujas_de_aristarco",
+    "galaxycraft:moon_galerias_del_titanio",
+    "galaxycraft:moon_refineria_del_helio",
+    "galaxycraft:moon_osario_de_los_selenitas",
+    "galaxycraft:moon_cripta_de_las_mareas",
+    "galaxycraft:moon_catedral_del_guardian_gris"
+  ]
+}

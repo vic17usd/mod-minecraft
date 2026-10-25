@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/io_templo_del_fuego_amarillo_schematic"
+  }
+}

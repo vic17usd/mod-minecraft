@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:saturn_ciudad_del_cinturon_dorado",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_bastion_de_los_anillos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_templo_de_las_siete_sombras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_darsena_de_cassini",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_miradores_de_la_division",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_minas_del_hielo_comprimido",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_factoria_del_polvo_anular",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_criptas_del_ovalo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_archivo_de_los_pastores",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:saturn_palacio_del_soberano_anular",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "saturn",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5895155
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:rhea_ciudad_del_alabastro_helado",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_fortin_de_tirawa",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_santuario_de_las_terrazas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_puesto_de_mamaldi",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_miradores_de_la_llanura_palida",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_minas_del_cristal_lechoso",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_talleres_del_cincel_frio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_panteon_de_la_nieve_antigua",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_archivo_del_silencio_blanco",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:rhea_anfiteatro_de_la_matriarca_de_rea",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "rhea",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5942669
+  }
+}

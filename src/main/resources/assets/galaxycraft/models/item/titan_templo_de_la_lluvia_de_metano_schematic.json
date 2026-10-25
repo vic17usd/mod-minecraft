@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/titan_templo_de_la_lluvia_de_metano_schematic"
+  }
+}

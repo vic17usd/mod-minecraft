@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:miranda_colonia_de_las_tres_coronas",
+    "galaxycraft:miranda_bastion_de_verona_rupes",
+    "galaxycraft:miranda_templo_del_mosaico_roto",
+    "galaxycraft:miranda_escalera_de_inverness",
+    "galaxycraft:miranda_mirador_de_los_escarpes",
+    "galaxycraft:miranda_canteras_de_los_fragmentos",
+    "galaxycraft:miranda_taller_de_las_costuras",
+    "galaxycraft:miranda_criptas_del_mundo_rehecho",
+    "galaxycraft:miranda_archivo_de_la_reconstruccion",
+    "galaxycraft:miranda_cicatriz_del_titan_de_miranda"
+  ]
+}

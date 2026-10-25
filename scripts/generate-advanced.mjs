@@ -279,7 +279,10 @@ export async function generateAdvanced({ png, json, read, binary, id, int, str, 
         texts['tooltip.galaxycraft.rocket_pad'] = es ? 'Base 3 × 3 y volumen libre de 3 × 3 × 7. Encendido de cuatro segundos.' : '3 × 3 pad and 3 × 3 × 7 clearance. Four-second ignition.';
         json(file,texts);
     }
-    console.log(`Ampliación: ${manifest.length} estructuras activas, cinco por cuerpo; texturas geológicas de 128 px.`);
+    console.log(`Compatibilidad: ${manifest.length} plantillas históricas; la etapa final define los sets activos.`);
     const { generateNavigation } = await import('./generate-navigation-assets.mjs');
     generateNavigation({ png,json,read,binary,id,bodies,res,assets,data });
+    // Esta etapa final desactiva los starts antiguos; debe ir después de la biosfera y sus colonias.
+    const { generateExpeditions } = await import('./generate-expeditions.mjs');
+    generateExpeditions({png,json,read,binary,id,int,str,list,compound,intList,payload,bodies,res,assets,data});
 }

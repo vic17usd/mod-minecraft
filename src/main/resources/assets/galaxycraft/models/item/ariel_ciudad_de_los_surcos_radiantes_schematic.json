@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ariel_ciudad_de_los_surcos_radiantes_schematic"
+  }
+}

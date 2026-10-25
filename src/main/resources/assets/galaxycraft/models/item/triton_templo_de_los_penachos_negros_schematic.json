@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/triton_templo_de_los_penachos_negros_schematic"
+  }
+}

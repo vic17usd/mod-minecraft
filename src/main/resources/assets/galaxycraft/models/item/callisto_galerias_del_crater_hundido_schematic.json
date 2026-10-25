@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/callisto_galerias_del_crater_hundido_schematic"
+  }
+}

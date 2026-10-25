@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/europa_ciudad_de_los_puentes_de_hielo_schematic"
+  }
+}

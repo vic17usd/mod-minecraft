@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "structures": "#galaxycraft:expedition_v2/mercury_hostile",
+  "spawners": [
+    {
+      "type": "galaxycraft:mercury_stalker",
+      "weight": 30,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

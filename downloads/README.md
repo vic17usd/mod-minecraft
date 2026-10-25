@@ -1,32 +1,33 @@
 # Descargar GalaxyCraft
 
-La versión actual es **[`galaxycraft-0.8.0.jar`](galaxycraft-0.8.0.jar)**:
-once familias de modelos originales articulados para las 179 criaturas,
-animaciones sincronizadas, planeo/embestidas, planos en colonias, esporas y
-cielos HD con fases, tamaños angulares, cubemap y shader Rayleigh–Mie.
-Conserva biosferas, 145 materiales, 87 cultivos, colonias y relieve extremo.
+La versión actual es **[`galaxycraft-0.9.0.jar`](galaxycraft-0.9.0.jar)**:
+290 diseños exclusivos, diez por cuerpo (5 superficie + 5 subsuelo), una
+megamazmorra con jefe por mundo, ciudades habitadas, NBT modulares, botín y
+planos propios. La separación mínima entre candidatos nuevos es 3088 bloques.
+Conserva modelos originales, cielos HD, biosferas, cultivos y relieve extremo.
 Conserva combate, clima, redes, misiones, equipo, rover y órbitas.
-Las versiones 0.1.0 a 0.7.0 quedan como archivo histórico.
+Las versiones 0.1.0 a 0.8.0 quedan como archivo histórico.
 Instala solo una versión a la vez en `mods` y haz una copia de tu mundo.
 Todas necesitan Minecraft **1.21**, NeoForge
 **21.0.167** y Java **21**.
 
 Descarga el archivo desde GitHub usando **Download raw file**, o utiliza la
-[descarga directa](https://raw.githubusercontent.com/vic17usd/mod-minecraft/main/downloads/galaxycraft-0.8.0.jar).
+[descarga directa](https://raw.githubusercontent.com/vic17usd/mod-minecraft/main/downloads/galaxycraft-0.9.0.jar).
 
-SHA-256 de 0.8.0, compilada y validada con 243 pruebas JUnit y 25 GameTests:
+SHA-256 de 0.9.0, compilada y validada con 540 pruebas JUnit y 31 GameTests:
 
 ```text
-6902cabf51568ade63f1035337fdae623e7cb8bc6b4bac53812c931cc25f94d3
+6a5c7d63d78e9ab7f2a1383028e3f54ca286722d88aa563e36dd881eff156acb
 ```
 
 La revisión visual y una sesión con cliente real siguen pendientes. No necesitas
 Curios. Pulsa **J** para misiones, **G** para traje/módulos y **H** cerca del cohete
 para navegación. Actualiza tanto el cliente como el servidor. Consulta la
-[guía de morfologías y cielos](../docs/MORFOLOGIAS_Y_CIELOS.md) para modelos,
-comercio, precisión astronómica y opciones gráficas. Los modelos/cielos cambian
-en mundos existentes; se necesitan chunks nuevos para generación no encontrada:
-no se regeneran chunks ni se sustituyen construcciones existentes.
+[guía de exploración](../docs/EXPLORACION_Y_MEGAESTRUCTURAS.md) y el
+[catálogo de los 290 diseños](../docs/CATALOGO_EXPLORACION.md). No hay retrogen:
+se conservan construcciones anteriores. Para probar separación y catálogo sin
+estructuras antiguas, crear un mundo nuevo. La restricción de diez tipos se
+aplica a GalaxyCraft, no a estructuras vanilla u otros mods.
 
 ## Versión anterior
 

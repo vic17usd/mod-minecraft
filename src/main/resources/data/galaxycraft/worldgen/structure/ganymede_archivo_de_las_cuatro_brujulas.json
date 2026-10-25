@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:exclusive_expedition",
+  "site": "ganymede_archivo_de_las_cuatro_brujulas",
+  "biomes": "#galaxycraft:ganymede_habitats",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

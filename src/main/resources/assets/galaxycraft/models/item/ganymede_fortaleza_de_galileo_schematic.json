@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ganymede_fortaleza_de_galileo_schematic"
+  }
+}

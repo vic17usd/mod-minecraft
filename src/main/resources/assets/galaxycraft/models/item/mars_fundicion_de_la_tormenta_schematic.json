@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/mars_fundicion_de_la_tormenta_schematic"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:tethys_ciudad_del_canal_partido",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_fortaleza_de_odiseo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_templo_de_itaca",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_enclave_de_las_riberas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_agujas_del_gran_canon",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_canteras_de_las_dos_orillas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_molinos_del_hielo_tectonico",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_catacumbas_del_istmo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_archivo_de_la_fisura",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:tethys_laberinto_del_juez_de_itaca",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "tethys",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5926831
+  }
+}

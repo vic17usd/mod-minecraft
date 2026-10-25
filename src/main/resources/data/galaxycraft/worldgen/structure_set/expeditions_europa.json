@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:europa_ciudad_de_los_puentes_de_hielo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_fortin_de_las_fracturas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_templo_del_oceano_sellado",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_refugio_de_conamara",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_faros_de_la_corteza",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_minas_de_las_estrias",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_bombas_del_mar_interior",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_sepulcros_de_la_sal_azul",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_archivo_del_agua_antigua",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:europa_abadia_del_leviatan_blanco",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "europa",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5871398
+  }
+}

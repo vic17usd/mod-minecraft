@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RTR",
+    "TST",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "galaxycraft:neptunian_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "S": {
+      "item": "galaxycraft:neptune_vortice_del_senor_abisal_schematic"
+    },
+    "D": {
+      "item": "galaxycraft:martian_queen_heart"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:advanced_navigation_core",
+    "count": 1
+  }
+}

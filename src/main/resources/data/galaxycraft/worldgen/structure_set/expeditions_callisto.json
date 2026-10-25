@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:callisto_ciudad_de_los_anillos_viejos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_fortaleza_de_valhalla",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_templo_del_impacto_primordial",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_posada_de_asgard",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_atalaya_de_las_cicatrices",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_galerias_del_crater_hundido",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_taller_de_las_edades",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_necropolis_de_los_impactos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_archivo_del_bombardeo",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:callisto_corona_del_senor_de_valhalla",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "callisto",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5887236
+  }
+}

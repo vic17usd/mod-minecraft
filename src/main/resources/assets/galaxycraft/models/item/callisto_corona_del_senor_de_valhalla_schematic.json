@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/callisto_corona_del_senor_de_valhalla_schematic"
+  }
+}

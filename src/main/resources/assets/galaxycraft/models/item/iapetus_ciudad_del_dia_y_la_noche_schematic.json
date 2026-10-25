@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/iapetus_ciudad_del_dia_y_la_noche_schematic"
+  }
+}

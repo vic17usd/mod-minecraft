@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "structures": "#galaxycraft:expedition_v2/europa_hostile",
+  "spawners": [
+    {
+      "type": "galaxycraft:europa_stalker",
+      "weight": 30,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

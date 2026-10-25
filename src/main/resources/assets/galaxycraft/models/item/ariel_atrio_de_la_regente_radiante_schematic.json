@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/ariel_atrio_de_la_regente_radiante_schematic"
+  }
+}

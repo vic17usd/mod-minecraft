@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:triton_ciudad_de_la_marcha_inversa",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_ciudadela_de_bubembe",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_templo_de_los_penachos_negros",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_refugio_de_uhlanga",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_obeliscos_del_giro_retrogrado",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_minas_del_nitrogeno",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_condensadores_del_invierno",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_criptas_de_la_orbita_capturada",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_archivo_de_la_caida_exterior",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:triton_espiral_del_soberano_cautivo",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "triton",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 6013940
+  }
+}

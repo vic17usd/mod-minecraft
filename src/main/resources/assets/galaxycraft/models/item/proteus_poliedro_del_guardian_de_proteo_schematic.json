@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/proteus_poliedro_del_guardian_de_proteo_schematic"
+  }
+}

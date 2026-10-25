@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/jupiter_puerto_de_los_vientos_profundos_schematic"
+  }
+}

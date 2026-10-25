@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/moon_selenopolis_de_copernico_schematic"
+  }
+}

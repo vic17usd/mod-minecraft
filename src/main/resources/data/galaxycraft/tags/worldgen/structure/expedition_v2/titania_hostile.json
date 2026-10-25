@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:titania_fortaleza_de_gertrudis",
+    "galaxycraft:titania_templo_del_bosque_de_cristal",
+    "galaxycraft:titania_minas_de_las_raices_heladas",
+    "galaxycraft:titania_complejo_de_las_dos_corrientes",
+    "galaxycraft:titania_sepulcros_de_la_reina_dormida",
+    "galaxycraft:titania_herbario_del_vacio",
+    "galaxycraft:titania_jardin_del_trono_de_titania"
+  ]
+}

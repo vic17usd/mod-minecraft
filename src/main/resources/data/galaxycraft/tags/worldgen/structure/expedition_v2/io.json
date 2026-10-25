@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:io_ciudad_de_las_cien_chimeneas",
+    "galaxycraft:io_baluarte_de_prometeo",
+    "galaxycraft:io_templo_del_fuego_amarillo",
+    "galaxycraft:io_puesto_de_pele",
+    "galaxycraft:io_telescopios_del_humo",
+    "galaxycraft:io_socavones_del_azufre",
+    "galaxycraft:io_forja_de_los_geiseres_rojos",
+    "galaxycraft:io_mausoleo_de_las_escorias",
+    "galaxycraft:io_camara_de_los_braseros",
+    "galaxycraft:io_organo_del_coloso_igneo"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "galaxycraft:jupiter_fortaleza_de_la_gran_mancha",
+    "galaxycraft:jupiter_templo_de_las_bandas",
+    "galaxycraft:jupiter_galerias_de_la_presion",
+    "galaxycraft:jupiter_turbinas_del_ciclon",
+    "galaxycraft:jupiter_panteon_de_los_rayos",
+    "galaxycraft:jupiter_archivo_del_hidrogeno",
+    "galaxycraft:jupiter_bastion_del_emperador_de_tormentas"
+  ]
+}

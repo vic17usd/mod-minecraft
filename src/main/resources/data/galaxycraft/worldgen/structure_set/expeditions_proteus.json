@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:proteus_colonia_de_las_mil_caras",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_fortaleza_de_pharos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_templo_del_poliedro",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_amarre_de_la_roca_irregular",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_vigias_de_los_vertices",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_galerias_de_las_aristas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_taller_de_los_planos_oblicuos",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_catacumbas_del_prisma_oscuro",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_archivo_de_las_facetas",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:proteus_poliedro_del_guardian_de_proteo",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "proteus",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 6021859
+  }
+}

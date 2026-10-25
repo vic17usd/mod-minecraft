@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/rhea_talleres_del_cincel_frio_schematic"
+  }
+}

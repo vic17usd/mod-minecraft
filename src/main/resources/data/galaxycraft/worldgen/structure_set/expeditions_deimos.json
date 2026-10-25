@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "galaxycraft:deimos_aldea_del_eco_lejano",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_torreon_de_swift",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_oratorio_del_satelite_menor",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_muelle_del_polvo_quieto",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_vigia_de_voltaire",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_pozos_del_susurro",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_factoria_de_los_microengranajes",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_tumbas_del_exilio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_biblioteca_del_silencio",
+      "weight": 1
+    },
+    {
+      "structure": "galaxycraft:deimos_aguja_del_rey_ausente",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "galaxycraft:desolate_spread",
+    "body": "deimos",
+    "spacing": 384,
+    "separation": 192,
+    "salt": 5847641
+  }
+}

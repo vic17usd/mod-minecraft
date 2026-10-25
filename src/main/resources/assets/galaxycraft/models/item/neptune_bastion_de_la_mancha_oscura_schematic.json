@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/neptune_bastion_de_la_mancha_oscura_schematic"
+  }
+}

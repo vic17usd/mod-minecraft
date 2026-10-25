@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/saturn_archivo_de_los_pastores_schematic"
+  }
+}

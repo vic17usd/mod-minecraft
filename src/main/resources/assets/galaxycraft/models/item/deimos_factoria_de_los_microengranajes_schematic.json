@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/deimos_factoria_de_los_microengranajes_schematic"
+  }
+}

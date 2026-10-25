@@ -20,6 +20,29 @@ public final class PlanetBoss extends Monster implements RangedAttackMob {
           getDisplayName(), BossEvent.BossBarColor.BLUE, BossEvent.BossBarOverlay.NOTCHED_10);
   private BlockPos anchor;
   private int shotCooldown;
+  private String encounterBody = "";
+
+  /** El encuentro utiliza un arquetipo existente, con nombre, dificultad y botín planetarios. */
+  public void expedition(String body) {
+    var profile = com.vic17usd.galaxycraft.biosphere.LivingProfiles.get(body);
+    encounterBody = body;
+    setCustomName(
+        net.minecraft.network.chat.Component.translatable("boss.galaxycraft.expedition." + body));
+    getAttribute(Attributes.MAX_HEALTH).setBaseValue(260 + profile.celestial().tier() * 80);
+    getAttribute(Attributes.ATTACK_DAMAGE).setBaseValue(7 + profile.celestial().tier() * 2);
+    setHealth(getMaxHealth());
+  }
+
+  @Override
+  protected net.minecraft.resources.ResourceKey<net.minecraft.world.level.storage.loot.LootTable>
+      getDefaultLootTable() {
+    return encounterBody.isEmpty()
+        ? super.getDefaultLootTable()
+        : net.minecraft.resources.ResourceKey.create(
+            net.minecraft.core.registries.Registries.LOOT_TABLE,
+            com.vic17usd.galaxycraft.registry.ModPresentation.id(
+                "entities/expedition_wardens/" + encounterBody));
+  }
 
   public PlanetBoss(EntityType<? extends Monster> type, Level level) {
     super(type, level);
@@ -162,11 +185,15 @@ public final class PlanetBoss extends Monster implements RangedAttackMob {
   public void addAdditionalSaveData(CompoundTag tag) {
     super.addAdditionalSaveData(tag);
     if (anchor != null) tag.putLong("BossAnchor", anchor.asLong());
+    if (!encounterBody.isEmpty()) tag.putString("EncounterBody", encounterBody);
   }
 
   @Override
   public void readAdditionalSaveData(CompoundTag tag) {
     super.readAdditionalSaveData(tag);
     if (tag.contains("BossAnchor")) anchor(BlockPos.of(tag.getLong("BossAnchor")));
+    encounterBody = tag.getString("EncounterBody");
+    if (!encounterBody.isEmpty())
+      com.vic17usd.galaxycraft.biosphere.LivingProfiles.get(encounterBody);
   }
 }

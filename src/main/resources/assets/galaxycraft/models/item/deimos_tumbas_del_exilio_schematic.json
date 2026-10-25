@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/deimos_tumbas_del_exilio_schematic"
+  }
+}
