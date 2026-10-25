@@ -30,7 +30,8 @@ neoForge {
 
         server {
             server()
-            gameDirectory = project.file('run/server')
+            // Mundo aislado opcional para validar generadores nuevos sin sustituir el de desarrollo.
+            gameDirectory = project.file(providers.gradleProperty('galaxycraftTestWorld').isPresent() ? 'run/ecology-validation' : 'run/server')
             programArgument '--nogui'
             if (providers.gradleProperty('galaxycraftGameTests').isPresent()) {
                 // Activa el tick de GameTests explícitamente, incluso sin un cliente conectado.

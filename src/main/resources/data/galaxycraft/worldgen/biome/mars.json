@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 13072213,
-    "fog_color": 13072213,
+    "sky_color": 13007696,
+    "fog_color": 8735545,
     "water_color": 13072213,
     "water_fog_color": 13072213,
     "grass_color": 13072213,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:mars_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

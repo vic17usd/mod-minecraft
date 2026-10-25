@@ -150,7 +150,7 @@ export async function generateAdvanced({ png, json, read, binary, id, int, str, 
     for (const [bodyIndex, body] of bodies.entries()) for (const [kindIndex, kind] of kinds.entries()) {
         const name = `${body.id}_${kind}`, underground = kindIndex >= 3;
         const template = `expedition/${name}`, schematic = `${name}_schematic`, seed = bodyIndex * 127 + kindIndex * 31;
-        const rock = body.id === 'earth' ? 'minecraft:stone_bricks' : id(`${body.id}_stone`);
+        const rock = id(`${body.id}_${kind}_panel`);
         const soil = body.id === 'earth' ? 'minecraft:deepslate_tiles' : id(`${body.id}_regolith`);
         const ore = body.id === 'earth' ? id('titanium_ore') : id(`${body.id}_ore`);
         const resource = body.id === 'earth' ? 'titanium_ore' : body.resource;

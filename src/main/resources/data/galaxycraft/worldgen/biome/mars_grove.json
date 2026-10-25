@@ -1,0 +1,50 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 13007696,
+    "fog_color": 6962222,
+    "water_color": 13072213,
+    "water_fog_color": 13072213,
+    "grass_color": 13072213,
+    "foliage_color": 13072213,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:mars_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:mars_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:mars_ecology_grove"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "type": "galaxycraft:mars_crawler",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  }
+}

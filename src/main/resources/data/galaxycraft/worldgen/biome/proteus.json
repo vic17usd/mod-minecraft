@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 2370383,
-    "fog_color": 2370383,
+    "sky_color": 527652,
+    "fog_color": 5662824,
     "water_color": 2370383,
     "water_fog_color": 2370383,
     "grass_color": 2370383,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:proteus_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

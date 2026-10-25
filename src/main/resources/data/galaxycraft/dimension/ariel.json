@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:ariel",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:ariel",
+    "type": "galaxycraft:extreme_planet",
+    "body": "ariel",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:ariel"
+      "type": "galaxycraft:planet_habitats",
+      "body": "ariel",
+      "plains": "galaxycraft:ariel",
+      "extreme": "galaxycraft:ariel_rift",
+      "grove": "galaxycraft:ariel_grove"
     }
   }
 }

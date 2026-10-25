@@ -1,0 +1,30 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#galaxycraft:ganymede_habitats",
+  "spawners": [
+    {
+      "type": "galaxycraft:ganymede_crystal_bovine",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "galaxycraft:ganymede_lumen_sheep",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "galaxycraft:ganymede_plated_boar",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "galaxycraft:ganymede_stalker",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

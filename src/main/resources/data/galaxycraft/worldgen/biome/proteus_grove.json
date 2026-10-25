@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 4543315,
+    "water_color": 2370383,
+    "water_fog_color": 2370383,
+    "grass_color": 2370383,
+    "foliage_color": 2370383,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:proteus_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:proteus_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:proteus_ecology_grove"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

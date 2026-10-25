@@ -1,28 +1,29 @@
 # Descargar GalaxyCraft
 
-La versión actual es **[`galaxycraft-0.6.0.jar`](galaxycraft-0.6.0.jar)**:
-dos jefes, 28 variantes hostiles, clima espacial y redes de FE, oxígeno y combustible
-con depósitos masivos y refinería. Conserva misiones, traje, rover, órbitas y las
-145 estructuras anteriores. Las versiones 0.1.0 a 0.5.0 quedan como archivo histórico.
+La versión actual es **[`galaxycraft-0.7.0.jar`](galaxycraft-0.7.0.jar)**:
+biosferas, 145 materiales de estructura, 87 cultivos, ganadería alienígena, colonias
+con comercio/contratos, nuevos depredadores, relieve extremo y cielos propios.
+Conserva combate, clima, redes, misiones, equipo, rover y órbitas.
+Las versiones 0.1.0 a 0.6.0 quedan como archivo histórico.
 Instala solo una versión a la vez en `mods` y haz una copia de tu mundo.
 Todas necesitan Minecraft **1.21**, NeoForge
 **21.0.167** y Java **21**.
 
 Descarga el archivo desde GitHub usando **Download raw file**, o utiliza la
-[descarga directa](https://github.com/vic17usd/mod-minecraft/raw/refs/heads/main/downloads/galaxycraft-0.6.0.jar).
+[descarga directa](https://github.com/vic17usd/mod-minecraft/raw/refs/heads/main/downloads/galaxycraft-0.7.0.jar).
 
-SHA-256 de 0.6.0, compilada y validada con 217 pruebas JUnit y 16 GameTests:
+SHA-256 de 0.7.0, compilada y validada con 225 pruebas JUnit y 22 GameTests:
 
 ```text
-33b4b08ccd3ed64b137e4d04981574060210dfe2ee463f85c34dbf59cc8f56f8
+5d110ec4efaeaa30ae0bbfe850f83c30a6a3fb6ec24197eb1404e77b57150f4c
 ```
 
 La revisión visual y una sesión con cliente real siguen pendientes. No necesitas
 Curios. Pulsa **J** para misiones, **G** para traje/módulos y **H** cerca del cohete
 para navegación. Actualiza tanto el cliente como el servidor. Consulta la
-[guía de Fronteras](../docs/FRONTERAS_COMBATE_Y_REDES.md) para jefes, clima y redes.
-Los sellos de jefe se generan en bóvedas de chunks nuevos, no modifican mazmorras
-ya exploradas. Los impactos sobre terreno se pueden desactivar en configuración.
+[guía de biosferas](../docs/BIOSFERA_Y_CIVILIZACIONES.md) para cultivo, fauna,
+comercio, terreno y cielos. Se recomienda un mundo nuevo para la generación nueva;
+no se regeneran chunks ni se sustituyen construcciones existentes.
 
 ## Versión anterior
 

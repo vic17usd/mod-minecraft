@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 4145995,
-    "fog_color": 4145995,
+    "sky_color": 527652,
+    "fog_color": 9466192,
     "water_color": 4145995,
     "water_fog_color": 4145995,
     "grass_color": 4145995,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:callisto_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

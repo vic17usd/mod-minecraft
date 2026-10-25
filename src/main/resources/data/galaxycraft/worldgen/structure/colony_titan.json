@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:alien_colony",
+  "body": "titan",
+  "biomes": "#galaxycraft:titan_habitats",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 3747911,
-    "fog_color": 3747911,
+    "sky_color": 527652,
+    "fog_color": 6895440,
     "water_color": 3747911,
     "water_fog_color": 3747911,
     "grass_color": 3747911,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:phobos_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:alien_colony",
+  "body": "uranus",
+  "biomes": "#galaxycraft:uranus_habitats",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

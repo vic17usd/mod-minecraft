@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:iapetus",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:iapetus",
+    "type": "galaxycraft:extreme_planet",
+    "body": "iapetus",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:iapetus"
+      "type": "galaxycraft:planet_habitats",
+      "body": "iapetus",
+      "plains": "galaxycraft:iapetus",
+      "extreme": "galaxycraft:iapetus_rift",
+      "grove": "galaxycraft:iapetus_grove"
     }
   }
 }

@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 8675912,
+    "fog_color": 7887426,
+    "water_color": 15249270,
+    "water_fog_color": 15249270,
+    "grass_color": 15249270,
+    "foliage_color": 15249270,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:jupiter_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:jupiter_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:jupiter_ecology_grove"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

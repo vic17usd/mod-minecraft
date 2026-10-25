@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 5592439,
-    "fog_color": 5592439,
+    "sky_color": 527652,
+    "fog_color": 8481380,
     "water_color": 5592439,
     "water_fog_color": 5592439,
     "grass_color": 5592439,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:rhea_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

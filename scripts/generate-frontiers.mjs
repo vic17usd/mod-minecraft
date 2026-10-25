@@ -1,4 +1,5 @@
 // Recursos de combate, eventos y redes. Se distribuyen generados: Node no se necesita para jugar.
+import { generateBiosphere } from './generate-biosphere.mjs';
 export function generateFrontiers({png,json,read,id,bodies,assets,data}){
     const clamp=color=>color.map(c=>Math.max(0,Math.min(255,Math.round(c))));
     const noise=(x,y,s)=>{let v=Math.imul(x,374761393)^Math.imul(y,668265263)^s;v=Math.imul(v^v>>>13,1274126177);return((v^v>>>16)>>>0)/4294967295;};
@@ -74,4 +75,5 @@ export function generateFrontiers({png,json,read,id,bodies,assets,data}){
         json(file,text);
     }
     console.log('Fronteras: dos jefes en bóvedas, 28 hostiles, clima persistente y tres redes de recursos.');
+    generateBiosphere({png,json,read,id,bodies,assets,data});
 }

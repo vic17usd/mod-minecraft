@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 6715289,
-    "fog_color": 6715289,
+    "sky_color": 527652,
+    "fog_color": 9205583,
     "water_color": 6715289,
     "water_fog_color": 6715289,
     "grass_color": 6715289,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:tethys_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

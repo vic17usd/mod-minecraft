@@ -1,6 +1,6 @@
 {
   "type": "galaxycraft:planetary_site",
-  "biomes": "#galaxycraft:has_structure/io_sanctuary",
+  "biomes": "#galaxycraft:io_habitats",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},

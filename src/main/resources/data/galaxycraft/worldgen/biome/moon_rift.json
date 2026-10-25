@@ -1,0 +1,51 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 6976656,
+    "water_color": 1579824,
+    "water_fog_color": 1579824,
+    "grass_color": 1579824,
+    "foliage_color": 1579824,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:moon_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:moon_ore",
+      "galaxycraft:lunar_titanium"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:moon_ecology_rift"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "type": "galaxycraft:moon_crawler",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  }
+}

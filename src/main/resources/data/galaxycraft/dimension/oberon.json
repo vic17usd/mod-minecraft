@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:oberon",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:oberon",
+    "type": "galaxycraft:extreme_planet",
+    "body": "oberon",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:oberon"
+      "type": "galaxycraft:planet_habitats",
+      "body": "oberon",
+      "plains": "galaxycraft:oberon",
+      "extreme": "galaxycraft:oberon_rift",
+      "grove": "galaxycraft:oberon_grove"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "type": "galaxycraft:planetary_site",
-  "biomes": "#galaxycraft:has_structure/oberon_wreck",
+  "biomes": "#galaxycraft:oberon_habitats",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},

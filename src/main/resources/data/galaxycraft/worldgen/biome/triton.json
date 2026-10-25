@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 7695254,
-    "fog_color": 7695254,
+    "sky_color": 4085090,
+    "fog_color": 4612720,
     "water_color": 7695254,
     "water_fog_color": 7695254,
     "grass_color": 7695254,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:triton_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

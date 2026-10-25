@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SRS",
+    "STS",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:uranus_stone"
+    },
+    "R": {
+      "item": "galaxycraft:uranian_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:uranus_vault_panel",
+    "count": 8
+  }
+}

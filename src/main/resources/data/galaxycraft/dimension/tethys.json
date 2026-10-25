@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:tethys",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:tethys",
+    "type": "galaxycraft:extreme_planet",
+    "body": "tethys",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:tethys"
+      "type": "galaxycraft:planet_habitats",
+      "body": "tethys",
+      "plains": "galaxycraft:tethys",
+      "extreme": "galaxycraft:tethys_rift",
+      "grove": "galaxycraft:tethys_grove"
     }
   }
 }

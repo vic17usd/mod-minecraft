@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 7065560,
-    "fog_color": 7065560,
+    "sky_color": 5077630,
+    "fog_color": 5803152,
     "water_color": 7065560,
     "water_fog_color": 7065560,
     "grass_color": 7065560,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:uranus_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

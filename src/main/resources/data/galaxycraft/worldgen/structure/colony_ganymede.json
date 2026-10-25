@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:alien_colony",
+  "body": "ganymede",
+  "biomes": "#galaxycraft:ganymede_habitats",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

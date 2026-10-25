@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SRS",
+    "STS",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:dione_stone"
+    },
+    "R": {
+      "item": "galaxycraft:dione_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:dione_observatory_panel",
+    "count": 8
+  }
+}

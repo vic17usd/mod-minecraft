@@ -3,8 +3,8 @@
   "temperature": 2,
   "downfall": 0,
   "effects": {
-    "sky_color": 2433325,
-    "fog_color": 2433325,
+    "sky_color": 527652,
+    "fog_color": 5920882,
     "water_color": 2433325,
     "water_fog_color": 2433325,
     "grass_color": 2433325,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:mercury_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

@@ -1,0 +1,8 @@
+{
+  "type": "galaxycraft:alien_colony",
+  "body": "umbriel",
+  "biomes": "#galaxycraft:umbriel_habitats",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:europa",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:europa",
+    "type": "galaxycraft:extreme_planet",
+    "body": "europa",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:europa"
+      "type": "galaxycraft:planet_habitats",
+      "body": "europa",
+      "plains": "galaxycraft:europa",
+      "extreme": "galaxycraft:europa_rift",
+      "grove": "galaxycraft:europa_grove"
     }
   }
 }

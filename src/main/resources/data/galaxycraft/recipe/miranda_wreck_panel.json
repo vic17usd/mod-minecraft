@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SRS",
+    "STS",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:miranda_stone"
+    },
+    "R": {
+      "item": "galaxycraft:miranda_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:miranda_wreck_panel",
+    "count": 8
+  }
+}

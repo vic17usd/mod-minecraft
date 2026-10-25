@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:callisto",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:callisto",
+    "type": "galaxycraft:extreme_planet",
+    "body": "callisto",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:callisto"
+      "type": "galaxycraft:planet_habitats",
+      "body": "callisto",
+      "plains": "galaxycraft:callisto",
+      "extreme": "galaxycraft:callisto_rift",
+      "grove": "galaxycraft:callisto_grove"
     }
   }
 }

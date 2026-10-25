@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:io",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:io",
+    "type": "galaxycraft:extreme_planet",
+    "body": "io",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:io"
+      "type": "galaxycraft:planet_habitats",
+      "body": "io",
+      "plains": "galaxycraft:io",
+      "extreme": "galaxycraft:io_rift",
+      "grove": "galaxycraft:io_grove"
     }
   }
 }

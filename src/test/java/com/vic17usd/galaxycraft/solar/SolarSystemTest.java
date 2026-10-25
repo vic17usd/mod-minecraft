@@ -31,8 +31,9 @@ class SolarSystemTest {
         var dimension = data("dimension/" + body.id());
         assertEquals(id, dimension.get("type").getAsString());
         var generator = dimension.getAsJsonObject("generator");
-        assertEquals(id, generator.get("settings").getAsString());
-        assertEquals(id, generator.getAsJsonObject("biome_source").get("biome").getAsString());
+        assertEquals("galaxycraft:extreme_planet", generator.get("type").getAsString());
+        assertEquals(body.id(), generator.get("body").getAsString());
+        assertEquals(id, generator.getAsJsonObject("biome_source").get("plains").getAsString());
         var type = data("dimension_type/" + body.id());
         var noise = data("worldgen/noise_settings/" + body.id());
         assertEquals(type.get("height"), noise.getAsJsonObject("noise").get("height"));

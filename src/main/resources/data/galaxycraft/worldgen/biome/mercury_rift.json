@@ -1,0 +1,50 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 5920882,
+    "water_color": 2433325,
+    "water_fog_color": 2433325,
+    "grass_color": 2433325,
+    "foliage_color": 2433325,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:mercury_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:mercury_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:mercury_ecology_rift"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "type": "galaxycraft:mercury_crawler",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  }
+}

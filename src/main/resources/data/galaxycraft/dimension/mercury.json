@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:mercury",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:mercury",
+    "type": "galaxycraft:extreme_planet",
+    "body": "mercury",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:mercury"
+      "type": "galaxycraft:planet_habitats",
+      "body": "mercury",
+      "plains": "galaxycraft:mercury",
+      "extreme": "galaxycraft:mercury_rift",
+      "grove": "galaxycraft:mercury_grove"
     }
   }
 }

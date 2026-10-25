@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:uranus",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:uranus",
+    "type": "galaxycraft:extreme_planet",
+    "body": "uranus",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:uranus"
+      "type": "galaxycraft:planet_habitats",
+      "body": "uranus",
+      "plains": "galaxycraft:uranus",
+      "extreme": "galaxycraft:uranus_rift",
+      "grove": "galaxycraft:uranus_grove"
     }
   }
 }

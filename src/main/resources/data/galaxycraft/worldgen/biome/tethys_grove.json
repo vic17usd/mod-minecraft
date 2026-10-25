@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 7364415,
+    "water_color": 6715289,
+    "water_fog_color": 6715289,
+    "grass_color": 6715289,
+    "foliage_color": 6715289,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:tethys_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:tethys_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:tethys_ecology_grove"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

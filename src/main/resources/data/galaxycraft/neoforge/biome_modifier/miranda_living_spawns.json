@@ -1,0 +1,30 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#galaxycraft:miranda_habitats",
+  "spawners": [
+    {
+      "type": "galaxycraft:miranda_crystal_bovine",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "galaxycraft:miranda_lumen_sheep",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "galaxycraft:miranda_plated_boar",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "galaxycraft:miranda_stalker",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

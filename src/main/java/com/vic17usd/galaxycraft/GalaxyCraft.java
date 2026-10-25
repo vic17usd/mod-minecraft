@@ -31,6 +31,7 @@ public final class GalaxyCraft {
         ModSites.registerItems();
         com.vic17usd.galaxycraft.expansion.ModExpansion.registerBlockItems();
         com.vic17usd.galaxycraft.frontier.ModFrontiers.registerItems();
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.content();
         // Los registros y la pestaña creativa pertenecen al bus del mod.
         ModDataComponents.COMPONENTS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
@@ -55,6 +56,17 @@ public final class GalaxyCraft {
         ModRocketRegistries.BLOCK_ENTITIES.register(modEventBus);
         ModRocketRegistries.MENUS.register(modEventBus);
         ModAlienEntities.ENTITIES.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.ENTITIES.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.GENERATORS.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.SOURCES.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.FEATURES.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.STRUCTURES.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.PIECES.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.ATTACHMENTS.register(modEventBus);
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.MENUS.register(modEventBus);
+        modEventBus.addListener(com.vic17usd.galaxycraft.biosphere.ModBiosphere::attributes);
+        modEventBus.addListener(com.vic17usd.galaxycraft.biosphere.ModBiosphere::placements);
+        modEventBus.addListener(com.vic17usd.galaxycraft.civilization.ColonyNetworking::register);
         com.vic17usd.galaxycraft.frontier.ModFrontiers.ENTITIES.register(modEventBus);
         com.vic17usd.galaxycraft.frontier.ModFrontiers.BLOCK_ENTITIES.register(modEventBus);
         com.vic17usd.galaxycraft.frontier.ModFrontiers.MENUS.register(modEventBus);

@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 10776100,
-    "fog_color": 10776100,
+    "sky_color": 7765336,
+    "fog_color": 8818277,
     "water_color": 10776100,
     "water_fog_color": 10776100,
     "grass_color": 10776100,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:titan_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

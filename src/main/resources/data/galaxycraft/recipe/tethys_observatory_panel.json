@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SRS",
+    "STS",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:tethys_stone"
+    },
+    "R": {
+      "item": "galaxycraft:tethys_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:tethys_observatory_panel",
+    "count": 8
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SRS",
+    "STS",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:oberon_stone"
+    },
+    "R": {
+      "item": "galaxycraft:oberon_crystal"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:oberon_geode_panel",
+    "count": 8
+  }
+}

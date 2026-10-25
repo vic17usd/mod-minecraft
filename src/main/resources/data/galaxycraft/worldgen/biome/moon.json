@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 1579824,
-    "fog_color": 1579824,
+    "sky_color": 527652,
+    "fog_color": 6976656,
     "water_color": 1579824,
     "water_fog_color": 1579824,
     "grass_color": 1579824,
@@ -32,7 +32,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:moon_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

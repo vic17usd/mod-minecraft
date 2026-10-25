@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:proteus",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:proteus",
+    "type": "galaxycraft:extreme_planet",
+    "body": "proteus",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:proteus"
+      "type": "galaxycraft:planet_habitats",
+      "body": "proteus",
+      "plains": "galaxycraft:proteus",
+      "extreme": "galaxycraft:proteus_rift",
+      "grove": "galaxycraft:proteus_grove"
     }
   }
 }

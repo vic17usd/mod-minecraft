@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 3351108,
-    "fog_color": 3351108,
+    "sky_color": 527652,
+    "fog_color": 7702614,
     "water_color": 3351108,
     "water_fog_color": 3351108,
     "grass_color": 3351108,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:iapetus_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

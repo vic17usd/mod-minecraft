@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:dione",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:dione",
+    "type": "galaxycraft:extreme_planet",
+    "body": "dione",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:dione"
+      "type": "galaxycraft:planet_habitats",
+      "body": "dione",
+      "plains": "galaxycraft:dione",
+      "extreme": "galaxycraft:dione_rift",
+      "grove": "galaxycraft:dione_grove"
     }
   }
 }

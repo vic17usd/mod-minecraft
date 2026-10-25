@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:neptune",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:neptune",
+    "type": "galaxycraft:extreme_planet",
+    "body": "neptune",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:neptune"
+      "type": "galaxycraft:planet_habitats",
+      "body": "neptune",
+      "plains": "galaxycraft:neptune",
+      "extreme": "galaxycraft:neptune_rift",
+      "grove": "galaxycraft:neptune_grove"
     }
   }
 }

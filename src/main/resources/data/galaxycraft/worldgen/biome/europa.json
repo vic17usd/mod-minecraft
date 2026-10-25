@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 4809607,
-    "fog_color": 4809607,
+    "sky_color": 527652,
+    "fog_color": 7426652,
     "water_color": 4809607,
     "water_fog_color": 4809607,
     "grass_color": 4809607,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:europa_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

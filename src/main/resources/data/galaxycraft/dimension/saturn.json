@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:saturn",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:saturn",
+    "type": "galaxycraft:extreme_planet",
+    "body": "saturn",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:saturn"
+      "type": "galaxycraft:planet_habitats",
+      "body": "saturn",
+      "plains": "galaxycraft:saturn",
+      "extreme": "galaxycraft:saturn_rift",
+      "grove": "galaxycraft:saturn_grove"
     }
   }
 }

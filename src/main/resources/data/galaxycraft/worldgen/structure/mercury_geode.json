@@ -1,6 +1,6 @@
 {
   "type": "galaxycraft:planetary_site",
-  "biomes": "#galaxycraft:has_structure/mercury_geode",
+  "biomes": "#galaxycraft:mercury_habitats",
   "step": "underground_structures",
   "terrain_adaptation": "none",
   "spawn_overrides": {},

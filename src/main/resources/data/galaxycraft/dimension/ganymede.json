@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:ganymede",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:ganymede",
+    "type": "galaxycraft:extreme_planet",
+    "body": "ganymede",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:ganymede"
+      "type": "galaxycraft:planet_habitats",
+      "body": "ganymede",
+      "plains": "galaxycraft:ganymede",
+      "extreme": "galaxycraft:ganymede_rift",
+      "grove": "galaxycraft:ganymede_grove"
     }
   }
 }

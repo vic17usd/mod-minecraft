@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:venus",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:venus",
+    "type": "galaxycraft:extreme_planet",
+    "body": "venus",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:venus"
+      "type": "galaxycraft:planet_habitats",
+      "body": "venus",
+      "plains": "galaxycraft:venus",
+      "extreme": "galaxycraft:venus_rift",
+      "grove": "galaxycraft:venus_grove"
     }
   }
 }

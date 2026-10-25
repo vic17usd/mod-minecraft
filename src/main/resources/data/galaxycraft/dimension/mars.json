@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:mars",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:mars",
+    "type": "galaxycraft:extreme_planet",
+    "body": "mars",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:mars"
+      "type": "galaxycraft:planet_habitats",
+      "body": "mars",
+      "plains": "galaxycraft:mars",
+      "extreme": "galaxycraft:mars_rift",
+      "grove": "galaxycraft:mars_grove"
     }
   }
 }

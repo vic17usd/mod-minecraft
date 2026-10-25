@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:umbriel",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:umbriel",
+    "type": "galaxycraft:extreme_planet",
+    "body": "umbriel",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:umbriel"
+      "type": "galaxycraft:planet_habitats",
+      "body": "umbriel",
+      "plains": "galaxycraft:umbriel",
+      "extreme": "galaxycraft:umbriel_rift",
+      "grove": "galaxycraft:umbriel_grove"
     }
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "galaxycraft:block/moon_sanctuary_panel"
+  }
+}

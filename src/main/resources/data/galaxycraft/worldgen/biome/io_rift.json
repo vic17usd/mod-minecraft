@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 6969417,
+    "fog_color": 8021075,
+    "water_color": 12429877,
+    "water_fog_color": 12429877,
+    "grass_color": 12429877,
+    "foliage_color": 12429877,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:io_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:io_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:io_ecology_rift"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

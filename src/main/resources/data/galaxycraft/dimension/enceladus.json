@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:enceladus",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:enceladus",
+    "type": "galaxycraft:extreme_planet",
+    "body": "enceladus",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:enceladus"
+      "type": "galaxycraft:planet_habitats",
+      "body": "enceladus",
+      "plains": "galaxycraft:enceladus",
+      "extreme": "galaxycraft:enceladus_rift",
+      "grove": "galaxycraft:enceladus_grove"
     }
   }
 }

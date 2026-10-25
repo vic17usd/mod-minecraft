@@ -1,0 +1,437 @@
+[
+  {
+    "body": "earth",
+    "terrain": "VANILLA",
+    "flora": [
+      "fungus",
+      "carbon_fern",
+      "lumen_coral"
+    ],
+    "sky": 7907327,
+    "fog": 5668457,
+    "color": 7118211,
+    "fogDistance": 240,
+    "seed": 7103,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "moon",
+    "terrain": "CRATERS",
+    "flora": [
+      "fungus",
+      "crystal_vine",
+      "ice_spire"
+    ],
+    "sky": 527652,
+    "fog": 6976656,
+    "color": 8688052,
+    "fogDistance": 240,
+    "seed": 7434,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "mercury",
+    "terrain": "RIFT",
+    "flora": [
+      "sulfur_thorn",
+      "cinder_reed",
+      "iron_root"
+    ],
+    "sky": 527652,
+    "fog": 5920882,
+    "color": 7368335,
+    "fogDistance": 240,
+    "seed": 7765,
+    "hunter": "magma"
+  },
+  {
+    "body": "venus",
+    "terrain": "RIFT",
+    "flora": [
+      "magma_maw",
+      "sulfur_thorn",
+      "cinder_reed"
+    ],
+    "sky": 9204296,
+    "fog": 10587476,
+    "color": 12225337,
+    "fogDistance": 40,
+    "seed": 8096,
+    "hunter": "magma"
+  },
+  {
+    "body": "mars",
+    "terrain": "DUNES",
+    "flora": [
+      "carbon_fern",
+      "iron_root",
+      "spore_fan"
+    ],
+    "sky": 13007696,
+    "fog": 8735545,
+    "color": 10903111,
+    "fogDistance": 180,
+    "seed": 8427,
+    "hunter": "spitter"
+  },
+  {
+    "body": "phobos",
+    "terrain": "CRATERS",
+    "flora": [
+      "crystal_vine",
+      "iron_root",
+      "ice_spire"
+    ],
+    "sky": 527652,
+    "fog": 6895440,
+    "color": 8602980,
+    "fogDistance": 240,
+    "seed": 8758,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "deimos",
+    "terrain": "CRATERS",
+    "flora": [
+      "lumen_coral",
+      "spore_fan",
+      "crystal_vine"
+    ],
+    "sky": 527652,
+    "fog": 9261892,
+    "color": 11561045,
+    "fogDistance": 240,
+    "seed": 9089,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "jupiter",
+    "terrain": "DUNES",
+    "flora": [
+      "fungus",
+      "carbon_fern",
+      "lumen_coral"
+    ],
+    "sky": 8675912,
+    "fog": 9859154,
+    "color": 12356711,
+    "fogDistance": 240,
+    "seed": 9420,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "io",
+    "terrain": "RIFT",
+    "flora": [
+      "sulfur_thorn",
+      "iron_root",
+      "magma_maw"
+    ],
+    "sky": 6969417,
+    "fog": 8021075,
+    "color": 9993576,
+    "fogDistance": 240,
+    "seed": 9751,
+    "hunter": "magma"
+  },
+  {
+    "body": "europa",
+    "terrain": "GEYSERS",
+    "flora": [
+      "spore_fan",
+      "crystal_vine",
+      "iron_root"
+    ],
+    "sky": 527652,
+    "fog": 7426652,
+    "color": 9266803,
+    "fogDistance": 240,
+    "seed": 10082,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "ganymede",
+    "terrain": "RIDGES",
+    "flora": [
+      "carbon_fern",
+      "lumen_coral",
+      "spore_fan"
+    ],
+    "sky": 527652,
+    "fog": 8941152,
+    "color": 11176568,
+    "fogDistance": 240,
+    "seed": 10413,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "callisto",
+    "terrain": "CRATERS",
+    "flora": [
+      "ice_spire",
+      "fungus",
+      "carbon_fern"
+    ],
+    "sky": 527652,
+    "fog": 9466192,
+    "color": 11832676,
+    "fogDistance": 240,
+    "seed": 10744,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "saturn",
+    "terrain": "DUNES",
+    "flora": [
+      "crystal_vine",
+      "iron_root",
+      "ice_spire"
+    ],
+    "sky": 9470553,
+    "fog": 10786150,
+    "color": 13482623,
+    "fogDistance": 240,
+    "seed": 11075,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "titan",
+    "terrain": "DUNES",
+    "flora": [
+      "lumen_coral",
+      "spore_fan",
+      "crystal_vine"
+    ],
+    "sky": 7765336,
+    "fog": 8818277,
+    "color": 11055742,
+    "fogDistance": 64,
+    "seed": 11406,
+    "hunter": "spitter"
+  },
+  {
+    "body": "enceladus",
+    "terrain": "GEYSERS",
+    "flora": [
+      "fungus",
+      "carbon_fern",
+      "lumen_coral"
+    ],
+    "sky": 527652,
+    "fog": 8943223,
+    "color": 11179157,
+    "fogDistance": 240,
+    "seed": 11737,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "mimas",
+    "terrain": "CRATERS",
+    "flora": [
+      "iron_root",
+      "ice_spire",
+      "fungus"
+    ],
+    "sky": 527652,
+    "fog": 8355156,
+    "color": 10460265,
+    "fogDistance": 240,
+    "seed": 12068,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "tethys",
+    "terrain": "RIDGES",
+    "flora": [
+      "spore_fan",
+      "crystal_vine",
+      "iron_root"
+    ],
+    "sky": 527652,
+    "fog": 9205583,
+    "color": 11507043,
+    "fogDistance": 240,
+    "seed": 12399,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "dione",
+    "terrain": "RIDGES",
+    "flora": [
+      "carbon_fern",
+      "lumen_coral",
+      "spore_fan"
+    ],
+    "sky": 527652,
+    "fog": 8551261,
+    "color": 10721908,
+    "fogDistance": 240,
+    "seed": 12730,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "rhea",
+    "terrain": "CRATERS",
+    "flora": [
+      "ice_spire",
+      "fungus",
+      "carbon_fern"
+    ],
+    "sky": 527652,
+    "fog": 8481380,
+    "color": 10585469,
+    "fogDistance": 240,
+    "seed": 13061,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "iapetus",
+    "terrain": "RIDGES",
+    "flora": [
+      "crystal_vine",
+      "iron_root",
+      "ice_spire"
+    ],
+    "sky": 527652,
+    "fog": 7702614,
+    "color": 9611884,
+    "fogDistance": 240,
+    "seed": 13392,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "uranus",
+    "terrain": "RIDGES",
+    "flora": [
+      "lumen_coral",
+      "spore_fan",
+      "crystal_vine"
+    ],
+    "sky": 5077630,
+    "fog": 5803152,
+    "color": 7253940,
+    "fogDistance": 240,
+    "seed": 13723,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "ariel",
+    "terrain": "GEYSERS",
+    "flora": [
+      "fungus",
+      "carbon_fern",
+      "lumen_coral"
+    ],
+    "sky": 527652,
+    "fog": 6972298,
+    "color": 8748204,
+    "fogDistance": 240,
+    "seed": 14054,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "umbriel",
+    "terrain": "CRATERS",
+    "flora": [
+      "iron_root",
+      "ice_spire",
+      "fungus"
+    ],
+    "sky": 527652,
+    "fog": 6252901,
+    "color": 7832446,
+    "fogDistance": 240,
+    "seed": 14385,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "titania",
+    "terrain": "RIDGES",
+    "flora": [
+      "spore_fan",
+      "crystal_vine",
+      "iron_root"
+    ],
+    "sky": 527652,
+    "fog": 5805172,
+    "color": 7256465,
+    "fogDistance": 240,
+    "seed": 14716,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "oberon",
+    "terrain": "CRATERS",
+    "flora": [
+      "carbon_fern",
+      "lumen_coral",
+      "spore_fan"
+    ],
+    "sky": 527652,
+    "fog": 4359825,
+    "color": 5482421,
+    "fogDistance": 240,
+    "seed": 15047,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "miranda",
+    "terrain": "RIDGES",
+    "flora": [
+      "ice_spire",
+      "fungus",
+      "carbon_fern"
+    ],
+    "sky": 527652,
+    "fog": 5727086,
+    "color": 7175305,
+    "fogDistance": 240,
+    "seed": 15378,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "neptune",
+    "terrain": "GEYSERS",
+    "flora": [
+      "crystal_vine",
+      "iron_root",
+      "ice_spire"
+    ],
+    "sky": 2966134,
+    "fog": 3361670,
+    "color": 4218536,
+    "fogDistance": 240,
+    "seed": 15709,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "triton",
+    "terrain": "GEYSERS",
+    "flora": [
+      "lumen_coral",
+      "spore_fan",
+      "crystal_vine"
+    ],
+    "sky": 4085090,
+    "fog": 4612720,
+    "color": 5798540,
+    "fogDistance": 240,
+    "seed": 16040,
+    "hunter": "pouncer"
+  },
+  {
+    "body": "proteus",
+    "terrain": "CRATERS",
+    "flora": [
+      "fungus",
+      "carbon_fern",
+      "lumen_coral"
+    ],
+    "sky": 527652,
+    "fog": 5662824,
+    "color": 7111298,
+    "fogDistance": 240,
+    "seed": 16371,
+    "hunter": "pouncer"
+  }
+]

@@ -66,6 +66,7 @@ public final class ModPresentation {
                 section(output, "rockets"); output.accept(ModItems.LAUNCH_PAD.get());
                 output.accept(ModItems.TIER1_ROCKET.get()); output.accept(ModItems.TIER2_ROCKET.get()); output.accept(ModItems.TIER3_ROCKET.get());
                 section(output,"frontiers");com.vic17usd.galaxycraft.frontier.ModFrontiers.ITEMS.values().forEach(item->output.accept(item.get()));
+                section(output,"biosphere");com.vic17usd.galaxycraft.biosphere.ModBiosphere.ITEMS.values().forEach(item->output.accept(item.get()));
                 section(output, "schematics");
                 output.accept(ModItems.LUNAR_SCHEMATIC.get()); output.accept(ModItems.MARTIAN_SCHEMATIC.get());
                 ModSites.SCHEMATICS.values().forEach(item -> output.accept(item.get()));

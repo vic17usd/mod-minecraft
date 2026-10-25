@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:mimas",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:mimas",
+    "type": "galaxycraft:extreme_planet",
+    "body": "mimas",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:mimas"
+      "type": "galaxycraft:planet_habitats",
+      "body": "mimas",
+      "plains": "galaxycraft:mimas",
+      "extreme": "galaxycraft:mimas_rift",
+      "grove": "galaxycraft:mimas_grove"
     }
   }
 }

@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:deimos",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:deimos",
+    "type": "galaxycraft:extreme_planet",
+    "body": "deimos",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:deimos"
+      "type": "galaxycraft:planet_habitats",
+      "body": "deimos",
+      "plains": "galaxycraft:deimos",
+      "extreme": "galaxycraft:deimos_rift",
+      "grove": "galaxycraft:deimos_grove"
     }
   }
 }

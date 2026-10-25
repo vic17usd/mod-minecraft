@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 9466192,
+    "water_color": 4145995,
+    "water_fog_color": 4145995,
+    "grass_color": 4145995,
+    "foliage_color": 4145995,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:callisto_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:callisto_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:callisto_ecology_rift"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 3357531,
-    "fog_color": 3357531,
+    "sky_color": 527652,
+    "fog_color": 4359825,
     "water_color": 3357531,
     "water_fog_color": 3357531,
     "grass_color": 3357531,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:oberon_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

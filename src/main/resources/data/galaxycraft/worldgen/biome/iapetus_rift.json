@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 7702614,
+    "water_color": 3351108,
+    "water_fog_color": 3351108,
+    "grass_color": 3351108,
+    "foliage_color": 3351108,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:iapetus_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:iapetus_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:iapetus_ecology_rift"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

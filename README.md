@@ -1,11 +1,18 @@
 # GalaxyCraft — Sistema Solar y supervivencia avanzada
 
-La versión actual es **0.6.0**: [combate, clima y redes](docs/FRONTERAS_COMBATE_Y_REDES.md).
-Añade dos jefes en las bóvedas de Luna/Marte, 28 hostiles planetarios, tormentas
-solares/de polvo, meteoritos y redes independientes de FE, oxígeno y combustible.
-Incluye depósitos masivos, refinería térmica y repostaje por plataforma. Descarga
-[`galaxycraft-0.6.0.jar`](downloads/galaxycraft-0.6.0.jar) desde GitHub con
+La versión actual es **0.7.0**: [biosferas y civilizaciones](docs/BIOSFERA_Y_CIVILIZACIONES.md).
+Añade 145 fachadas para las expediciones, cultivos nativos, ganadería alienígena,
+colonias con comercio/contratos, depredadores, tres hábitats por planeta y
+generadores extremos con cielos propios. La Tierra conserva terreno y cielo vanilla.
+Descarga [`galaxycraft-0.7.0.jar`](downloads/galaxycraft-0.7.0.jar) desde GitHub con
 **Download raw file** y sustituye la versión anterior en `mods`.
+
+Se recomienda un mundo nuevo para probar la nueva generación; no hay retrogen
+ni sustitución de construcciones existentes. Se mantienen las cinco expediciones
+por cuerpo y se añade una familia independiente de colonias. Véase la guía de migración.
+
+Conserva [combate, clima y redes](docs/FRONTERAS_COMBATE_Y_REDES.md): dos jefes,
+eventos espaciales, tuberías, depósitos y repostaje por plataforma.
 
 Conserva [misiones, supervivencia, rover y estaciones](docs/EXPANSION_SUPERVIVENCIA.md):
 **J** para contratos, **G** para traje y módulos, y 29 órbitas con gravedad cero.

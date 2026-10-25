@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 6389663,
-    "fog_color": 6389663,
+    "sky_color": 527652,
+    "fog_color": 6972298,
     "water_color": 6389663,
     "water_fog_color": 6389663,
     "grass_color": 6389663,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:ariel_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

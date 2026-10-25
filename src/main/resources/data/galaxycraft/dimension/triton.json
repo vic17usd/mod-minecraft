@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:triton",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:triton",
+    "type": "galaxycraft:extreme_planet",
+    "body": "triton",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:triton"
+      "type": "galaxycraft:planet_habitats",
+      "body": "triton",
+      "plains": "galaxycraft:triton",
+      "extreme": "galaxycraft:triton_rift",
+      "grove": "galaxycraft:triton_grove"
     }
   }
 }

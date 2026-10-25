@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 2116792,
-    "fog_color": 2116792,
+    "sky_color": 2966134,
+    "fog_color": 3361670,
     "water_color": 2116792,
     "water_fog_color": 2116792,
     "grass_color": 2116792,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:neptune_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

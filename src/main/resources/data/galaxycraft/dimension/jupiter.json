@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:jupiter",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:jupiter",
+    "type": "galaxycraft:extreme_planet",
+    "body": "jupiter",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:jupiter"
+      "type": "galaxycraft:planet_habitats",
+      "body": "jupiter",
+      "plains": "galaxycraft:jupiter",
+      "extreme": "galaxycraft:jupiter_rift",
+      "grove": "galaxycraft:jupiter_grove"
     }
   }
 }

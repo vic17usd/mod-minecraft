@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 5516352,
+    "water_color": 3747911,
+    "water_fog_color": 3747911,
+    "grass_color": 3747911,
+    "foliage_color": 3747911,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:phobos_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:phobos_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:phobos_ecology_grove"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

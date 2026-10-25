@@ -3,8 +3,8 @@
   "temperature": 2,
   "downfall": 0,
   "effects": {
-    "sky_color": 13603368,
-    "fog_color": 13603368,
+    "sky_color": 9204296,
+    "fog_color": 10587476,
     "water_color": 13603368,
     "water_fog_color": 13603368,
     "grass_color": 13603368,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:venus_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

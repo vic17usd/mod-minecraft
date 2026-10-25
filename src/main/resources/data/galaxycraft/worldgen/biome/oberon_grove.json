@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 3500916,
+    "water_color": 3357531,
+    "water_fog_color": 3357531,
+    "grass_color": 3357531,
+    "foliage_color": 3357531,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:oberon_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:oberon_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:oberon_ecology_grove"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

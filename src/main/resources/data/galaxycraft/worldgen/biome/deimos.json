@@ -3,8 +3,8 @@
   "temperature": 0.1,
   "downfall": 0,
   "effects": {
-    "sky_color": 4733250,
-    "fog_color": 4733250,
+    "sky_color": 527652,
+    "fog_color": 9261892,
     "water_color": 4733250,
     "water_fog_color": 4733250,
     "grass_color": 4733250,
@@ -31,7 +31,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "galaxycraft:deimos_ecology"
+    ],
     []
   ],
   "spawn_costs": {},

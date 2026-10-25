@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "galaxycraft:block/jupiter_carbon_fern_stage0"
+    },
+    "age=1": {
+      "model": "galaxycraft:block/jupiter_carbon_fern_stage1"
+    },
+    "age=2": {
+      "model": "galaxycraft:block/jupiter_carbon_fern_stage2"
+    }
+  }
+}

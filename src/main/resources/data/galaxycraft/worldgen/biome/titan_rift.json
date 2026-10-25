@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 7765336,
+    "fog_color": 8818277,
+    "water_color": 10776100,
+    "water_fog_color": 10776100,
+    "grass_color": 10776100,
+    "foliage_color": 10776100,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:titan_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:titan_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:titan_ecology_rift"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}

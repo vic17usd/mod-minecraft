@@ -1,6 +1,6 @@
 {
   "type": "galaxycraft:planetary_site",
-  "biomes": "#galaxycraft:has_structure/mimas_vault",
+  "biomes": "#galaxycraft:mimas_habitats",
   "step": "underground_structures",
   "terrain_adaptation": "none",
   "spawn_overrides": {},

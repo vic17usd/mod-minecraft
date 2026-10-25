@@ -48,6 +48,9 @@ public final class ClientModEvents {
         event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.GUARDIAN.get(),context->new FrontierBossRenderer(context,false));
         event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.QUEEN.get(),context->new FrontierBossRenderer(context,true));
         com.vic17usd.galaxycraft.frontier.ModFrontiers.RAIDERS.values().forEach(type->event.registerEntityRenderer(type.get(),PlanetaryRaiderRenderer::new));
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.FAUNA.forEach((id,type)->{var profile=com.vic17usd.galaxycraft.biosphere.LivingProfiles.get(id.split("_")[0]);String species=id.substring(profile.body().length()+1);event.registerEntityRenderer(type.get(),context->new BiosphereMobRenderer<>(context,species,profile.seed()));});
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.CITIZENS.forEach((id,type)->event.registerEntityRenderer(type.get(),context->new BiosphereMobRenderer<>(context,"colonist",com.vic17usd.galaxycraft.biosphere.LivingProfiles.get(id).seed())));
+        com.vic17usd.galaxycraft.biosphere.ModBiosphere.HUNTERS.forEach((id,type)->event.registerEntityRenderer(type.get(),context->new BiosphereMobRenderer<>(context,com.vic17usd.galaxycraft.biosphere.LivingProfiles.get(id).hunter(),com.vic17usd.galaxycraft.biosphere.LivingProfiles.get(id).seed())));
         event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.PLASMA_BOLT.get(),context->new net.minecraft.client.renderer.entity.ThrownItemRenderer<>(context,.65F,true));
         event.registerEntityRenderer(com.vic17usd.galaxycraft.frontier.ModFrontiers.METEOR.get(),context->new net.minecraft.client.renderer.entity.ThrownItemRenderer<>(context,1.5F,true));
     }
@@ -63,6 +66,8 @@ public final class ClientModEvents {
         event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.MACHINE_MENU.get(),LogisticsScreens.Machine::new);
         event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.ROVER_MENU.get(),LogisticsScreens.Rover::new);
         event.register(com.vic17usd.galaxycraft.frontier.ModFrontiers.MENU.get(),ResourceNetworkScreen::new);
+        event.register(com.vic17usd.galaxycraft.biosphere.ModBiosphere.COLONY_MENU.get(),ColonyScreen::new);
     }
     @SubscribeEvent public static void orbitalEffects(net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent event){event.register(ModPresentation.id("orbit"),new OrbitalEffects());}
+    @SubscribeEvent public static void planetaryEffects(net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent event){for(var profile:com.vic17usd.galaxycraft.biosphere.LivingProfiles.ALL)if(!profile.body().equals("earth"))event.register(ModPresentation.id("sky/"+profile.body()),new PlanetSkyEffects(profile));}
 }

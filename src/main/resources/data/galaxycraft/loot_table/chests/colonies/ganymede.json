@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "galaxycraft:ganymede_biosample",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "galaxycraft:colony_token",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "galaxycraft:ganymede_observatory_schematic",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

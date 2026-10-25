@@ -1,11 +1,14 @@
 {
   "type": "galaxycraft:titan",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "galaxycraft:titan",
+    "type": "galaxycraft:extreme_planet",
+    "body": "titan",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "galaxycraft:titan"
+      "type": "galaxycraft:planet_habitats",
+      "body": "titan",
+      "plains": "galaxycraft:titan",
+      "extreme": "galaxycraft:titan_rift",
+      "grove": "galaxycraft:titan_grove"
     }
   }
 }

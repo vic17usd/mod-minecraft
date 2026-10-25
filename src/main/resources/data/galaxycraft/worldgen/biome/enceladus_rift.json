@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.1,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 527652,
+    "fog_color": 8943223,
+    "water_color": 6657720,
+    "water_fog_color": 6657720,
+    "grass_color": 6657720,
+    "foliage_color": 6657720,
+    "music": {
+      "sound": "galaxycraft:space_ambient",
+      "min_delay": 600,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "galaxycraft:enceladus_boulders"
+    ],
+    [],
+    [],
+    [],
+    [
+      "galaxycraft:enceladus_ore"
+    ],
+    [],
+    [],
+    [
+      "galaxycraft:enceladus_ecology_rift"
+    ],
+    []
+  ],
+  "spawn_costs": {},
+  "spawners": {}
+}
