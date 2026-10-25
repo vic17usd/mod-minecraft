@@ -77,12 +77,17 @@ public final class CosmicGrazer extends Animal {
 
   @Override
   public InteractionResult mobInteract(Player player, InteractionHand hand) {
+    if (!level().isClientSide() && isFood(player.getItemInHand(hand)))
+      com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+          this, com.vic17usd.galaxycraft.morphology.AlienPose.FEED, 25);
     if (species().equals("lumen_sheep")
         && player.getItemInHand(hand).is(Items.SHEARS)
         && !isBaby()
         && woolCooldown == 0) {
       if (!level().isClientSide()) {
         woolCooldown = 600;
+        com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+            this, com.vic17usd.galaxycraft.morphology.AlienPose.FEED, 25);
         spawnAtLocation(new ItemStack(ModBiosphere.FIBER.get(), 2));
         player.getItemInHand(hand).hurtAndBreak(1, player, LivingEntity.getSlotForHand(hand));
       }

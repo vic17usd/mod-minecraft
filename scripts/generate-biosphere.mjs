@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { generateMorphology } from './generate-morphology.mjs';
 export function generateBiosphere({png,json,read,id,bodies,assets,data}){
     const terrains={earth:'VANILLA',moon:'CRATERS',mercury:'RIFT',venus:'RIFT',mars:'DUNES',phobos:'CRATERS',deimos:'CRATERS',jupiter:'DUNES',io:'RIFT',europa:'GEYSERS',ganymede:'RIDGES',callisto:'CRATERS',saturn:'DUNES',titan:'DUNES',enceladus:'GEYSERS',mimas:'CRATERS',tethys:'RIDGES',dione:'RIDGES',rhea:'CRATERS',iapetus:'RIDGES',uranus:'RIDGES',miranda:'RIDGES',ariel:'GEYSERS',umbriel:'CRATERS',titania:'RIDGES',oberon:'CRATERS',neptune:'GEYSERS',triton:'GEYSERS',proteus:'CRATERS'};
     const palettes={earth:0x6C9D83,moon:0x8491B4,mercury:0x706E8F,venus:0xBA8B39,mars:0xA65E47,jupiter:0xBC8C67,saturn:0xCDBA7F,uranus:0x6EAFB4,neptune:0x405EA8};
@@ -112,4 +113,5 @@ export function generateBiosphere({png,json,read,id,bodies,assets,data}){
         json(file,text);
     }
     console.log('Biosfera: 145 fachadas, 87 cultivos, 87 especies ganaderas, 29 colonias y 28 generadores extremos.');
+    generateMorphology({png,json,read,id,bodies,assets,data});
 }

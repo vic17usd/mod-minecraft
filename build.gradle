@@ -66,6 +66,8 @@ dependencies {
 
 tasks.named('test', Test).configure {
     useJUnitPlatform()
+    // El runner de ModDev usa su propio directorio de trabajo; las auditorías leen fuentes reales.
+    systemProperty 'galaxycraft.projectRoot', project.projectDir.absolutePath
 }
 
 // Genera el TOML sin modificar la plantilla ni escribir archivos en src/main/resources.

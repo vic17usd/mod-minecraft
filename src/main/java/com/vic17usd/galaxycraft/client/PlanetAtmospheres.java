@@ -17,6 +17,8 @@ public final class PlanetAtmospheres {
   private static LivingProfiles.Profile profile(ViewportEvent event) {
     var player = Minecraft.getInstance().player;
     if (player == null || event.getCamera().getFluidInCamera() != FogType.NONE) return null;
+    if (player.hasEffect(net.minecraft.world.effect.MobEffects.BLINDNESS)
+        || player.hasEffect(net.minecraft.world.effect.MobEffects.DARKNESS)) return null;
     var state = player.getData(ModExpansion.EXPOSURE.get());
     if (state.weather == SpaceWeather.DUST && !state.sheltered) return null;
     var profile = LivingProfiles.of(player.level());
@@ -27,9 +29,17 @@ public final class PlanetAtmospheres {
   public static void fog(ViewportEvent.RenderFog event) {
     var profile = profile(event);
     if (profile != null) {
-      float far = Math.min(event.getFarPlaneDistance(), profile.fogDistance());
+      boolean vacuum = profile.celestial().atmosphere().equals("none");
+      float far =
+          vacuum
+              ? event.getFarPlaneDistance()
+              : Math.min(event.getFarPlaneDistance(), profile.fogDistance());
       event.setNearPlaneDistance(
-          profile.fogDistance() <= 64 ? 0 : Math.min(event.getNearPlaneDistance(), far * .7F));
+          vacuum
+              ? far * .9F
+              : profile.fogDistance() <= 64
+                  ? 0
+                  : Math.min(event.getNearPlaneDistance(), far * .7F));
       event.setFarPlaneDistance(far);
       event.setCanceled(true);
     }
@@ -39,6 +49,12 @@ public final class PlanetAtmospheres {
   public static void color(ViewportEvent.ComputeFogColor event) {
     var profile = profile(event);
     if (profile != null) {
+      if (profile.celestial().atmosphere().equals("none")) {
+        event.setRed(.003F);
+        event.setGreen(.004F);
+        event.setBlue(.008F);
+        return;
+      }
       float brightness =
           (float)
               (.18

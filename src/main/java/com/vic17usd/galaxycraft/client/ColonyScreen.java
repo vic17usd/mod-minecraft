@@ -11,7 +11,7 @@ import net.neoforged.neoforge.network.PacketDistributor;
 
 /** Diálogo de comercio/contrato; los botones se actualizan después de cada snapshot de menú. */
 public final class ColonyScreen extends AbstractContainerScreen<ColonyMenu> {
-  private final Button[] actions = new Button[5];
+  private final Button[] actions = new Button[6];
 
   public ColonyScreen(ColonyMenu menu, Inventory inventory, Component title) {
     super(menu, inventory, title);
@@ -22,8 +22,8 @@ public final class ColonyScreen extends AbstractContainerScreen<ColonyMenu> {
     imageWidth = Math.min(340, width - 12);
     imageHeight = 226;
     super.init();
-    String[] names = {"buy", "sell", "accept", "claim", "supplies"};
-    for (int i = 0; i < 5; i++) {
+    String[] names = {"buy", "sell", "accept", "claim", "supplies", "blueprint"};
+    for (int i = 0; i < 6; i++) {
       final int action = i;
       actions[i] =
           addRenderableWidget(
@@ -32,12 +32,16 @@ public final class ColonyScreen extends AbstractContainerScreen<ColonyMenu> {
                       button ->
                           PacketDistributor.sendToServer(
                               new ColonyNetworking.Action(menu.containerId, action)))
-                  .bounds(leftPos + 8, topPos + 49 + i * 25, imageWidth - 16, 22)
+                  .bounds(
+                      leftPos + 8 + (i % 2) * (imageWidth / 2 - 4),
+                      topPos + 49 + (i / 2) * 39,
+                      imageWidth / 2 - 12,
+                      34)
                   .tooltip(
                       Tooltip.create(
                           Component.translatable(
                               "colony.galaxycraft."
-                                  + (i < 2 || i == 4 ? names[i] + "_tip" : "contract_tip"))))
+                                  + (i < 2 || i >= 4 ? names[i] + "_tip" : "contract_tip"))))
                   .build());
     }
   }
@@ -49,6 +53,7 @@ public final class ColonyScreen extends AbstractContainerScreen<ColonyMenu> {
     actions[2].active = menu.value(1) == 0 && menu.value(2) == 0;
     actions[3].active = menu.value(1) > 0 && menu.value(2) == 0 && menu.value(3) >= 16;
     actions[4].active = menu.value(0) > 0 && menu.value(5) > 0;
+    actions[5].active = menu.value(0) > 0 && menu.value(5) >= 4;
     super.render(gui, x, y, partial);
     renderTooltip(gui, x, y);
   }

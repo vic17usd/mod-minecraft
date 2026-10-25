@@ -80,6 +80,8 @@ public final class HabitatHunter extends Monster implements RangedAttackMob {
       var towards = getTarget().position().subtract(position()).normalize();
       setDeltaMovement(towards.x * .65, .45, towards.z * .65);
       hasImpulse = true;
+      com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+          this, com.vic17usd.galaxycraft.morphology.AlienPose.ATTACK, 18);
     }
   }
 
@@ -88,6 +90,8 @@ public final class HabitatHunter extends Monster implements RangedAttackMob {
     if (level().isClientSide() || !style().equals("spitter") || shot > 0 || !hasLineOfSight(target))
       return;
     shot = 60;
+    com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+        this, com.vic17usd.galaxycraft.morphology.AlienPose.SPIT, 22);
     var bolt = ModFrontiers.PLASMA_BOLT.get().create(level());
     if (bolt == null) return;
     bolt.setOwner(this);
@@ -99,6 +103,8 @@ public final class HabitatHunter extends Monster implements RangedAttackMob {
 
   @Override
   public boolean doHurtTarget(Entity target) {
+    com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+        this, com.vic17usd.galaxycraft.morphology.AlienPose.ATTACK, 18);
     boolean hit = super.doHurtTarget(target);
     if (hit && target instanceof LivingEntity living) {
       if (style().equals("magma")) living.igniteForSeconds(3);

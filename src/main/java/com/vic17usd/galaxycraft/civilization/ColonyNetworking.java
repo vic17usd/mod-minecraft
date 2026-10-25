@@ -41,7 +41,7 @@ public final class ColonyNetworking {
                           && player.containerMenu instanceof ColonyMenu menu
                           && menu.containerId == packet.menuId()
                           && packet.action() >= 0
-                          && packet.action() < 5) menu.act(player, packet.action());
+                          && packet.action() < 6) menu.act(player, packet.action());
                     }));
   }
 

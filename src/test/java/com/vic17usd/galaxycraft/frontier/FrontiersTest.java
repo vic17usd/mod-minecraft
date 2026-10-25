@@ -99,7 +99,7 @@ class FrontiersTest {
           var bytes = stream.readAllBytes();
           assertTrue(hashes.add(Arrays.hashCode(bytes)));
           var image = ImageIO.read(new java.io.ByteArrayInputStream(bytes));
-          assertEquals(64, image.getWidth());
+          assertEquals(256, image.getWidth());
         }
         json("data/galaxycraft/loot_table/entities/" + body.id() + "_raider.json");
       }

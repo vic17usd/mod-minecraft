@@ -1,0 +1,13 @@
+GalaxyCraft 0.8.0 — Procedencia de los recursos visuales
+
+Las geometrías Java de criaturas, atlas, mapas de planetas, nubes, océanos,
+nebulosas, emisión y shaders se generan/escriben en este proyecto. No incluyen
+recursos extraídos de Alex's Mobs, Mowzie's Mobs o Twilight Forest.
+
+Las costas del mapa terrestre derivan de Natural Earth Land 1:110m,
+de dominio público y sin restricciones de uso:
+https://www.naturalearthdata.com/about/terms-of-use/
+https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson
+
+El mapa no es una fotografía de satélite; sus biomas, iluminación nocturna,
+atmósfera y nubes son representaciones artísticas, no observaciones medidas.

@@ -131,10 +131,23 @@ public final class ColonyCitizen extends PathfinderMob implements MenuProvider {
         stock--;
         give(player, resource, 4);
       }
+      case 5 -> {
+        if (stock <= 0 || count(player, ModBiosphere.TOKEN.get()) < 4) return false;
+        take(player, ModBiosphere.TOKEN.get(), 4);
+        stock--;
+        give(
+            player,
+            com.vic17usd.galaxycraft.registry.ModSites.SCHEMATICS
+                .get(body() + "_observatory")
+                .get(),
+            1);
+      }
       default -> {
         return false;
       }
     }
+    com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+        this, com.vic17usd.galaxycraft.morphology.AlienPose.TRADE, 28);
     player.inventoryMenu.broadcastChanges();
     if (player.containerMenu instanceof ColonyMenu menu) menu.broadcastChanges();
     return true;

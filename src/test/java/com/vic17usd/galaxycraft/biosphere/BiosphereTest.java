@@ -160,7 +160,7 @@ class BiosphereTest {
           assertNotNull(input);
           var bytes = input.readAllBytes();
           assertTrue(hashes.add(Arrays.hashCode(bytes)));
-          assertEquals(128, ImageIO.read(new java.io.ByteArrayInputStream(bytes)).getWidth());
+          assertEquals(256, ImageIO.read(new java.io.ByteArrayInputStream(bytes)).getWidth());
         }
       try (var input =
           getClass()

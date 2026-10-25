@@ -1,13 +1,18 @@
 # GalaxyCraft — Sistema Solar y supervivencia avanzada
 
-La versión actual es **0.7.0**: [biosferas y civilizaciones](docs/BIOSFERA_Y_CIVILIZACIONES.md).
-Añade 145 fachadas para las expediciones, cultivos nativos, ganadería alienígena,
-colonias con comercio/contratos, depredadores, tres hábitats por planeta y
-generadores extremos con cielos propios. La Tierra conserva terreno y cielo vanilla.
-Descarga [`galaxycraft-0.7.0.jar`](downloads/galaxycraft-0.7.0.jar) desde GitHub con
+La versión actual es **0.8.0**: [morfologías originales y cielos orbitales](docs/MORFOLOGIAS_Y_CIELOS.md).
+Sustituye todas las mallas de criaturas del mod por once familias originales
+articuladas, con atlas y máscaras emisivas para 179 registros. Añade planeo,
+embestidas, animaciones S2C, comercio de planos, esporas, mapas celestes HD,
+fases/tamaños angulares y dispersión Rayleigh–Mie mediante shader propio.
+Conserva las [biosferas y civilizaciones](docs/BIOSFERA_Y_CIVILIZACIONES.md),
+las 145 fachadas, 87 cultivos y colonias con contratos. La Tierra conserva
+terreno y cielo vanilla; su aspecto desde otras dimensiones sí se renueva.
+Descarga [`galaxycraft-0.8.0.jar`](downloads/galaxycraft-0.8.0.jar) desde GitHub con
 **Download raw file** y sustituye la versión anterior en `mods`.
 
-Se recomienda un mundo nuevo para probar la nueva generación; no hay retrogen
+Los modelos y cielos se actualizan también en mundos existentes. Se recomienda
+explorar chunks nuevos para encontrar generación que aún no estuviera presente; no hay retrogen
 ni sustitución de construcciones existentes. Se mantienen las cinco expediciones
 por cuerpo y se añade una familia independiente de colonias. Véase la guía de migración.
 

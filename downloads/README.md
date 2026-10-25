@@ -1,28 +1,31 @@
 # Descargar GalaxyCraft
 
-La versión actual es **[`galaxycraft-0.7.0.jar`](galaxycraft-0.7.0.jar)**:
-biosferas, 145 materiales de estructura, 87 cultivos, ganadería alienígena, colonias
-con comercio/contratos, nuevos depredadores, relieve extremo y cielos propios.
+La versión actual es **[`galaxycraft-0.8.0.jar`](galaxycraft-0.8.0.jar)**:
+once familias de modelos originales articulados para las 179 criaturas,
+animaciones sincronizadas, planeo/embestidas, planos en colonias, esporas y
+cielos HD con fases, tamaños angulares, cubemap y shader Rayleigh–Mie.
+Conserva biosferas, 145 materiales, 87 cultivos, colonias y relieve extremo.
 Conserva combate, clima, redes, misiones, equipo, rover y órbitas.
-Las versiones 0.1.0 a 0.6.0 quedan como archivo histórico.
+Las versiones 0.1.0 a 0.7.0 quedan como archivo histórico.
 Instala solo una versión a la vez en `mods` y haz una copia de tu mundo.
 Todas necesitan Minecraft **1.21**, NeoForge
 **21.0.167** y Java **21**.
 
 Descarga el archivo desde GitHub usando **Download raw file**, o utiliza la
-[descarga directa](https://github.com/vic17usd/mod-minecraft/raw/refs/heads/main/downloads/galaxycraft-0.7.0.jar).
+[descarga directa](https://raw.githubusercontent.com/vic17usd/mod-minecraft/main/downloads/galaxycraft-0.8.0.jar).
 
-SHA-256 de 0.7.0, compilada y validada con 225 pruebas JUnit y 22 GameTests:
+SHA-256 de 0.8.0, compilada y validada con 243 pruebas JUnit y 25 GameTests:
 
 ```text
-5d110ec4efaeaa30ae0bbfe850f83c30a6a3fb6ec24197eb1404e77b57150f4c
+6902cabf51568ade63f1035337fdae623e7cb8bc6b4bac53812c931cc25f94d3
 ```
 
 La revisión visual y una sesión con cliente real siguen pendientes. No necesitas
 Curios. Pulsa **J** para misiones, **G** para traje/módulos y **H** cerca del cohete
 para navegación. Actualiza tanto el cliente como el servidor. Consulta la
-[guía de biosferas](../docs/BIOSFERA_Y_CIVILIZACIONES.md) para cultivo, fauna,
-comercio, terreno y cielos. Se recomienda un mundo nuevo para la generación nueva;
+[guía de morfologías y cielos](../docs/MORFOLOGIAS_Y_CIELOS.md) para modelos,
+comercio, precisión astronómica y opciones gráficas. Los modelos/cielos cambian
+en mundos existentes; se necesitan chunks nuevos para generación no encontrada:
 no se regeneran chunks ni se sustituyen construcciones existentes.
 
 ## Versión anterior

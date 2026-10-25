@@ -84,6 +84,22 @@ public final class AlienPlantBlock extends BushBlock implements BonemealableBloc
       level.setBlockAndUpdate(pos, state.cycle(AGE));
   }
 
+  /** Esporas puramente visuales; la cosecha y el crecimiento siguen siendo autoritativos. */
+  @Override
+  public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
+    if (state.getValue(AGE) == 2
+        && (style.equals("fungus") || style.equals("spore_fan") || style.equals("lumen_coral"))
+        && random.nextInt(7) == 0)
+      level.addParticle(
+          com.vic17usd.galaxycraft.morphology.ModMorphology.SPORE.get(),
+          pos.getX() + random.nextDouble(),
+          pos.getY() + .8,
+          pos.getZ() + random.nextDouble(),
+          0,
+          .018,
+          0);
+  }
+
   @Override
   public boolean isValidBonemealTarget(LevelReader level, BlockPos pos, BlockState state) {
     return state.getValue(AGE) < 2 && canSurvive(state, level, pos);

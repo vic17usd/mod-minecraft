@@ -92,6 +92,8 @@ public final class PlanetBoss extends Monster implements RangedAttackMob {
           && distanceToSqr(target) > 36
           && tickCount % 40 == 0) performRangedAttack(target, 1);
       if (target != null && distanceToSqr(target) < 25 && tickCount % 100 == 0) {
+        com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+            this, com.vic17usd.galaxycraft.morphology.AlienPose.ROAR, 30);
         for (var living :
             level()
                 .getEntitiesOfClass(
@@ -109,6 +111,8 @@ public final class PlanetBoss extends Monster implements RangedAttackMob {
   public void performRangedAttack(LivingEntity target, float distance) {
     if (level().isClientSide() || shotCooldown > 0) return;
     shotCooldown = getHealth() < getMaxHealth() / 2 ? 30 : 55;
+    com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+        this, com.vic17usd.galaxycraft.morphology.AlienPose.SPIT, 24);
     var bolt = ModFrontiers.PLASMA_BOLT.get().create(level());
     if (bolt == null) return;
     bolt.setOwner(this);
@@ -124,6 +128,13 @@ public final class PlanetBoss extends Monster implements RangedAttackMob {
             net.minecraft.sounds.SoundSource.HOSTILE,
             .9F,
             queen() ? .7F : 1.2F);
+  }
+
+  @Override
+  public boolean doHurtTarget(Entity entity) {
+    com.vic17usd.galaxycraft.morphology.MorphologyNetworking.animate(
+        this, com.vic17usd.galaxycraft.morphology.AlienPose.ATTACK, 22);
+    return super.doHurtTarget(entity);
   }
 
   @Override
