@@ -22,25 +22,16 @@ public final class SolarEnvironment {
     private static void gravity(LivingEntity entity) {
         var body = SolarSystem.body(entity.level());
         // Un mínimo jugable evita caídas de varios minutos en lunas diminutas.
-        double factor = body == null ? 1 : Math.max(.05, body.gravity());
+        double factor = com.vic17usd.galaxycraft.station.OrbitStations.isOrbit(entity.level())
+                ? com.vic17usd.galaxycraft.expansion.ExpansionNetworks.gravity(entity.level(),entity.blockPosition())?1:0
+                : body == null ? 1 : Math.max(.05, body.gravity());
         modify(entity.getAttribute(Attributes.GRAVITY), factor);
         modify(entity.getAttribute(Attributes.FALL_DAMAGE_MULTIPLIER), factor);
     }
     public static void onEntityTick(EntityTickEvent.Pre event) {
+        if(!(event.getEntity() instanceof net.minecraft.world.entity.player.Player))com.vic17usd.galaxycraft.expansion.AdvancedSurvival.physics(event.getEntity());
         if (event.getEntity() instanceof LivingEntity living) gravity(living);
     }
-    public static void onPlayerTick(PlayerTickEvent.Pre event) { gravity(event.getEntity()); }
-    public static void onHazardTick(PlayerTickEvent.Post event) {
-        var player = event.getEntity();
-        if (player.level().isClientSide() || !player.isAlive() || player.isCreative() || player.isSpectator()
-                || player.tickCount % 50 != 0) return;
-        var body = SolarSystem.body(player.level());
-        if (body == null) return;
-        // Un traje completo alimentado reduce los peligros un 75 %, sin sumar armadura vanilla.
-        float protection = com.vic17usd.galaxycraft.equipment.SpaceEquipment.fullSuit(player)
-                && com.vic17usd.galaxycraft.equipment.SpaceEquipment.hasOxygen(player) ? .25F : 1F;
-        if (body.heat() > 0 && player.tickCount % 100 == 0) player.hurt(player.damageSources().hotFloor(), body.heat() * protection);
-        if (body.radiation() > 0 && player.tickCount % 100 == 50) player.hurt(player.damageSources().magic(), body.radiation() * protection);
-    }
+    public static void onPlayerTick(PlayerTickEvent.Pre event) { gravity(event.getEntity());com.vic17usd.galaxycraft.expansion.AdvancedSurvival.physics(event.getEntity()); }
     private SolarEnvironment() {}
 }

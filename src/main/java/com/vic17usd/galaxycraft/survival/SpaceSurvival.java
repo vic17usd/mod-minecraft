@@ -17,6 +17,7 @@ import com.vic17usd.galaxycraft.equipment.SpaceEquipment;
 /** Toda la autoridad sobre respiración y daño permanece en el servidor. */
 public final class SpaceSurvival {
     public static boolean isAirless(Level level) {
+        if(com.vic17usd.galaxycraft.station.OrbitStations.isOrbit(level))return true;
         var body = SolarSystem.body(level);
         return (body != null && !body.breathable()) || SpaceConfig.SIMULATE_VACUUM.get()
                 || SpaceConfig.AIRLESS_DIMENSIONS.get().contains(level.dimension().location().toString());
@@ -27,6 +28,8 @@ public final class SpaceSurvival {
         if (player.level().isClientSide() || !player.isAlive() || player.isCreative()
                 || player.isSpectator() || player.tickCount % 20 != 0 || !isAirless(player.level())) return;
 
+        // Una sala sellada usa su suministro finito antes de los tanques del jugador.
+        if(player instanceof net.minecraft.server.level.ServerPlayer server&&com.vic17usd.galaxycraft.expansion.ExpansionNetworks.breathe(server))return;
         // Primero los tanques del traje, después la mochila y mano secundaria por compatibilidad.
         if (SpaceEquipment.hasHelmet(player) && SpaceEquipment.consume(player)) return;
 

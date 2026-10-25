@@ -1,11 +1,15 @@
-# GalaxyCraft — Sistema Solar (fases 1 a 5)
+# GalaxyCraft — Sistema Solar y supervivencia avanzada
 
-La versión actual es **0.4.1**, que corrige el botón de Sol bloqueado tras sincronizar
-el nivel del cohete. El [ordenador celestial y nuevo arte](docs/NAVEGACION_Y_ARTE.md)
-añade mapa jerárquico con **H**, validación de viajes, patrones minerales propios,
-ladrillos planetarios y bloques industriales. Descarga
-[`galaxycraft-0.4.1.jar`](downloads/galaxycraft-0.4.1.jar) desde GitHub con
+La versión actual es **0.5.0**: [misiones, supervivencia, rover y estaciones](docs/EXPANSION_SUPERVIVENCIA.md).
+Añade diez contratos con GUI (**J**), módulos térmico y de radiación en el traje
+(**G**), bases herméticas con oxígeno y FE finitos, rover con muestras/batería y
+29 órbitas con estaciones personales y gravedad cero. Descarga
+[`galaxycraft-0.5.0.jar`](downloads/galaxycraft-0.5.0.jar) desde GitHub con
 **Download raw file** y sustituye la versión anterior en `mods`.
+
+El [ordenador celestial y nuevo arte](docs/NAVEGACION_Y_ARTE.md) conserva el mapa
+jerárquico con **H**, validación de viajes y patrones minerales propios, incluida
+la corrección de sincronización del botón Sol de 0.4.1.
 
 La [fase 5 ampliada](docs/FASE_5_AVANZADA.md) documenta el equipamiento independiente,
 el cohete a escala y las 145 estructuras de 0.3.0, que siguen disponibles.

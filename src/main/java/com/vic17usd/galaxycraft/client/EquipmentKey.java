@@ -10,5 +10,6 @@ public final class EquipmentKey {
             GLFW.GLFW_KEY_G, "key.categories.galaxycraft");
     public static final KeyMapping NAVIGATE = new KeyMapping("key.galaxycraft.navigation",InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_H,"key.categories.galaxycraft");
+    public static final KeyMapping QUESTS=new KeyMapping("key.galaxycraft.quests",InputConstants.Type.KEYSYM,GLFW.GLFW_KEY_J,"key.categories.galaxycraft");
     private EquipmentKey() {}
 }

@@ -13,10 +13,22 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.ChatFormatting;
 
-/** Eventos visuales locales: no envían paquetes ni alteran inventarios desde el cliente. */
+/** Visuales y controles locales: envían intenciones, nunca inventarios, recompensas ni posiciones. */
 @EventBusSubscriber(modid = GalaxyCraft.MOD_ID, value = Dist.CLIENT)
 public final class ClientGameEvents {
     @SubscribeEvent public static void equipmentKey(net.neoforged.neoforge.client.event.ClientTickEvent.Post event) {
+        while(EquipmentKey.QUESTS.consumeClick())if(Minecraft.getInstance().player!=null&&Minecraft.getInstance().screen==null)
+            net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.expansion.ExpansionNetworking.OpenQuests());
+        var mc=Minecraft.getInstance();
+        if(mc.player!=null&&mc.player.tickCount%3==0){
+            boolean controls=mc.screen==null;float forward=controls?(mc.options.keyUp.isDown()?1:0)-(mc.options.keyDown.isDown()?1:0):0;
+            float turn=controls?(mc.options.keyRight.isDown()?1:0)-(mc.options.keyLeft.isDown()?1:0):0;
+            int thrust=controls?(mc.options.keyUp.isDown()?1:0)|(mc.options.keyDown.isDown()?2:0)|(mc.options.keyLeft.isDown()?4:0)|(mc.options.keyRight.isDown()?8:0)|(mc.options.keyJump.isDown()?16:0)|(mc.options.keyShift.isDown()?32:0):0;
+            if(mc.player.getVehicle() instanceof com.vic17usd.galaxycraft.rover.RoverEntity rover)
+                net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.expansion.ExpansionNetworking.Controls(rover.getId(),forward,turn,0));
+            else if(com.vic17usd.galaxycraft.expansion.AdvancedSurvival.zeroG(mc.player))
+                net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.expansion.ExpansionNetworking.Controls(-1,0,0,thrust));
+        }
         while (EquipmentKey.NAVIGATE.consumeClick()) if (Minecraft.getInstance().player != null
                 && (Minecraft.getInstance().screen == null || Minecraft.getInstance().screen instanceof RocketScreen))
             net.neoforged.neoforge.network.PacketDistributor.sendToServer(new com.vic17usd.galaxycraft.navigation.NavigationNetworking.Open());

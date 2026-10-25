@@ -1,24 +1,26 @@
 # Descargar GalaxyCraft
 
-La versión actual es **`galaxycraft-0.4.1.jar`**, que corrige el botón de Sol
-bloqueado cuando llega el nivel del cohete. Incluye el mapa celestial, texturas y
-minerales rediseñados, ladrillos y bloques industriales, además del traje y las
-145 estructuras anteriores. Las versiones 0.1.0, 0.2.0, 0.3.0 y 0.4.0 quedan
-como archivo histórico. Instala solo una versión a la vez en `mods`.
+La versión actual es **[`galaxycraft-0.5.0.jar`](galaxycraft-0.5.0.jar)**:
+misiones con GUI, módulos de supervivencia, bases herméticas, energía FE, rover
+y estaciones en 29 órbitas. Conserva navegación, arte y 145 estructuras anteriores.
+Las versiones 0.1.0 a 0.4.1 quedan como archivo histórico.
+Instala solo una versión a la vez en `mods` y haz una copia de tu mundo.
 Todas necesitan Minecraft **1.21**, NeoForge
 **21.0.167** y Java **21**.
 
-Descarga el archivo desde GitHub usando **Download raw file**.
+Descarga el archivo desde GitHub usando **Download raw file**, o utiliza la
+[descarga directa](https://github.com/vic17usd/mod-minecraft/raw/refs/heads/main/downloads/galaxycraft-0.5.0.jar).
 
-SHA-256 de la versión 0.4.1, compilada y validada con 202 pruebas JUnit:
+SHA-256 de 0.5.0, compilada y validada con 209 pruebas JUnit y nueve GameTests:
 
 ```text
-1c7a0aeef8daf071fab3d389969a40491519cedf8a15f70e6f04cacc5a768cfa
+7c45fe78a6c0dde367048db28b7fe602246f3a9f47960e4bd33d441c932a0e7e
 ```
 
-La revisión visual de cliente y el viaje completo con jugador real siguen pendientes.
-No necesitas Curios. Pulsa **G** para abrir el equipo espacial y **H** cerca del
-cohete para abrir la navegación. Actualiza tanto el cliente como el servidor.
+La revisión visual y una sesión con cliente real siguen pendientes. No necesitas
+Curios. Pulsa **J** para misiones, **G** para traje/módulos y **H** cerca del cohete
+para navegación. Actualiza tanto el cliente como el servidor. Consulta la
+[guía de expansión](../docs/EXPANSION_SUPERVIVENCIA.md) para aire, FE, rover y órbitas.
 
 ## Versión anterior
 

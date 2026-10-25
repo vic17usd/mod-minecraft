@@ -37,6 +37,12 @@
     "galaxycraft:proteus_bricks",
     "galaxycraft:reinforced_panel",
     "galaxycraft:vent_grate",
-    "galaxycraft:energy_cell"
+    "galaxycraft:energy_cell",
+    "galaxycraft:lead_ore",
+    "galaxycraft:airlock",
+    "galaxycraft:pressure_detector",
+    "galaxycraft:solar_panel",
+    "galaxycraft:docking_module",
+    "galaxycraft:gravity_generator"
   ]
 }

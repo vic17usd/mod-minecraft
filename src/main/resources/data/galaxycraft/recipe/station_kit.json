@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SGD",
+    "NOC",
+    "TPT"
+  ],
+  "key": {
+    "S": {
+      "item": "galaxycraft:solar_panel"
+    },
+    "G": {
+      "item": "galaxycraft:gravity_generator"
+    },
+    "D": {
+      "item": "galaxycraft:docking_module"
+    },
+    "N": {
+      "item": "galaxycraft:navigation_core"
+    },
+    "O": {
+      "item": "galaxycraft:oxygen_tank"
+    },
+    "C": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "P": {
+      "item": "galaxycraft:pressure_detector"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:station_kit",
+    "count": 1
+  }
+}

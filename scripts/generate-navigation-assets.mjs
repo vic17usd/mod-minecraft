@@ -1,4 +1,5 @@
 // Dirección artística por material: máscaras de incrustación distintas, no una plantilla recoloreada.
+import { generateExpansion } from './generate-expansion.mjs';
 export function generateNavigation({ png,json,read,id,bodies,assets,data }) {
     const hash = (x,y,s) => { let n = Math.imul(x,374761393) ^ Math.imul(y,668265263) ^ Math.imul(s,1274126177); n = Math.imul(n ^ n >>> 13,1274126177); return ((n ^ n >>> 16) >>> 0) / 4294967295; };
     const clamp = color => color.map(c => Math.max(0,Math.min(255,Math.round(c))));
@@ -180,4 +181,5 @@ export function generateNavigation({ png,json,read,id,bodies,assets,data }) {
         json(file,texts);
     }
     console.log('Navegación: iconos celestiales, 28 patrones minerales distintos, ladrillos y construcción industrial.');
+    generateExpansion({png,json,read,id,bodies,assets,data});
 }

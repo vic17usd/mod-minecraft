@@ -60,6 +60,9 @@ public final class ModPresentation {
                 output.accept(ModItems.OXYGEN_TANK.get());
                 section(output, "technology");
                 output.accept(ModItems.THRUSTER.get()); output.accept(ModItems.NAVIGATION_CORE.get());
+                section(output,"expansion");
+                var expansionIds=java.util.Set.of("thermal_module","lead_shield_module","raw_lead","lead_ingot","rover_battery","quest_notebook","station_kit","orbital_terminal","planetary_rover","lead_ore","airlock","pressure_detector","solar_panel","docking_module","gravity_generator");
+                ModItems.ITEMS.getEntries().stream().filter(item->expansionIds.contains(item.getId().getPath())).forEach(item->output.accept(item.get()));
                 section(output, "rockets"); output.accept(ModItems.LAUNCH_PAD.get());
                 output.accept(ModItems.TIER1_ROCKET.get()); output.accept(ModItems.TIER2_ROCKET.get()); output.accept(ModItems.TIER3_ROCKET.get());
                 section(output, "schematics");

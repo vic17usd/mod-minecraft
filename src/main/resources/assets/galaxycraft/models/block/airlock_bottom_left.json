@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "galaxycraft:block/airlock_bottom",
+    "top": "galaxycraft:block/airlock_top"
+  }
+}

@@ -25,6 +25,7 @@ public final class ClientModEvents {
     @SubscribeEvent public static void keys(net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent event) {
         event.register(EquipmentKey.OPEN);
         event.register(EquipmentKey.NAVIGATE);
+        event.register(EquipmentKey.QUESTS);
     }
     @SubscribeEvent
     public static void layers(RegisterGuiLayersEvent event) {
@@ -43,6 +44,7 @@ public final class ClientModEvents {
     public static void renderers(EntityRenderersEvent.RegisterRenderers event) {
         ModAlienEntities.CRAWLERS.values().forEach(type -> event.registerEntityRenderer(type.get(), PlanetaryCrawlerRenderer::new));
         event.registerBlockEntityRenderer(ModRocketRegistries.ROCKET.get(), FullScaleRocketRenderer::new);
+        event.registerEntityRenderer(com.vic17usd.galaxycraft.expansion.ModExpansion.ROVER.get(),RoverRenderer::new);
     }
     @SubscribeEvent public static void models(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(FullScaleRocketRenderer.LAYER, FullScaleRocketRenderer::layer);
@@ -52,5 +54,9 @@ public final class ClientModEvents {
         event.register(ModRocketRegistries.ROCKET_MENU.get(), RocketScreen::new);
         event.register(ModEquipment.MENU.get(), SpaceEquipmentScreen::new);
         event.register(ModRocketRegistries.NAVIGATION_MENU.get(),CelestialMapScreen::new);
+        event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.QUEST_MENU.get(),QuestScreen::new);
+        event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.MACHINE_MENU.get(),LogisticsScreens.Machine::new);
+        event.register(com.vic17usd.galaxycraft.expansion.ModExpansion.ROVER_MENU.get(),LogisticsScreens.Rover::new);
     }
+    @SubscribeEvent public static void orbitalEffects(net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent event){event.register(ModPresentation.id("orbit"),new OrbitalEffects());}
 }

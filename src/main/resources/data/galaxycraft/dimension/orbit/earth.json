@@ -1,0 +1,13 @@
+{
+  "type": "galaxycraft:orbital",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "galaxycraft:orbital_void",
+      "features": false,
+      "lakes": false,
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

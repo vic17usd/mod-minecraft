@@ -81,7 +81,7 @@ public final class GalaxyCraftGameTests {
         helper.assertTrue(!menu.slots.getFirst().mayPlace(new ItemStack(Items.DIAMOND)), "Aceptó un objeto ajeno al traje");
         helper.assertTrue(!menu.slots.get(4).mayPlace(new ItemStack(ModItems.SPACE_HELMET.get())), "Aceptó casco en ranura de tanque");
         player.getInventory().setItem(9, new ItemStack(ModItems.SPACE_HELMET.get()));
-        menu.quickMoveStack(player, 6);
+        menu.quickMoveStack(player, 8);
         helper.assertTrue(inventory.getStackInSlot(0).is(ModItems.SPACE_HELMET.get()), "Shift-clic no equipó el casco");
         helper.assertTrue(player.getInventory().getItem(9).isEmpty(), "Shift-clic duplicó el casco");
         inventory.setStackInSlot(1, new ItemStack(ModItems.SPACE_CHESTPLATE.get()));
@@ -100,6 +100,8 @@ public final class GalaxyCraftGameTests {
             var snapshot = EquipmentNetworking.snapshot(player); EquipmentNetworking.Snapshot.CODEC.encode(buffer,snapshot);
             helper.assertTrue(EquipmentNetworking.Snapshot.CODEC.decode(buffer).equals(snapshot), "Snapshot de red incoherente");
         } finally { buffer.release(); }
+        inventory.setStackInSlot(6,new ItemStack(com.vic17usd.galaxycraft.expansion.ModExpansion.THERMAL.get()));
+        inventory.setStackInSlot(7,new ItemStack(com.vic17usd.galaxycraft.expansion.ModExpansion.SHIELD.get()));
         boolean previous = helper.getLevel().getGameRules().getBoolean(GameRules.RULE_KEEPINVENTORY);
         try {
             var drops = new ArrayList<ItemEntity>();
@@ -108,8 +110,8 @@ public final class GalaxyCraftGameTests {
             helper.assertTrue(drops.isEmpty() && !inventory.getStackInSlot(0).isEmpty(), "Ignoró keepInventory");
             helper.getLevel().getGameRules().getRule(GameRules.RULE_KEEPINVENTORY).set(false,helper.getLevel().getServer());
             EquipmentEvents.drops(new LivingDropsEvent(player,player.damageSources().generic(),drops,false));
-            helper.assertTrue(drops.size() == 6, "No devolvió las seis piezas al morir");
-            for (int i=0;i<6;i++) helper.assertTrue(inventory.getStackInSlot(i).isEmpty(), "El equipo se duplicaría al reaparecer");
+            helper.assertTrue(drops.size() == 8, "No devolvió las ocho piezas al morir");
+            for (int i=0;i<8;i++) helper.assertTrue(inventory.getStackInSlot(i).isEmpty(), "El equipo se duplicaría al reaparecer");
         } finally { helper.getLevel().getGameRules().getRule(GameRules.RULE_KEEPINVENTORY).set(previous,helper.getLevel().getServer()); }
         helper.succeed(); com.mojang.logging.LogUtils.getLogger().info("GALAXYCRAFT_INTEGRATION_OK equipment_round_trip");
     }

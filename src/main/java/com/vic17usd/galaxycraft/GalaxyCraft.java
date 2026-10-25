@@ -29,6 +29,7 @@ public final class GalaxyCraft {
     public GalaxyCraft(IEventBus modEventBus, ModContainer container) {
         ModPlanetContent.register();
         ModSites.registerItems();
+        com.vic17usd.galaxycraft.expansion.ModExpansion.registerBlockItems();
         // Los registros y la pestaña creativa pertenecen al bus del mod.
         ModDataComponents.COMPONENTS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
@@ -43,6 +44,13 @@ public final class GalaxyCraft {
         ModSites.PIECES.register(modEventBus);
         modEventBus.addListener(EquipmentNetworking::register);
         modEventBus.addListener(com.vic17usd.galaxycraft.navigation.NavigationNetworking::register);
+        com.vic17usd.galaxycraft.expansion.ModExpansion.COMPONENTS.register(modEventBus);
+        com.vic17usd.galaxycraft.expansion.ModExpansion.ATTACHMENTS.register(modEventBus);
+        com.vic17usd.galaxycraft.expansion.ModExpansion.BLOCK_ENTITIES.register(modEventBus);
+        com.vic17usd.galaxycraft.expansion.ModExpansion.MENUS.register(modEventBus);
+        com.vic17usd.galaxycraft.expansion.ModExpansion.ENTITIES.register(modEventBus);
+        modEventBus.addListener(com.vic17usd.galaxycraft.expansion.ModExpansion::capabilities);
+        modEventBus.addListener(com.vic17usd.galaxycraft.expansion.ExpansionNetworking::register);
         ModRocketRegistries.BLOCK_ENTITIES.register(modEventBus);
         ModRocketRegistries.MENUS.register(modEventBus);
         ModAlienEntities.ENTITIES.register(modEventBus);
@@ -54,7 +62,6 @@ public final class GalaxyCraft {
         NeoForge.EVENT_BUS.addListener(SpaceSurvival::onPlayerTick);
         NeoForge.EVENT_BUS.addListener(SolarEnvironment::onEntityTick);
         NeoForge.EVENT_BUS.addListener(SolarEnvironment::onPlayerTick);
-        NeoForge.EVENT_BUS.addListener(SolarEnvironment::onHazardTick);
         container.registerConfig(ModConfig.Type.SERVER, SpaceConfig.SPEC);
     }
 }

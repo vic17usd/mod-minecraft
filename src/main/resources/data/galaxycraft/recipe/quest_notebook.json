@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "BT"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:quest_notebook",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "TGT",
+    "INI",
+    "IRI"
+  ],
+  "key": {
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "galaxycraft:navigation_core"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:planetary_rover",
+    "count": 1
+  }
+}

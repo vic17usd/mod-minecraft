@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LLL",
+    "LTL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "galaxycraft:lead_ingot"
+    },
+    "T": {
+      "item": "galaxycraft:titanium_ore"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:lead_shield_module",
+    "count": 1
+  }
+}

@@ -19,12 +19,12 @@ public final class SpaceEquipmentScreen extends AbstractContainerScreen<SpaceEqu
     }
     @Override protected void renderBg(GuiGraphics gui, float partialTick, int x, int y) {
         gui.fill(leftPos, topPos, leftPos + imageWidth, topPos + imageHeight, 0xFF101E30);
-        for (int i = 0; i < 6; i++) {
-            int sx = leftPos + 11 + i * 27;
+        for (int i = 0; i < 8; i++) {
+            int sx = leftPos + 9 + i * 20;
             gui.fill(sx, topPos + 37, sx + 18, topPos + 55, 0xFF42657A);
             gui.drawString(font, Component.translatable("gui.galaxycraft.slot." + i), sx, topPos + 26, 0x8CDDF2, false);
         }
-        for (var slot : menu.slots.subList(6, menu.slots.size())) gui.fill(leftPos + slot.x - 1, topPos + slot.y - 1, leftPos + slot.x + 17, topPos + slot.y + 17, 0xFF344357);
+        for (var slot : menu.slots.subList(8, menu.slots.size())) gui.fill(leftPos + slot.x - 1, topPos + slot.y - 1, leftPos + slot.x + 17, topPos + slot.y + 17, 0xFF344357);
     }
     @Override public void render(GuiGraphics gui, int x, int y, float partialTick) {
         super.render(gui, x, y, partialTick); renderTooltip(gui, x, y);

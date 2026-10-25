@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "galaxycraft:block/docking_module_front",
+    "side": "galaxycraft:block/hull",
+    "top": "galaxycraft:block/docking_module_top"
+  }
+}

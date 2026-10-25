@@ -1,0 +1,160 @@
+[
+  {
+    "id": "first_ore",
+    "phase": 0,
+    "prerequisite": "",
+    "type": "deliver",
+    "target": "galaxycraft:titanium_ore",
+    "count": 8,
+    "rewards": [
+      {
+        "item": "galaxycraft:oxygen_tank",
+        "count": 1
+      }
+    ],
+    "xp": 100
+  },
+  {
+    "id": "prepare_launch",
+    "phase": 0,
+    "prerequisite": "first_ore",
+    "type": "build",
+    "target": "launch_pad",
+    "count": 1,
+    "rewards": [
+      {
+        "item": "galaxycraft:lunar_schematic",
+        "count": 1
+      }
+    ],
+    "xp": 150
+  },
+  {
+    "id": "lunar_visit",
+    "phase": 1,
+    "prerequisite": "prepare_launch",
+    "type": "visit",
+    "target": "galaxycraft:moon",
+    "count": 1,
+    "rewards": [
+      {
+        "item": "galaxycraft:titanium_ore",
+        "count": 12
+      }
+    ],
+    "xp": 200
+  },
+  {
+    "id": "lunar_samples",
+    "phase": 1,
+    "prerequisite": "lunar_visit",
+    "type": "deliver",
+    "target": "galaxycraft:lunar_crystal",
+    "count": 12,
+    "rewards": [
+      {
+        "item": "galaxycraft:thermal_module",
+        "count": 1
+      }
+    ],
+    "xp": 250
+  },
+  {
+    "id": "mars_visit",
+    "phase": 2,
+    "prerequisite": "lunar_samples",
+    "type": "visit",
+    "target": "galaxycraft:mars",
+    "count": 1,
+    "rewards": [
+      {
+        "item": "galaxycraft:lead_shield_module",
+        "count": 1
+      }
+    ],
+    "xp": 300
+  },
+  {
+    "id": "mars_samples",
+    "phase": 2,
+    "prerequisite": "mars_visit",
+    "type": "deliver",
+    "target": "galaxycraft:martian_metal",
+    "count": 12,
+    "rewards": [
+      {
+        "item": "galaxycraft:navigation_core",
+        "count": 1
+      },
+      {
+        "item": "galaxycraft:martian_schematic",
+        "count": 1
+      }
+    ],
+    "xp": 350
+  },
+  {
+    "id": "sealed_outpost",
+    "phase": 3,
+    "prerequisite": "mars_samples",
+    "type": "build",
+    "target": "sealed_room",
+    "count": 1,
+    "rewards": [
+      {
+        "item": "galaxycraft:solar_panel",
+        "count": 2
+      }
+    ],
+    "xp": 400
+  },
+  {
+    "id": "rover_driver",
+    "phase": 3,
+    "prerequisite": "sealed_outpost",
+    "type": "drive",
+    "target": "rover",
+    "count": 32,
+    "rewards": [
+      {
+        "item": "galaxycraft:rover_battery",
+        "count": 1
+      }
+    ],
+    "xp": 450
+  },
+  {
+    "id": "orbital_station",
+    "phase": 3,
+    "prerequisite": "rover_driver",
+    "type": "visit",
+    "target": "orbit",
+    "count": 1,
+    "rewards": [
+      {
+        "item": "galaxycraft:gravity_generator",
+        "count": 1
+      }
+    ],
+    "xp": 600
+  },
+  {
+    "id": "outer_visit",
+    "phase": 3,
+    "prerequisite": "orbital_station",
+    "type": "visit",
+    "target": "outer",
+    "count": 1,
+    "rewards": [
+      {
+        "item": "galaxycraft:neptunian_crystal",
+        "count": 8
+      },
+      {
+        "item": "galaxycraft:jovian_crystal",
+        "count": 8
+      }
+    ],
+    "xp": 1000
+  }
+]
